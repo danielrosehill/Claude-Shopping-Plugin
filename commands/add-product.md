@@ -1,3 +1,7 @@
+---
+description: Ingest a new catalog screenshot or product listing into the workspace dataset.
+---
+
 Read the user's catalog screenshot(s) from the path they provide as $ARGUMENTS.
 
 Extract every visible product: name, brand, price (regular + sale/Eilat if shown), store name. Rename the screenshot to a descriptive filename based on store and products shown.

@@ -1,3 +1,7 @@
+---
+description: Persist standing shopping preferences to Mem0 (or a local fallback file) so every future shopping workspace can load them.
+---
+
 # Save Preferences — Persist Standing Shopping Preferences to Memory
 
 Run a one-time setup (or update) for the user's standing shopping preferences and save them to memory (Mem0 MCP) so every future purchase workspace can `/load-preferences` them.

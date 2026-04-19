@@ -1,3 +1,7 @@
+---
+description: Side-by-side comparison of 2-4 specific products with regional sourcing notes.
+---
+
 # Compare — Side-by-Side Product Comparison (Israel)
 
 Generate a focused comparison of 2–4 specific products without going through the full shortlist/source/recommend flow. Useful when the user has already narrowed down candidates and wants a quick side-by-side with Israeli sourcing.

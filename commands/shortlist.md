@@ -1,3 +1,7 @@
+---
+description: Evaluate candidate products against the spec on product merit only. Outputs a CONSIDER list before sourcing.
+---
+
 # Shortlist — Product Merit Evaluation (Brand-Agnostic)
 
 Evaluate candidate products on **product merit only** — whether they meet the spec. Do **not** search Israeli retailers yet. Sourcing is a separate step (`/source`).

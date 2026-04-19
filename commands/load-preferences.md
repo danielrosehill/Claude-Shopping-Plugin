@@ -1,3 +1,7 @@
+---
+description: Pull standing shopping preferences (region, channel tolerances, trusted brands, markup threshold) from Mem0 into the current workspace's spec.md.
+---
+
 # Load Preferences — Pull Standing Shopping Preferences from Memory
 
 Load the user's standing shopping preferences into the current session so they can be applied during `/intake`, `/shortlist`, `/source`, and `/recommend`.

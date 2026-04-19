@@ -1,3 +1,7 @@
+---
+description: Extract structured product/price data from catalog screenshots into products.json.
+---
+
 Read the catalog screenshot(s) at the path provided in $ARGUMENTS.
 
 Extract every visible product into a structured JSON array and write it to `products.json` (create if missing, merge if existing — deduplicate on brand + model + store).

@@ -1,3 +1,7 @@
+---
+description: Apply the Israeli sourcing waterfall (tier-1 tech -> tier-2 broad -> niche specialists -> Amazon-IL -> AliExpress) for each shortlisted candidate.
+---
+
 # Source — Apply the Israeli Sourcing Waterfall
 
 Apply the Israeli sourcing waterfall to the shortlisted candidates. For each CONSIDER candidate from `from-ai/shortlist.md`, find where it's available and at what **landed cost** (price + VAT + shipping + customs).

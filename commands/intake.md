@@ -1,3 +1,7 @@
+---
+description: Build or refresh the per-purchase spec.md through a guided intake conversation.
+---
+
 # Intake — Build the Spec for This Purchase (Israel)
 
 You are running the intake for this Israeli purchase. The goal is to populate `spec.md` at the repo root with the per-purchase brief.
