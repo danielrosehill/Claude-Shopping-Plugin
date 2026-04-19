@@ -1,0 +1,7819 @@
+[
+  {
+    "name": "18Comp",
+    "description": "מחשבים וציוד היקפי. יוקנעם עילית",
+    "website": "https://18comp.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": null
+  },
+  {
+    "name": "1PC",
+    "description": "מחשבים, סלולר וציוד היקפי. פריסה ארצית",
+    "website": "https://1pc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "peripherals"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "2buyspares",
+    "description": "חלקי חילוף למכשירי חשמל. ראשון לציון",
+    "website": "https://www.2buyspares.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "spare_parts"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "2Click",
+    "description": "מוצרי צילום וציוד היקפי. חולון",
+    "website": "https://www.2click.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "photography"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "2MyDog",
+    "description": "מזון ואביזרים לחיות מחמד. גן יבנה",
+    "website": "http://www.2mydog.co.il",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "2Pic",
+    "description": "צילום ואביזרים. אילת",
+    "website": "http://2pic.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography",
+      "accessories"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "2SurpriseU",
+    "description": "מבחר מתנות. צור יגאל",
+    "website": "http://www.2surpriseu.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "3D-Design",
+    "description": "שיווק ערכות רובוט והדפסה תלת מימד. חדרה",
+    "website": "https://www.3d-design.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "3In100",
+    "description": "אקססוריז למכשירי סלולאר. הוד השרון",
+    "website": "https://www.3in100.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "4Com",
+    "description": "ציוד מחשוב, תקשורת ואביזרי מחשוב. פתח תקווה",
+    "website": "https://www.4com.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "938",
+    "description": "מחשבים. ראש העין",
+    "website": "https://938.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "A101",
+    "description": "ציוד ומכשור רפואי. אלעד",
+    "website": "https://www.a101.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "AABike",
+    "description": "אופניים ואביזרים. נהריה",
+    "website": "https://www.aabike.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Abagan",
+    "description": "מוצרים לגינה. ירושלים",
+    "website": "https://www.abagan.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "AbirSport",
+    "description": "מכשירי ספורט. תל אביב",
+    "website": "http://www.abirsport.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Aboody",
+    "description": "מוצרי עישון. תל אביב",
+    "website": "https://aboody.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ABShop",
+    "description": "קניון וירטואלי. בן שמן",
+    "website": "http://www.abshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "general_merch"
+    ],
+    "city": null
+  },
+  {
+    "name": "ACDC",
+    "description": "מוצרי חשמל קטנים לבית. חולון",
+    "website": "https://www.acdc.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "adira",
+    "description": "מוצרים לבית ולגן. נתניה",
+    "website": "http://www.adir-a.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "AdsComp",
+    "description": "חנות מחשבים וציוד היקפי. ירושלים",
+    "website": "https://adscomp.co.il/he/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Agalulim",
+    "description": "עגלולים לתינוק. מושב פורת",
+    "website": "http://agalulim.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Air4U",
+    "description": "מזגנים. מושב מצליח",
+    "website": "http://www.air4u.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": null
+  },
+  {
+    "name": "AirKor",
+    "description": "מזגנים. באר יעקב",
+    "website": "https://airkor.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": null
+  },
+  {
+    "name": "AIsraeli",
+    "description": "עיצוב הבית. פריסה ארצית",
+    "website": "https://www.aisraeli.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Aknin",
+    "description": "חומרי בניין,אספקה טכנית ומגוון פתרונות לבית ולעסק. טבריה",
+    "website": "https://www.aknin.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "טבריה"
+  },
+  {
+    "name": "AkolboPro",
+    "description": "כלי עבודה ואספקה טכנית. פתח תקווה",
+    "website": "https://www.akolbopro.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "All4Home",
+    "description": "מוצרי חשמל לבית. פתח תקווה",
+    "website": "http://all4home.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "All4Pet",
+    "description": "מזון וציוד לחיות מחמד. פריסה ארצית",
+    "website": "http://www.all4pet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "AllKarcher",
+    "description": "מכונות שטיפה וציוד ניקיון. תל אביב",
+    "website": "http://www.allkarcher.com",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "AllStar",
+    "description": "אביזרים לרכב. ראשון לציון",
+    "website": "http://www.allstar.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories",
+      "automotive"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "AllTech",
+    "description": "משחקי מדע וטבע ומתנות ייחודיות. פתח תקווה",
+    "website": "http://www.alltech.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "AlPesek",
+    "description": "מערכות אל פסק. נתניה",
+    "website": "http://www.alpesek.co.il/",
+    "is_tech": true,
+    "categories": [
+      "power_battery"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "Alter",
+    "description": "תיקים ומזוודות. תל אביב",
+    "website": "http://www.alter.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Aluf-Haselolar",
+    "description": "מכירת ותיקון מכשירי סלולר. רמלה",
+    "website": "https://alufhacellular.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "רמלה"
+  },
+  {
+    "name": "Am-Avi",
+    "description": "מיזוג אויר אוורר וטיהור אויר. חולון",
+    "website": "http://www.amavi.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "A-Mazber",
+    "description": "מצברים. חיפה",
+    "website": "http://www.a-mazber.com/",
+    "is_tech": null,
+    "categories": [
+      "power_battery"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Amigo",
+    "description": "צעצועים ומשחקים. אשדוד",
+    "website": "https://www.amigo.co.il",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Amital-LTD",
+    "description": "כלי עבודה, כלי גינון, ציוד ניקיון. ראש העין",
+    "website": "http://www.amital-ltd.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "AmovilTiers",
+    "description": "צמיגים לרכב. פתח תקווה",
+    "website": "https://amoviltiers.zapshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "automotive"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "AMTools",
+    "description": "כלי עבודה וגינון. פרדס חנה",
+    "website": "https://www.amtools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "AnakElectric",
+    "description": "מוצרי חשמל. ראשון לציון",
+    "website": "https://www.anakelectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "AnimaLove",
+    "description": "מזון וציוד לבעלי חיים. כפר סבא",
+    "website": "https://www.animalove.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "Anker IL",
+    "description": "חנות המותג הרשמית של Anker בישראל (קבוצת המילטון). רמקולים, אוזניות, מטענים, סוללות, מצלמות אבטחה ובית חכם — soundcore ו-eufy. official Anker brand store.",
+    "website": "https://www.anker-il.co.il/",
+    "is_tech": true,
+    "categories": [
+      "photography",
+      "audio",
+      "power_battery",
+      "smart_home",
+      "security"
+    ],
+    "city": null
+  },
+  {
+    "name": "AquaLink",
+    "description": "מערכות טיהור מים מתקדמות כחול לבן. טירת הכרמל",
+    "website": "http://www.aqualink.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "AquaTech",
+    "description": "מערכות טיהור מים. יד רמב\"ם",
+    "website": "https://www.aquatech.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "AquaView",
+    "description": "מוצרי ספורט טיולים ונופש. באר שבע",
+    "website": "https://www.aquaview.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "באר שבע"
+  },
+  {
+    "name": "Arcadia",
+    "description": "חנות גיימינג. פריסה ארצית",
+    "website": "https://www.arcadia.co.il/",
+    "is_tech": true,
+    "categories": [
+      "gaming"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Arizol",
+    "description": "אריזות למתנות ואירועים. תל אביב",
+    "website": "https://www.arizol.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "AromaHome",
+    "description": "מפיצי ריח ונרות. ג'וליס",
+    "website": "https://www.aromahomeonline.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "arosport",
+    "description": "ספורט ואביזרים. ראשון לציון",
+    "website": "http://www.aqualink.co.il/https://www.aquatech.co.il/https://www.aquaview.co.il/https://www.arcadia.co.il/https://www.arizol.co.il/https://www.aromahomeonline.co.ilhttps://asatools.co.il/https://aselectric.zapweb.co.il/https://a-s-t.co.il/http://www.ataralbums.com/https://www.athletis.co.ilhttps://www.atlastools.co.il/https://www.atlasts.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "AsaTools",
+    "description": "כלי עבודה וחומרי בניין. ירושלים",
+    "website": "https://asatools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "ASElectric",
+    "description": "מערכות קולנוע ביתי. חדרה",
+    "website": "https://aselectric.zapweb.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "חדרה"
+  },
+  {
+    "name": "A-S-T",
+    "description": "מדפסות,פלוטרים,סורקים ומתכלים. רחובות",
+    "website": "https://a-s-t.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office",
+      "tools"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "AtarAlbums",
+    "description": "צילום ואלבומים. חולון",
+    "website": "http://www.ataralbums.com/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Athletis",
+    "description": "ספורט ואקססוריז. טירת הכרמל",
+    "website": "https://www.athletis.co.il",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "AtlasTools",
+    "description": "כלי עבודה וציוד טכני. רמת גן",
+    "website": "https://www.atlastools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "AtlasTS",
+    "description": "כלי עבודה. ירושלים",
+    "website": "https://www.atlasts.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "AtomicOnline",
+    "description": "מחשבים וציוד היקפי. פתח תקווה",
+    "website": "https://audioclub.co.il/http://www.audiotech.co.il/http://www.audiovideo.co.ilhttps://www.avc.co.il/https://avivs.co.il/https://www.azuri.co.il/https://baypo.co.il/https://www.babyshome.co.il/http://www.babystav.co.ilhttps://babystuff.co.il/https://bagstore.co.il/https://www.balila.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "AudioClub",
+    "description": "מוצרי אודיו לבית. תל אביב",
+    "website": "https://audioclub.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "AudioTech",
+    "description": "אודיו וידאו גאג'טים ציוד משרדי. חולון",
+    "website": "http://www.audiotech.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio",
+      "office"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "AudioVideo",
+    "description": "יבוא ושיווק ציוד לאולפני מוזיקה. בארותיים",
+    "website": "http://www.audiovideo.co.il",
+    "is_tech": null,
+    "categories": [
+      "audio"
+    ],
+    "city": null
+  },
+  {
+    "name": "AVC",
+    "description": "התקנה ומכירה מערכות אודיו וידאו. רמת גן",
+    "website": "https://www.avc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "AvivS",
+    "description": "שעוני אופנה. חולון",
+    "website": "https://avivs.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "Azuri",
+    "description": "חשמל ואלקטרוניקה. קרית אונו",
+    "website": "https://www.azuri.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "Babayoff",
+    "description": "מחשבים וציוד תקשורת. תל אביב",
+    "website": "https://baypo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "BabyFun",
+    "description": "מוצרי תינוקות. הוד השרון",
+    "website": "https://audioclub.co.il/http://www.audiotech.co.il/http://www.audiovideo.co.ilhttps://www.avc.co.il/https://avivs.co.il/https://www.azuri.co.il/https://baypo.co.il/https://www.babyshome.co.il/http://www.babystav.co.ilhttps://babystuff.co.il/https://bagstore.co.il/https://www.balila.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "BabysHome",
+    "description": "מוצרי תינוקות וצעצועים. בת ים",
+    "website": "https://www.babyshome.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "BabyStav",
+    "description": "מוצרי תינוקות. נתניה",
+    "website": "http://www.babystav.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "BabyStuff",
+    "description": "מוצרי תינוקות. נתניה",
+    "website": "https://babystuff.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "BagStore",
+    "description": "תיקים, מזוודות ואביזרי אופנה. כוכב יאיר",
+    "website": "https://bagstore.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Balila",
+    "description": "מיגון ומולטימדיה לרכב. חיפה",
+    "website": "https://www.balila.co.il/",
+    "is_tech": null,
+    "categories": [
+      "automotive"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "BananaShops",
+    "description": "רהיטים בהתאמה אישית. קיבוץ משמרות",
+    "website": "https://www.bananashops.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Barcom",
+    "description": "מוצרי תקשורת בלוטוס. קרית עקרון",
+    "website": "http://www.barcom.co.il/",
+    "is_tech": true,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Bargad",
+    "description": "רחפנים, מסוקים ומכוניות. פתח תקווה",
+    "website": "http://bargad.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Bari-P2",
+    "description": "מוצרי בריאות. מודיעין",
+    "website": "http://www.bari-p2.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "מודיעין"
+  },
+  {
+    "name": "BathLine",
+    "description": "מקלחונים ארונות ומוצרי אמבטיה. תל אביב",
+    "website": "http://www.bathline.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "beautyimage",
+    "description": "מוצרי קוסמטיקה. נתניה",
+    "website": "https://www.beautyimage.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "BeautyShop",
+    "description": "טיפוח וקוסמטיקה. חיפה",
+    "website": "https://www.beautyshopmotagim.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Beit-Himum",
+    "description": "בניין, חימום וקירור. ירושלים",
+    "website": "https://beit-himum.zapweb.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Be-Keys",
+    "description": "תוכנה ומחשוב. אפרתה",
+    "website": "https://be-keys.com/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": null
+  },
+  {
+    "name": "berko",
+    "description": "מוצרים לבית ולמטבח, ג'אדג'טים. הרצליה",
+    "website": "http://www.berko.shop",
+    "is_tech": false,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "Bernard",
+    "description": "מחשבים תקשורת וציוד הקפי. קרית מוצקין",
+    "website": "http://www.bernard.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": null
+  },
+  {
+    "name": "Bernina",
+    "description": "מכונות תפירה. ירושלים",
+    "website": "http://www.bernina.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Best-Bike",
+    "description": "מוצרי בטיחות תחזוקה ונוי לאופנוע ולרוכב. רמת גן",
+    "website": "http://best-bike.co.il/he/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "BestCell",
+    "description": "סלולאר ואביזרים. ראשון לציון",
+    "website": "http://www.bestcell.co.il",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "BestElectric",
+    "description": "חנות חשמל מקוונת. פתח תקווה",
+    "website": "https://best-electric.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "BestPhone477",
+    "description": "חנות ומעבדת סלולר. אילת",
+    "website": "https://www.bestphone477.com/catalog.asp",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "BestTools",
+    "description": "כלי עבודה, ציוד לבניין וגינון. ירושלים",
+    "website": "https://www.besttools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Bidan",
+    "description": "מושבי בידה ואביזרי בטיחות. בני ברק",
+    "website": "http://bidan.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Big-Dil",
+    "description": "ברזים, סאונות, כיורים ועוד. פתח תקווה",
+    "website": "https://www.big-dil.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "BigSport4U",
+    "description": "מוצרי ספורט כושר טרמפולינות בריכות. בית שמש",
+    "website": "https://www.bigsport4u.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "בית שמש"
+  },
+  {
+    "name": "BigTronic",
+    "description": "מכירת ציוד למספרות מהיבואן לצרכן. תל מונד",
+    "website": "https://www.bigtronic.co.il/",
+    "is_tech": false,
+    "categories": [
+      "books"
+    ],
+    "city": null
+  },
+  {
+    "name": "BikesOnline",
+    "description": "כל מה שצריך לאופניים ולקורקינט שלך. רמת גן",
+    "website": "https://bikesonline.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Billig",
+    "description": "סכיני גילוח. נתניה",
+    "website": "https://www.billig.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "BirgeyHaemek",
+    "description": "כלי עבודה, ברגים, אספקה טכנית. עפולה",
+    "website": "https://www.birgeyhaemek.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "עפולה"
+  },
+  {
+    "name": "BlueBlue",
+    "description": "בריכות גינה ואביזרים. פריסה ארצית",
+    "website": "http://www.blueblue.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "BlueShop",
+    "description": "אביזרים למבוגרים בלבד. אשדוד",
+    "website": "http://www.blueshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "BMobility",
+    "description": "קלנועיות. רגבה",
+    "website": "https://bmobility.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "BoboDecor",
+    "description": "עיצוב הבית. חולון",
+    "website": "https://bobodecor.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "BodyHD",
+    "description": "תוספי מזון וביגוד ספורט. תל אביב",
+    "website": "https://www.bodyhd.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "BPatent",
+    "description": "פתרונות לבית ולמטבח. פתח תקווה",
+    "website": "https://www.bpatent.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Bradex",
+    "description": "רהיטים ומוצרי הלייף סטייל לבית. חיפה",
+    "website": "https://www.bradex.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "BrandsOnSale",
+    "description": "חנות אינטרנט למוצרי אורח חיים בריא. נתניה",
+    "website": "https://www.brandsonsale.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "BrandTools",
+    "description": "אספקה טכנית וכלי עבודה. פתח תקווה",
+    "website": "https://www.brandtools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "BRASS-wayoflife",
+    "description": "ישירות מהיבואן-פחים, מייבשי כלים ומתקני ייבוש כביסה Brabantia, אביזרים ליין וכלי מטבח מעוצבים. חורשים",
+    "website": "http://www.brassbrands.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Brazim",
+    "description": "ברזים, מקלחונים, ארונות אמבטיה, אסלות, כיורים. פתח תקווה",
+    "website": "https://www.brazim.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Brioso",
+    "description": "מוצרי קפה ומכונות. חיפה",
+    "website": "https://www.brioso.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "B-Safety",
+    "description": "ביגוד והנעלה מקצועית . חולון",
+    "website": "https://www.master-shop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "b-techtools",
+    "description": "כלי עבודה. ראשון לציון",
+    "website": "https://b-techtools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Bug",
+    "description": "מחשבים, סלולר וגאדג'טים. פריסה ארצית",
+    "website": "https://www.bug.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Buy-Buy",
+    "description": "חנות מוצרי חשמל ואלק' בידורית. תל אביב",
+    "website": "https://www.buy-buy.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "BuyCenter",
+    "description": "מחשבים, ציוד היקפי וכן שירותי התקנה ותמיכה. רמת גן",
+    "website": "https://www.buycenter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "BuyTheWay",
+    "description": "קניון מוצרים. ירושלים",
+    "website": "https://www.buytheway.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "BuyWolf",
+    "description": "חשמל ואביזרים. חולון",
+    "website": "http://www.buywolf.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Bytes2Buy",
+    "description": "פתרונות מחשוב. תל אביב",
+    "website": "https://bytes2buy.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "CaffeNu",
+    "description": "חומרים וקפסולות נקיון למכונות קפה. בית דגן",
+    "website": "http://www.caffenu.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "CallPerfume",
+    "description": "בשמים. רעננה",
+    "website": "https://www.callperfume.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רעננה"
+  },
+  {
+    "name": "CamelMountain",
+    "description": "מזוודות ותיקים. תל אביב",
+    "website": "https://www.camelmountain.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Camera",
+    "description": "רשת חנויות מקצועית  מחיפה ועד אילת. פריסה ארצית",
+    "website": "https://camera.co.il/heb/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "CameraCity",
+    "description": "מצלמות, עדשות וציוד צילום. פתח תקווה",
+    "website": "http://www.cameracity.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Camera-Eilat",
+    "description": "חנות מצלמות. אילת",
+    "website": "https://cameraeilat.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "CameraPlus",
+    "description": "מוצרי צילום. רעננה",
+    "website": "https://www.cameraplus.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "רעננה"
+  },
+  {
+    "name": "CameraShop",
+    "description": "מצלמות וציוד היקפי. רמת גן",
+    "website": "https://www.camerashop.co.il/default.asp",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "photography"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Camp-David",
+    "description": "מזרנים, מיטות, כריות, בסיסים. גן הדרום",
+    "website": "http://camp-david.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "CarmelPc",
+    "description": "מכרתי מחשבים וציוד היקפי. חיפה",
+    "website": "https://www.carmelpc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Carpetim",
+    "description": "שטיחים. עומר",
+    "website": "https://www.carpetim.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "CasaCenter",
+    "description": "ריהוט לבית ולגן. פתח תקווה",
+    "website": "https://casacenter.co.il//",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "CatanDog",
+    "description": "מזון וציוד לחיות מחמד. תל אביב",
+    "website": "http://www.catandog.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Cat-Dog",
+    "description": "מזון ואביזרים לחיות מחמד. הוד השרון",
+    "website": "http://www.cat-dog.co.il",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "Celectric",
+    "description": "מוצרי חשמל לבית. אשדוד",
+    "website": "http://www.celectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Cellfi",
+    "description": "מחשבים, סלולאר וחשמל. רמת גן",
+    "website": "https://cellfi.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Cell-Tec",
+    "description": "חנות ואתר קניות באינטרנט. חיפה",
+    "website": "http://www.cell-tec.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Cellular-Fix",
+    "description": "מעבדת סלולאר. פתח תקווה",
+    "website": "https://cellularfix.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Cellular-Gadget",
+    "description": "אביזרי סלולר. ראשון לציון",
+    "website": "https://cellular-gadget.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "CenterToys",
+    "description": "צעצועים ומכשירי כתיבה. תנובות",
+    "website": "http://www.centertoys.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "CentHair",
+    "description": "מוצרים מקצועיים לשיער. פריסה ארצית",
+    "website": "https://centhair.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "C-F",
+    "description": "מקררים לרכב. באר שבע",
+    "website": "https://c-f.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "automotive"
+    ],
+    "city": "באר שבע"
+  },
+  {
+    "name": "chair-club",
+    "description": "כסאות מנהלים, משרד וגיימינג. תל אביב",
+    "website": "http://www.chair-club.co.il",
+    "is_tech": true,
+    "categories": [
+      "gaming",
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "championshop",
+    "description": "רשת תוספי התזונה והספורט המובילה. חדרה",
+    "website": "https://championshop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "ChanOfan",
+    "description": "מתקני חניה ונשיאת אופניים. תל אביב",
+    "website": "http://www.chanofan.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Ch-Ch",
+    "description": "חשמל ואלקטרוניקה. ירושלים",
+    "website": "https://www.ch-ch.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Cheaper",
+    "description": "סטריאו ומערכות שמע. תל אביב",
+    "website": "http://cheaper.co.il",
+    "is_tech": null,
+    "categories": [
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Chitori",
+    "description": "כלי נגינה אתניים. גינתון",
+    "website": "https://chitori.com/",
+    "is_tech": false,
+    "categories": [
+      "musical_instruments"
+    ],
+    "city": null
+  },
+  {
+    "name": "CityDeal",
+    "description": "אתר מסחר אלקטרוני ברשת. אשדוד",
+    "website": "http://www.citydeal.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשדוד"
+  },
+  {
+    "name": "CityRunner",
+    "description": "קורקינטים חשמליים, אופניים אביזרים. תל אביב",
+    "website": "https://www.cityrunner.co.il",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "CitySport",
+    "description": "ציוד כושר ופנאי. חיפה",
+    "website": "http://citysport.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "ClearTech",
+    "description": "מוצרי סינון, טיהור והשבחת מים. פתח תקווה",
+    "website": "http://www.cleartech.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "ClickDance",
+    "description": "בגדי מחול ונעלי ריקוד. תל אביב",
+    "website": "https://www.clickdance.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ClickShop",
+    "description": "מטיילים, חיילים, בית, מדע, מתנות. תל אביב",
+    "website": "https://www.clickshop.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ClubPharm",
+    "description": "מוצרי פארם וקוסמטיקה. בית חירות",
+    "website": "http://www.clubpharm.co.il",
+    "is_tech": false,
+    "categories": [
+      "general_merch"
+    ],
+    "city": null
+  },
+  {
+    "name": "Cm-Yk",
+    "description": "פתרונות הדפסה. בית שמש",
+    "website": "http://cm-yk.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "בית שמש"
+  },
+  {
+    "name": "Coffee4U",
+    "description": "חנות קפה, מכונות קפה לבית ולעסק.. תל אביב",
+    "website": "https://www.coffee4u.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "CoffeeMan",
+    "description": "מכונות קפה, קפה, קפסולות ואביזר. פריסה ארצית",
+    "website": "http://www.coffeeman.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "comcell",
+    "description": "מחשבים וסלולאר. נתניה",
+    "website": "https://www.comcell.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "CompIU",
+    "description": "מחשבים תקשורת. רמת גן",
+    "website": "https://www.compiu.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Comp-Shop",
+    "description": "חנות ומעבדת מחשבים. אשדוד",
+    "website": "https://compshop.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Conex",
+    "description": "יבוא ושיווק קרמיקה ,כלים סינטריים. כפר ברא",
+    "website": "https://www.conex.co.il/",
+    "is_tech": null,
+    "categories": [
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "ConvexHome",
+    "description": "מוצרי חשמל וטיפוח. הרצליה",
+    "website": "https://convexhome.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "CoolPool",
+    "description": "ציוד לבריכות ומוצרי כושר ביתיים. פתח תקווה",
+    "website": "https://www.coolpool.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "CoolWine",
+    "description": "מקררי יין איכותיים ומוקפדים. כפר יעבץ",
+    "website": "https://www.coolwine.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "CopyTech",
+    "description": "מוצרים בתחום המיכון המשרדי. חיפה",
+    "website": "https://www.copytech.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Cosmetic-Club",
+    "description": "בישום וקוסמטיקה. רחובות",
+    "website": "https://www.cosmetic-club.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "Cosmos",
+    "description": "טלסקופים, משקפות ומקרוסקופים. רמת גן",
+    "website": "http://www.cosmos.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Creama",
+    "description": "מוצרים מעולם הקפה. יבנה",
+    "website": "http://www.creama.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "יבנה"
+  },
+  {
+    "name": "CrossOver",
+    "description": "חנות סטריאו. תל אביב",
+    "website": "https://www.crossover.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "CTime",
+    "description": "שעוני יד. רמת גן",
+    "website": "https://ctime.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "CWC",
+    "description": "חשמל, אלקטרוניקה, מחשבים ומיזוג. פריסה ארצית",
+    "website": "https://www.cwc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances",
+      "climate"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "D9Shop",
+    "description": "מוצרי חשמל. נתניה",
+    "website": "https://www.d9shop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "Dailysale",
+    "description": "אתר מכירות מוצרי חשמל משנת 1999. טבריה",
+    "website": "https://www.dailysale.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "טבריה"
+  },
+  {
+    "name": "Daniel-Fitness",
+    "description": "חנות ספורט ופנאי. מודיעין",
+    "website": "https://www.daniel-fitness.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "מודיעין"
+  },
+  {
+    "name": "dannynewfeld",
+    "description": ". רעננה",
+    "website": "https://www.dannynewfeld.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רעננה"
+  },
+  {
+    "name": "David-malca",
+    "description": "חומרי בניין. אור עקיבא",
+    "website": "https://davidmalka.konimbo.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Dc-Tech",
+    "description": "מחשבים וציוד היקפי. חיפה",
+    "website": "http://www.dc-tech.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "DDavidi",
+    "description": "ציוד מקצועי למספרות ולפרטיים. ראשון לציון",
+    "website": "https://www.ddavidi.co.il/",
+    "is_tech": false,
+    "categories": [
+      "books"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Design4You",
+    "description": "רהיטים. פריסה ארצית",
+    "website": "http://www.design4you.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Digi-Digi",
+    "description": "למבוגרים בלבד. אשדוד",
+    "website": "http://digi-digi.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשדוד"
+  },
+  {
+    "name": "DigitalCenter",
+    "description": "מוצרי גיימינג ואלקטרוניקה. פריסה ארצית",
+    "website": "http://www.digitalcenter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "gaming"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "DigitalElectric",
+    "description": "חשמל ואלקטרוניקה. ראשון לציון",
+    "website": "https://digital-electric.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "DioIsrael",
+    "description": "ציוד היקפי למשרד. תל אביב",
+    "website": "https://www.dioisrael.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "DioPlus",
+    "description": "מכירת מדפסות משולבות מתכלים ומיכון. תל אביב",
+    "website": "https://www.dioplus.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office",
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "DirectB2B",
+    "description": "תקשורת ומחשוב. הוד השרון",
+    "website": "https://directb2b.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "Direct-Israline",
+    "description": "גאדג'טים וציוד היקפי למחשבים וסלולאר. ראשון לציון",
+    "website": "http://direct-israline.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "peripherals"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "DirectPrice",
+    "description": "יבוא שיווק ומכירה של כלים סניטרים. מודיעין",
+    "website": "https://www.directprice.co.il/",
+    "is_tech": null,
+    "categories": [
+      "tools"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "Diy-Israel",
+    "description": "מוצרי עשה זאת בעצמך. קדימה צורן",
+    "website": "https://www.home360.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Djshop",
+    "description": "ציוד לאולפן דיג׳יי ואודיו מקצועי. פריסה ארצית",
+    "website": "https://www.kilombo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "DK-Store",
+    "description": "תכשיטים, שעונים ומתנות. נצרת",
+    "website": "https://dk-store.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "נצרת"
+  },
+  {
+    "name": "Doctor-Toner",
+    "description": "מדפסות, דיו וטונרים. בני ברק",
+    "website": "http://www.doctor-toner.co.il/",
+    "is_tech": true,
+    "categories": [
+      "office"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Doricoh",
+    "description": "מיכון משרדי. פתח תקווה",
+    "website": "http://www.doricoh.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "DrChip",
+    "description": "קונסולות משחק ומחשבים. ראשון לציון",
+    "website": "https://www.drchip.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "gaming"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Dr-Dyo",
+    "description": "דיו, מדפסות וציוד חומרה. תל אביב",
+    "website": "https://www.dr-dyo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "DreamKids",
+    "description": "צעצועים ואביזרים לתינוק. רמלה",
+    "website": "https://www.dreamkids.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories",
+      "toys_games"
+    ],
+    "city": "רמלה"
+  },
+  {
+    "name": "DrorPestControl",
+    "description": "מוצרי הדברה. פריסה ארצית",
+    "website": "https://drorpestcontrol.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Dror-Tools",
+    "description": "כלי עבודה. תל אביב",
+    "website": "https://www.dror-tools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "DrSpy",
+    "description": "ציוד הקלטה,האזנה,מעקב והגנה עצמית. יהוד",
+    "website": "http://www.drspy.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Drummer",
+    "description": "כלי נגינה. פתח תקווה",
+    "website": "http://shop.drummer.co.il/",
+    "is_tech": false,
+    "categories": [
+      "musical_instruments"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "DSA-Sys",
+    "description": "חנות מחשבים סלולר. יבנה",
+    "website": "http://www.dsa-sys.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "Dumbo4Pets",
+    "description": "מזון וציוד לבעלי חיים. אשדוד",
+    "website": "https://www.dumbo4pets.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Dutycom",
+    "description": "מחשוב וציוד היקפי. פתח תקווה",
+    "website": "https://www.dutycom.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "DVDCenter",
+    "description": "יבואן טלוויזיות ומערכות קולנוע. כרמיאל",
+    "website": "http://www.dvdcenter.co.il/",
+    "is_tech": null,
+    "categories": [
+      "tv_av"
+    ],
+    "city": null
+  },
+  {
+    "name": "DyoFix",
+    "description": "ציוד ומיכון משרדי. חיפה",
+    "website": "https://www.dyofix1.co.il",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Dyo-Ink",
+    "description": "דיו וטונרים מדפסות וציוד היקפי. ירושלים",
+    "website": "http://dyo-ink.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "office"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "EBath",
+    "description": "אביזרי אמבט בשיווק ישיר. חולון",
+    "website": "https://www.ebath.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "EBike1",
+    "description": "אופניים חשמליים. תל אביב",
+    "website": "http://www.ebike1.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Ecommunity",
+    "description": "מחשבים. משגב",
+    "website": "https://ecommunity.org.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": null
+  },
+  {
+    "name": "EcoRihut",
+    "description": "ריהוט מעץ מלא. תנובות",
+    "website": "https://www.ecorihut.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "EDepot",
+    "description": "מוצרי חשמל ואלקטרוניקה. ראש העין",
+    "website": "https://edepot.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "EfiBike",
+    "description": "אופניים. תל אביב",
+    "website": "https://efibike.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "EilatDepot",
+    "description": "מתחם הקניות ועיצוב הבית הגדול בישר. אילת",
+    "website": "https://www.eilatdepot.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "אילת"
+  },
+  {
+    "name": "Elecom",
+    "description": "מוצרי חשמל קטנים לבית. הרצליה",
+    "website": "http://www.elecom.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "Electrica",
+    "description": "מוצרי חשמל ואלקטרוניקה. ירושלים",
+    "website": "https://www.electrica.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "ElectricLand",
+    "description": "מוצרי חשמל. אור יהודה",
+    "website": "https://electricland.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "אור יהודה"
+  },
+  {
+    "name": "ElectricSale",
+    "description": "מכשירי חשמל ואלקטרוניקה. בני ברק",
+    "website": "https://www.electricsale.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "ElectricShop",
+    "description": "חשמל ואלקטרוניקה. פתח תקווה",
+    "website": "https://www.electricshop.co.il",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Electric-Shop",
+    "description": "מוצרי חשמל. רחובות",
+    "website": "http://www.electric-shop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "ElectricSmile",
+    "description": "מיזוג אוויר. כפר חב\"ד",
+    "website": "http://www.electricsmile.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": null
+  },
+  {
+    "name": "Electro.Y",
+    "description": "אלקטרוניקה בידורית וחשמל. תל אביב",
+    "website": "https://ycelectric.co.il",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Electro-Buy",
+    "description": "מוצרי חשמל. חיפה",
+    "website": "https://www.electro-buy.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "ElectroClick",
+    "description": "מוצרי חשמל. תל אביב",
+    "website": "http://www.electroclick.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ElectroCohen",
+    "description": "מוצרי חשמל ואלקטרוניקה שלטים נורות. חולון",
+    "website": "https://www.electrocohen.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "ElectroEshed",
+    "description": "מוצרי חשמל ביתיים. בת ים",
+    "website": "https://electroeshed.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "ElectroGas",
+    "description": "יבוא ושיווק מוצרים ואביזרי גז. פתח תקווה",
+    "website": "http://electrogas.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "ElectroLine",
+    "description": "מוצרי חשמל לבית. פתח תקווה",
+    "website": "https://www.electroline.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "ElectroShiri",
+    "description": "מוצרי חשמל קטנים. רמת גן",
+    "website": "https://www.shirielectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "ElectroSlil",
+    "description": "כלי עבודה וציוד טכני. ירושלים",
+    "website": "https://www.electroslil.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "EliaShave",
+    "description": "מוצרי חשמל לבית. תל אביב",
+    "website": "http://www.eliashave.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Eline",
+    "description": "סלולאר ואביזרים. פריסה ארצית",
+    "website": "https://www.eline.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Eline-Eilat",
+    "description": "סלולאר ואביזרים. אילת",
+    "website": "http://eline.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "E-Mor",
+    "description": "קניון וירטואלי. בני ברק",
+    "website": "http://www.e-mor.co.il/",
+    "is_tech": null,
+    "categories": [
+      "general_merch"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "EndlessRoll",
+    "description": "מוצרי ספורט אקסטרים. תל אביב",
+    "website": "http://www.endlessroll.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "EnjoyStick",
+    "description": "משחקי מחשב וקונסולות. פריסה ארצית",
+    "website": "https://www.enjoystick.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "gaming"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "ePlus",
+    "description": "חשמל ואלקטרוניקה. בני ברק",
+    "website": "https://www.eplus.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Erlich",
+    "description": "מצלמות וציוד היקפי. תל אביב",
+    "website": "https://www.erlich.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "photography"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Espresso-Center",
+    "description": "מכונות קפה ומוצרי קפה ותה. פריסה ארצית",
+    "website": "https://www.espresso-center.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Eureka",
+    "description": "ילדים וצעצועים. יבנה",
+    "website": "https://www.eureka2010.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "Evinoxmax",
+    "description": "כלי מטבח. ראשון לציון",
+    "website": "http://www.evinoxmax.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "eye-c-optic",
+    "description": "אופטיקה. נהריה",
+    "website": "https://www.eye-c-optic.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "E-Zone",
+    "description": "מוצרי חשמל. שילת",
+    "website": "http://www.e-zone.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "EzTime",
+    "description": "שעוני נוכחות לעסקים. מעלה אדומים",
+    "website": "http://www.eztime.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Fabio-Sanitary",
+    "description": "ברזים ואביזרי אמבט. ראשון לציון",
+    "website": "https://fabio-sanitary.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Fax4U",
+    "description": "מיכון משרדי לבית ולמשרד. תל אביב",
+    "website": "https://fax4u.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "FetishDeal",
+    "description": "למבוגרים בלבד. תל אביב",
+    "website": "http://www.fetishdeal.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "FilterOutlet",
+    "description": "פילטרים לסינון מים ומוצרי קפה. ניר ישראל",
+    "website": "http://filteroutlet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "FirstPrice",
+    "description": "מוצרי חשמל. מודיעין",
+    "website": "http://www.firstprice.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "Fre",
+    "description": "שיווק מחשבים וציוד היקפי. רמת גן",
+    "website": "http://www.fre.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Free24-7",
+    "description": "מכשירי חשמל. אשדוד",
+    "website": "https://free24-7.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "FreeDio",
+    "description": "מדפסות, מתכלים ומיכון משרדי. תל אביב",
+    "website": "https://www.freedio.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office",
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "FunSex",
+    "description": "למבוגרים בלבד. תל אביב",
+    "website": "https://funsex.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Fuse",
+    "description": "סטריאו וקולנוע ביתי. גבעתיים",
+    "website": "http://fuse.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "גבעתיים"
+  },
+  {
+    "name": "FutureAV",
+    "description": "קולנוע ביתי,סטריאו ומסכים. תל אביב",
+    "website": "https://www.futureav.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Gadget-Cellular",
+    "description": "סלולאר ואביזרים. ראשון לציון",
+    "website": "http://www.gadget-cellular.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "GadgetLine",
+    "description": "מתנות מקוריות וגאדג'טים. תל אביב",
+    "website": "https://www.gadgetline.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Gadget-Mobile",
+    "description": "מכשירים סלולרים, גאדגט וציוד נלווה. אילת",
+    "website": "https://gadget-mobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "GadgetShop",
+    "description": "מתנות מקוריות, משחקי מנהלים, גימיקים מדליקים וגאדג'טס. רמת גן",
+    "website": "http://www.gadgetshop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Gadget-Team",
+    "description": "סלולאר ואביזרים. יהוד",
+    "website": "https://gadget-team.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "GalPure",
+    "description": "מטהרי מים. רמת גן",
+    "website": "http://www.galpure.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "GalToren",
+    "description": "בוטיק ציפורניים. ראשון לציון",
+    "website": "https://www.galtoren.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "GameMobile",
+    "description": "חנות למשחקי וידאו וקונסולות. ראשון לציון",
+    "website": "http://www.gamemobile.co.il/",
+    "is_tech": null,
+    "categories": [
+      "gaming"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "GameStore",
+    "description": "גאדג'טים וסלולאר. תל אביב",
+    "website": "https://www.gamestore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "GameStorm",
+    "description": "קונסולות ומשחקים מחשבים וסלולאר. יבנה",
+    "website": "https://www.gamestorm.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming",
+      "toys_games"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "GamingDragons",
+    "description": "משחקים לקונסולות. חדרה",
+    "website": "http://www.gamingdragons.co.il/",
+    "is_tech": true,
+    "categories": [
+      "gaming",
+      "toys_games"
+    ],
+    "city": "חדרה"
+  },
+  {
+    "name": "GavMedic",
+    "description": "מוצרים אורתופדיים. נתניה",
+    "website": "https://www.gavmedic.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "GenesisGames",
+    "description": "משחקי וידאו ומחשב. נתניה",
+    "website": "https://www.genesisgames.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "get-deal",
+    "description": "מוצרי מחשוב. ברקן",
+    "website": "https://www.get-deal.com",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": null
+  },
+  {
+    "name": "G-H",
+    "description": "חנות רהיטים ומזרנים. יבנה",
+    "website": "https://g-h.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "יבנה"
+  },
+  {
+    "name": "GiliLens",
+    "description": "מבחר עדשות מגע. כרמיאל",
+    "website": "https://www.gililens.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "GiliSkateShop",
+    "description": "סקייטבורד. תל אביב",
+    "website": "https://giliskateshop.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "GinaPlus",
+    "description": "מבחר מוצרים לגינה. קיבוץ טללים",
+    "website": "https://www.ginaplus.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Gladiator",
+    "description": "מוצרי חשמל. ראשון לציון",
+    "website": "https://gladiator.org.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Glass-Phone",
+    "description": "סלולאר, טאבלטים ואביזרים מכירה. רחובות",
+    "website": "http://glass-phone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Glilon",
+    "description": "מדבקות ותוויות. לוד",
+    "website": "https://www.glilon.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "לוד"
+  },
+  {
+    "name": "GlobalCell",
+    "description": "סלולאר ואביזרים. אביחיל",
+    "website": "https://www.globalcell.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "GoldenDown",
+    "description": "ייצור כריות ושמיכות. רשפון",
+    "website": "http://www.goldendown.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "GoldenRose",
+    "description": "קוסמטיקה בישום ומוצרי איפור. תל אביב",
+    "website": "https://www.goldenrose.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "GoldPharm",
+    "description": "חיתולים למבוגרים | אבזרי שיקום. פתח תקווה",
+    "website": "http://www.goldpharm.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "GoLuggage",
+    "description": "תיקים ומזוודות. רעננה",
+    "website": "https://www.goluggage.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "רעננה"
+  },
+  {
+    "name": "GoMobile",
+    "description": "מכשירים סלולרים וציוד נלווה. פריסה ארצית",
+    "website": "https://www.gomobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Goodest",
+    "description": "ציוד למטפלים, קוסמטיקה וספורט. ראש העין",
+    "website": "https://goodest.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראש העין"
+  },
+  {
+    "name": "GoodTime",
+    "description": "שעוני יד. פריסה ארצית",
+    "website": "https://www.goodtime.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "GoZohar",
+    "description": "חשמל וגאדג'טים. נתניה",
+    "website": "https://www.gozohar.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "GrafPc",
+    "description": "מחשבים גאדג'טים וציוד היקפי. כפר סבא",
+    "website": "http://www.grafpc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "GreenBanana",
+    "description": "הבית של הפופים בישראל. שילת",
+    "website": "https://greenbanana.co.il/he/shop",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "greengoenergy",
+    "description": "סוללות ומטענים. תל אביב",
+    "website": "https://greengoenergy.co.il/",
+    "is_tech": true,
+    "categories": [
+      "power_battery"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "GreenKoala",
+    "description": "פחי אשפה ופחי מיחזור מעוצבים. שדי חמד",
+    "website": "http://www.greenkoala.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "GreenMobile",
+    "description": "סלולר, אביזרים ומעבדה. אשדוד",
+    "website": "https://greenmobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Green-Toys",
+    "description": "צעצועי תינוקות וילדים. צפת",
+    "website": "http://www.green-toys.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "צפת"
+  },
+  {
+    "name": "GrillMaster",
+    "description": "גרילי גז , מעשנות  ואביזרים. רמת השרון",
+    "website": "https://grillmaster.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "G-Tech",
+    "description": "מחשבים, ניידים וציוד היקפי. תל אביב",
+    "website": "https://www.g-tech.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "GTI",
+    "description": "מוצרי אבטחה וגאדג'טים. הרצליה",
+    "website": "http://www.gti.co.il/",
+    "is_tech": null,
+    "categories": [
+      "security"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "GvaotEnergy",
+    "description": "מוצרי אנרגיה סולארית. נוקדים",
+    "website": "http://www.gvaotenergy.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "HaBoosh",
+    "description": "כלי עבודה ואספקה טכנית. קדימה צורן",
+    "website": "https://www.haboosh.com/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "Hacontainer",
+    "description": "חשמל ואלקטרוניקה (תל אביב). תל אביב",
+    "website": "http://www.hacontainer.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Hair360",
+    "description": "מוצרי טיפוח לשיער,תכשירים וציוד למספרות. רחובות",
+    "website": "http://www.hair360.co.il/",
+    "is_tech": false,
+    "categories": [
+      "books"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Hair4You",
+    "description": "מוצרי שיער. הרצליה",
+    "website": "http://www.hair4you.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "hairworld",
+    "description": "מוצרי טיפוח לשיער. פתח תקווה",
+    "website": "http://hairworld.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "HakoLabait",
+    "description": "מוצרים לבית. הוד השרון",
+    "website": "http://www.hakolabait.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "HakolKan",
+    "description": "רהיטי גן. ירושלים",
+    "website": "http://www.hakolkan.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Halalit",
+    "description": "חנות מוצרי חשמל. תל אביב",
+    "website": "http://www.halalit.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Hameavrer",
+    "description": "מאווררים, מפוחים ונטות ועוד. רמת גן",
+    "website": "http://www.hameavrer.biz/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Hamechola",
+    "description": "ריהוט גן'מחסני גינה,טרמפולינות. בצרה",
+    "website": "http://hamechola.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Hameir",
+    "description": "חנות און-ליין. פתח תקווה",
+    "website": "http://www.hameir.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Hamerkaz4U",
+    "description": "קניון מוצרים. תל אביב",
+    "website": "https://hamerkaz4u.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "HappyHop",
+    "description": "מתקנים לבית ולחצר. רשפון",
+    "website": "http://www.happyhop.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "HappyPhone",
+    "description": "מעבדת סלולאר. אשדוד",
+    "website": "https://happyphone.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Harim",
+    "description": "חנות אונליין לרוכבי אופניים. הרצליה",
+    "website": "https://shop.harim.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "Harishon-Labinyan",
+    "description": "כלי עבודה וחומרי בניין. פתח תקווה",
+    "website": "http://www.harishon-labinyan.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "HashmaLeculam",
+    "description": "מוצרי חשמל. רחובות",
+    "website": "https://www.hashmaleculam.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Hashmal-Price",
+    "description": "מוצרי חשמל וריהוט מהיבואן לצרכן. אשדוד",
+    "website": "http://www.hashmal-price.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "HastokSharona",
+    "description": "מוצרים לבית. רחובות",
+    "website": "https://hastoksharona.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "Hatikun",
+    "description": "אופניים וקורקינטים חשמליים. בת ים",
+    "website": "https://hatikun.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Hayevuan",
+    "description": "חשמל ואלקטרוניקה לבית. פתח תקווה",
+    "website": "http://www.hayevuan.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Hay-Pharm",
+    "description": "בריאות וטיפוח. רמלה",
+    "website": "https://www.hay-pharm.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רמלה"
+  },
+  {
+    "name": "HDToner",
+    "description": "מיכון משרדי. פתח תקווה",
+    "website": "https://www.hdtoner.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "HeadSound",
+    "description": "חנות אודיו המתמחה באוזניות. קרית אונו",
+    "website": "https://headsound.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio"
+    ],
+    "city": null
+  },
+  {
+    "name": "Hidabroot",
+    "description": "מוצרי יודאיקה ויהדות. פתח תקווה",
+    "website": "https://shops.hidabroot.org/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "HinamPlus",
+    "description": "סלולר • קונסולות משחק • מחשבים. בנימינה",
+    "website": "https://www.hinamplus.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "hishhay",
+    "description": "מזון וציוד לחיות מחמד. גבעתיים",
+    "website": "https://www.hishhay.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "גבעתיים"
+  },
+  {
+    "name": "Hjush",
+    "description": "גאדג'טים ומתנות מיוחדות. בני ברק",
+    "website": "https://hjush.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Homax",
+    "description": "ריהוט. גבעת שמואל",
+    "website": "https://www.homax.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "HomeCenter",
+    "description": "חשמל, אלקטרוניקה, לבית ולגן. פריסה ארצית",
+    "website": "http://www.homecenter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "HomeDecor",
+    "description": ". ראשון לציון",
+    "website": "http://www.hayevuan.co.il/https://www.hay-pharm.co.il/https://www.hdtoner.co.il/https://headsound.co.il/https://shops.hidabroot.org/https://www.hinamplus.co.il/https://www.hishhay.co.il/https://hjush.com/https://www.homax.co.il/http://www.homecenter.co.il/http://homegame.co.il/https://www.homelectric.co.il/https://homelife.co.il/home/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "HomeGame",
+    "description": "משחקי וידאו וקונסולות. קרית אונו",
+    "website": "http://homegame.co.il/",
+    "is_tech": null,
+    "categories": [
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "HomElectric",
+    "description": "מוצרי חשמל. יד מרדכי",
+    "website": "https://www.homelectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "HomeLife",
+    "description": "ריהוט. גאולים",
+    "website": "https://homelife.co.il/home/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "HomeOnline",
+    "description": "מוצרים לעיצוב הבית. ראשון לציון",
+    "website": "https://homeonline.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "House of Marley IL",
+    "description": "רמקולים, אוזניות ופטיפונים — מותג אודיו עם חנות דגל בדיזנגוף סנטר תל אביב ומחסן בראש העין. speakers, headphones, turntables — Bob Marley audio brand.",
+    "website": "https://houseofmarley.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "HTools",
+    "description": "חומרי בניין. טבריה",
+    "website": "https://www.htools.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "טבריה"
+  },
+  {
+    "name": "HydroMarket",
+    "description": "קולטי לחות לבית, למשרד ולעסק. אבן יהודה",
+    "website": "https://www.hydromarket.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": null
+  },
+  {
+    "name": "IBands",
+    "description": "סלולר • קונסולות משחק • מחשבים. תל קציר",
+    "website": "https://www.ibands.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "ICake",
+    "description": "אפייה. סביון",
+    "website": "http://www.icake.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "I-Cell",
+    "description": "טלפונים סלולאריים וציוד היקפי. פריסה ארצית",
+    "website": "http://www.i-cell.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "peripherals"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Idan88",
+    "description": "אספקה טכנית וכלי עבודה. אשקלון",
+    "website": "https://www.idan88.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "אשקלון"
+  },
+  {
+    "name": "IdanSound",
+    "description": "מערכות סינמה ומסכים. פתח תקווה",
+    "website": "https://idansound.co.il/",
+    "is_tech": true,
+    "categories": [
+      "tv_av"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "IGM",
+    "description": "חשמל לבית. ראש העין",
+    "website": "https://www.igm.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "IHP-Store",
+    "description": "מחשבים , סלולאר וגאדג'טים. מודיעין",
+    "website": "https://www.ihp-store.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "IMatrix",
+    "description": "ציוד היקפי למחשבים וסלולר,גאדג'טים. הוד השרון",
+    "website": "https://www.imatrix.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "peripherals"
+    ],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "Im-Haadama",
+    "description": "ריהוט ומוצרי גן. ביתן אהרון",
+    "website": "http://www.im-haadama.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "ImobileIsrael",
+    "description": "טלפונים סלולריים ואבזרים. יהוד",
+    "website": "https://www.imobileisrael.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": null
+  },
+  {
+    "name": "I-Needyo",
+    "description": "מחיר זול במיוחד למשתמשי זאפ. כפר אחים",
+    "website": "https://www.i-needyo.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "InkDepot",
+    "description": "מדפסות, ראשי דיו' טונרים ומחשבים. נס ציונה",
+    "website": "https://inkdepot.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "office"
+    ],
+    "city": null
+  },
+  {
+    "name": "InSale",
+    "description": "מוצרי חשמל ואלקטרוניקה מתצוגה. הרצליה",
+    "website": "http://www.insale.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "i-optic",
+    "description": "עדשות ומשקפיים. רמת גן",
+    "website": "https://www.i-optic.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "IPro",
+    "description": "סלולאר וגאדג'טים. מודיעין",
+    "website": "https://ipro.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "IRobot",
+    "description": "שואבי אבק רובוטיים. פריסה ארצית",
+    "website": "https://irobot.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "I-Secure",
+    "description": "ציוד האזנה והקלטות, מצלמות נסתרות. רמת גן",
+    "website": "http://i-secure.org.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "ItayBicycle",
+    "description": "מכירה ותיקון אופניים וציוד מקצועי. תל אביב",
+    "website": "http://www.itaybicycle.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ItechMobile",
+    "description": "סלולאר ואביזרים. רמת גן",
+    "website": "https://www.itechmobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "ItechStore",
+    "description": "סלולר, גיימינג , חשמל ומולטימדיה. יהוד",
+    "website": "https://www.itechstore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "ITOutlet",
+    "description": "ציוד מיחשוב ואלקטרוניקה. פתח תקווה",
+    "website": "https://www.itoutlet.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "iwtools",
+    "description": "כלי עבודה גינון והספקה טכנית. חיפה",
+    "website": "https://www.iwtools.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Jaango",
+    "description": "מזון וציוד לחיות. חדרה",
+    "website": "https://jaango.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "Jbstore",
+    "description": "מוצרי אלקטרוניקה ומחשבים. פתח תקווה",
+    "website": "https://www.jbstore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Jonathan",
+    "description": "דילר בשמים אישי. קרית אונו",
+    "website": "https://www.jonathan.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Jossy",
+    "description": "חנות וירטואלית לתכשיטים ושעונים. חולון",
+    "website": "http://www.jossy.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "J-Rubin",
+    "description": "חנות למכונות גילוח ותספורת. תל אביב",
+    "website": "https://www.j-rubin.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "J-Sale",
+    "description": "מצלמות וצרכי צילום. תל אביב",
+    "website": "https://www.j-sale.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "JudaicaCity",
+    "description": "יודאיקה ותשמישי קדושה. אלעד",
+    "website": "http://www.judaicacity.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "JumpKing",
+    "description": "טרמפולינות סאונות מגלשות ונדנדות. כפר חושן",
+    "website": "http://jumpking.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Jungle-City",
+    "description": "ציוד ומזון לבעלי חיים. חולון",
+    "website": "https://www.jungle-city.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "KarcherStore",
+    "description": "ציוד נקיון של חברת קארשר. פתח תקווה",
+    "website": "http://karcherstore.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "KatePhone",
+    "description": "מעבדת סלולר. גבעתיים",
+    "website": "https://katephone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "גבעתיים"
+  },
+  {
+    "name": "kav-Isr",
+    "description": "תקשורת ובטחון. רחובות",
+    "website": "https://kav-isr.com/",
+    "is_tech": true,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "KBMall",
+    "description": "ציוד משרדי. עפולה",
+    "website": "https://www.kbmall.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "עפולה"
+  },
+  {
+    "name": "kbtPlay",
+    "description": "מתקנים לחצר. כפר חושן",
+    "website": "https://www.kbtplay.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Kehela",
+    "description": "פתרונות הדפסה. רמת גן",
+    "website": "http://www.kehela.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "keramica",
+    "description": "קרמיקה, פרקטים, ברזים, אסלות ועוד. בני ברק",
+    "website": "https://www.keramica.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Keramics",
+    "description": "מוצרי עיצוב לבית. חולון",
+    "website": "http://www.keramics.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "KerenEl",
+    "description": "חנות למוצרי אלקטרוניקה,קוראי ספרים. חולון",
+    "website": "https://kerenel.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "books"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "KfitzKfotz",
+    "description": "מתנפחים ובריכות פעילות. תל מונד",
+    "website": "https://www.kfitzkfotz.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "KimElectric",
+    "description": "מוצרי חשמל. רמת גן",
+    "website": "https://kimelectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "KingBaby",
+    "description": "מוצרי תינוקות וילדים. בית שאן",
+    "website": "https://kingbaby.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "King-Games",
+    "description": "מחשבים קונסולות וגיימינג. יבנה",
+    "website": "https://www.king-games.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "gaming"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "kingPc",
+    "description": "מחשבים וציוד היקפי. נתניה",
+    "website": "http://www.king-pc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "KingsOfPools",
+    "description": "בריכות ואביזרים. באר שבע",
+    "website": "http://www.kingsofpools.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "באר שבע"
+  },
+  {
+    "name": "Kisaot",
+    "description": "ריהוט משרדי. תל אביב",
+    "website": "http://www.kisaot.co.il",
+    "is_tech": false,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "kitchenWare",
+    "description": "כלי מטבח,כלים לבית,ג'אגדטים למטבח. רחובות",
+    "website": "http://www.kitchenware.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Klei Zemer (KZPro)",
+    "description": "כלי זמר — ספק מרכזי לכלי נגינה ומערכות הגברה ואודיו. רמקולים מוגברים, מיקסרים וציוד סאונד מקצועי. musical instruments and pro audio.",
+    "website": "https://www.kzpro.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": null
+  },
+  {
+    "name": "Knife",
+    "description": "סכינים, ציוד השרדות ומחנאות. רמת גן",
+    "website": "http://www.knife.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "KodeshNet",
+    "description": "מוצרי קודש, יודאיקה ותשמישי קדושה בכשרות מהודרת. פתח תקווה",
+    "website": "http://www.kodeshnet.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "KolboGan",
+    "description": "מוצרים לבית ולגן. נחלים",
+    "website": "http://kolbogan.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "KolboSima",
+    "description": "יבוא שווק והפצה. פריסה ארצית",
+    "website": "http://kolbosima.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "KolHamusica",
+    "description": "כלי נגינה ציוד אולפן והגברה. חיפה",
+    "website": "https://kolhamusica.com/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Kol-Ziud",
+    "description": "כלי גינון וחקלאות. קרית שמונה",
+    "website": "https://www.kol-ziud.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "KonimYarok",
+    "description": "מוצרים מתחומי סביבה ירוקה ומיחזור. מושב נוב",
+    "website": "http://www.konimyarok.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "korkifix",
+    "description": "קורקינטים, אופניים חשמליים ואביזרים. תל אביב",
+    "website": "https://www.korkifix.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Kor-Light",
+    "description": "מוצרי חשמל. ראשון לציון",
+    "website": "http://kor-light.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Kosko",
+    "description": "מבחר מוצרים סניטריים. תל אביב",
+    "website": "http://www.kosko.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Krool",
+    "description": "מוצרי מיזוג אוויר ומוצרי חשמל לבנים. חולון",
+    "website": "http://krool.co.il",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "climate"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "K-Shop",
+    "description": "ציוד ספורט ופנאי. הוד השרון",
+    "website": "http://k-shop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "Kupper",
+    "description": "מוצרי חשמל למטבח. ראש העין",
+    "website": "https://kupper.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Lab",
+    "description": "מעבדת סלולר וחנות מכירה. ראשון לציון",
+    "website": "https://www.lab.org.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "La-Bama",
+    "description": "כלי נגינה, ציוד הגברה ותאורה. קרית שמונה",
+    "website": "https://la-bama.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "lighting",
+      "musical_instruments"
+    ],
+    "city": null
+  },
+  {
+    "name": "LakeWater",
+    "description": "מתקני מים ומערכות סינון. עזריה",
+    "website": "http://lakewater.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "LandersShop",
+    "description": "מקררים קטנים,יין,משקאות,רכב,תצוגה. גנות",
+    "website": "http://www.landersshop.co.il",
+    "is_tech": false,
+    "categories": [
+      "appliances",
+      "automotive"
+    ],
+    "city": null
+  },
+  {
+    "name": "Landwer",
+    "description": "קפה ומוצרים. תל אביב",
+    "website": "http://www.landwer.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Laptop",
+    "description": "מחשבים ניידים וחלקי חילוף. רמת גן",
+    "website": "https://www.laptop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "spare_parts"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "LaptopEnergy",
+    "description": "סוללות ומטענים למחשבים ניידים. רחובות",
+    "website": "http://laptopenergy.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "power_battery"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "LaptopOutlet",
+    "description": "מחשבים וטאבלטים. פתח תקווה",
+    "website": "http://www.laptopoutlet.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "LaptopRepair",
+    "description": "תיקון ומכירת מחשבים ניידים וציוד היקפי. רחובות",
+    "website": "http://laptoprepair.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "LaptopScreen",
+    "description": "מסכים למחשבים ניידים. רחובות",
+    "website": "https://laptopscreen.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "tv_av"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "LaserElc",
+    "description": "אלקטרוניקה וסלולאר. ירושלים",
+    "website": "https://laserelc.co.il",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "appliances"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "LaserLine",
+    "description": "מיכון משרדי. רמת גן",
+    "website": "https://www.laserline.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "LaShantel",
+    "description": "רשת חנויות למוצרי השיער ממיטב החברות המובילות. נתניה",
+    "website": "http://www.lashantel.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "LCDeal",
+    "description": "חשמל ואלקטרוניקה. פתח תקווה",
+    "website": "https://lcdeal.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Ledico",
+    "description": "כלי עבודה. ראשון לציון",
+    "website": "https://www.ledico-store.com/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Legacy",
+    "description": "מער' סטריאו, קולנוע ביתי ומסכים דקים. חיפה",
+    "website": "https://www.legacy.co.il/",
+    "is_tech": true,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Lens",
+    "description": "המרכז לעדשות מגע. בת ים",
+    "website": "https://www.lens.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "LevMotors",
+    "description": "כלי גינון,כלי עבודה  אביזרי בטיחות. חולון",
+    "website": "http://www.levmotors.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Liga10",
+    "description": "קניון מוצרים. נתיבות",
+    "website": "https://liga10.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "LionKing",
+    "description": "מזון וציוד לחיות מחמד. כפר סבא",
+    "website": "https://www.lionking.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "LKBags",
+    "description": "תיקים,ארנקים מזוודות וציוד אופנה. תל אביב",
+    "website": "http://www.locks.co.il/https://loveramics.co.il/https://lpcomputers.co.il/https://www.lubliner-mizronim.co.il/https://www.lumines.co.ilhttps://www.mabatelectric.com/http://madpasot-plus.co.ilhttps://www.magical-notes.co.il/https://www.makoletonline.co.il/https://www.makorhachashmal.co.il/https://www.makortech.co.il/https://malinuapet.co.il/https://maordeal.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Locks",
+    "description": "חנות מנעולים ומוצרי נעילה. פתח תקווה",
+    "website": "http://www.locks.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Loveramics",
+    "description": "כלי אוכל. יבנה",
+    "website": "https://loveramics.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "יבנה"
+  },
+  {
+    "name": "LPComputers",
+    "description": "מוצרי מחשוב. קרית שמונה",
+    "website": "https://lpcomputers.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": null
+  },
+  {
+    "name": "Lubliner",
+    "description": "רהיטים לבית. תל אביב",
+    "website": "https://www.lubliner-mizronim.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Lumines",
+    "description": "גופי תאורה ולדים. ראש העין",
+    "website": "https://www.lumines.co.il",
+    "is_tech": null,
+    "categories": [
+      "lighting"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "MabatElectric",
+    "description": "מוצרי חשמל ואלקטרוניקה. כל הארץ",
+    "website": "https://www.mabatelectric.com/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "Madpasot-Plus",
+    "description": "מיכון משרדי. חולון",
+    "website": "http://madpasot-plus.co.il",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Magical-Notes",
+    "description": "כלי נגינה והגברה. בית שמש",
+    "website": "https://www.magical-notes.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": "בית שמש"
+  },
+  {
+    "name": "makoletonline",
+    "description": "ציוד לחיות מחמד. נתניה",
+    "website": "https://www.makoletonline.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "MakorhacHashmal",
+    "description": "מוצרי חשמל כלי בית ואלקטרוניקה. חיפה",
+    "website": "https://www.makorhachashmal.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "MakorTech",
+    "description": "פתרונות זיהוי טכנולוגיים. ראשון לציון",
+    "website": "https://www.makortech.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Malinua-Pet",
+    "description": "מזון וציוד לחיות מחמד. תל אביב",
+    "website": "https://malinuapet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MaorDeal",
+    "description": "צילום ואלקטרוניקה. בת ים",
+    "website": "https://maordeal.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "photography"
+    ],
+    "city": null
+  },
+  {
+    "name": "MaorPhone",
+    "description": "תיקוני סלולר. אשקלון",
+    "website": "https://maorphone.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אשקלון"
+  },
+  {
+    "name": "marco-online",
+    "description": "מוצרי סניטריה. חולון",
+    "website": "https://www.marco-online.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "Matanyah",
+    "description": "ריהוט ואבזור בתי כנסת. חולון",
+    "website": "http://www.matanyah.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "MatiPrint",
+    "description": "ראשי דיו, טונרים וציוד היקפי למחשבים. תל אביב",
+    "website": "https://www.matiprint.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Matov",
+    "description": "ציוד רפואי. רינתיה",
+    "website": "https://matov.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Matsberim",
+    "description": "מצברים. תל אביב",
+    "website": "http://matsberim.co.il/",
+    "is_tech": null,
+    "categories": [
+      "power_battery"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MaxPro",
+    "description": "מוצרי שיער וטיפוח. נתניה",
+    "website": "https://www.maxpro.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "M-Cell",
+    "description": "סלולאר וחשמל. אילת",
+    "website": "https://www.m-cell.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "MDE",
+    "description": "סוללות לאופניים חשמליים. רינתיה",
+    "website": "http://www.mde.co.il/",
+    "is_tech": null,
+    "categories": [
+      "power_battery"
+    ],
+    "city": null
+  },
+  {
+    "name": "MDVD-Print",
+    "description": "הדפסת קנבסים. חדרה",
+    "website": "https://mdvd-print.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "MDyo",
+    "description": "דיו וטונרים. תל אביב",
+    "website": "https://mdyo.co.il/",
+    "is_tech": true,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Mechanik",
+    "description": "מיכון משרדי וחומרים מתכלים. תל אביב",
+    "website": "http://www.mechanik.co.il/store/public/home.php",
+    "is_tech": null,
+    "categories": [
+      "office",
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Mechkar",
+    "description": "מחשוב וסלולר. חדרה",
+    "website": "https://mechkar.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "חדרה"
+  },
+  {
+    "name": "Mechubad",
+    "description": "המותג היהודי לעיצוב הבית. ירושלים",
+    "website": "https://www.mechubad.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "MediaShop",
+    "description": "מחשבים, ציוד היקפי, מדיות ומוצרים מתכלים. גן חיים",
+    "website": "https://www.mediashop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals",
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "Medic-Center-Sport",
+    "description": "מוצרי בריאות וספורט. נתניה",
+    "website": "https://medic-center-sport.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "Medicon",
+    "description": "קוראי ספרים אלקטרוניים. רחובות",
+    "website": "http://www.medicon.co.il/",
+    "is_tech": false,
+    "categories": [
+      "books"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Medic-W",
+    "description": "מכשור רפואי וציוד לגיל השלישי. ראשון לציון",
+    "website": "https://www.medic-w.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "MediLine",
+    "description": "שיווק ואספקת מוצרים, כלים וציוד למגזרים המוסדיים והעסקיים. בית שמש",
+    "website": "https://mediline.org.il/",
+    "is_tech": null,
+    "categories": [
+      "tools"
+    ],
+    "city": "בית שמש"
+  },
+  {
+    "name": "Medi-Pharm",
+    "description": "בית מרקחת. חולון",
+    "website": "https://medi-pharm.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "MegaRider",
+    "description": "אופניים, ממונעים ואביזרי רכיבה. כפר סבא",
+    "website": "https://megarider.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "MehirTov",
+    "description": "גאדג'טים ומתנות. חיפה",
+    "website": "http://www.mehirtov.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Meir-Hamair",
+    "description": "כלי עבודה, כלים סניטריים וברזים. תל אביב",
+    "website": "https://www.meirhamair.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Merital",
+    "description": "שיווק והתקנת מערכות טיהור מים, מיני בר ופתרונות למניעת אבנית. פריסה ארצית",
+    "website": "http://www.merital.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Merkaz-electronica-sheonim",
+    "description": "מוצרי אלקטרוניקה ושעונים. ירושלים",
+    "website": "https://www.merkaz-electronica-sheonim.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Merkaz-Hasharon",
+    "description": "חומרי בניין, אינסטלציה, ברזים וכלים סניטריים. רמת השרון",
+    "website": "https://www.merkaz-hasharon.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "Mevugar",
+    "description": "מוצרי ספיגה ואביזרים לגיל השלישי. חולון",
+    "website": "https://www.mevugar.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "MGeves",
+    "description": "מוצרי בנייה, כלי עבודה ומוצרים לבית. אור יהודה",
+    "website": "http://mgeves.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "אור יהודה"
+  },
+  {
+    "name": "MHO",
+    "description": "נעליים , מוצרים אורטופדיים וביגוד. ראשון לציון",
+    "website": "https://www.mho.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "MINDX",
+    "description": "משחקי חשיבה, פאזלים ופנאי. גבעת אלה",
+    "website": "https://www.mindx.co.il",
+    "is_tech": null,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "Mishkan-HaTchelet",
+    "description": "מוצרי יודאיקה. פריסה ארצית",
+    "website": "http://www.mishkan-hatchelet.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Mispar1",
+    "description": "הבית שלכם מתחיל כאן. ראשון לציון",
+    "website": "https://www.mispar1.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Mizran",
+    "description": "מזרנים,מיטות, ספות נוער. טבריה",
+    "website": "http://www.mizran.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "טבריה"
+  },
+  {
+    "name": "MMHashmal",
+    "description": "מוצרי חשמל. ירושלים",
+    "website": "https://www.mmhashmal.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "M-Mobile",
+    "description": "סלולר ואביזרים ומעבדת תיקונים. תל אביב",
+    "website": "http://www.m-mobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MnmLtd",
+    "description": "כלי עבודה, גינון, הלבשה ואספקה טכנית. כפר סבא",
+    "website": "https://www.mnmltd.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "MnmShop",
+    "description": "שעונים ותכשיטים. תל אביב",
+    "website": "https://www.mnmshop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MobileLand",
+    "description": "סלולאר ואביזרים. הרצליה",
+    "website": "https://mobileland.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "MobileOnline",
+    "description": "סלולר ואביזרים. רמת גן",
+    "website": "https://mobileonline.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Mobile-Phone-Eilat",
+    "description": "מכשירים ואביזרי סלולאר. אילת",
+    "website": "http://www.mobile-phone-eilat.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "MobilePoint",
+    "description": "סלולאר ומעבדה. גבעת שמואל",
+    "website": "http://mobilepoint.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": null
+  },
+  {
+    "name": "Mobile-Shop",
+    "description": "אתר קנייה חכמה - סלולר, מוצרי חשמל. נהריה",
+    "website": "https://www.mobile-shop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "MobileStyleOno",
+    "description": "סלולאר ואביזרים. קרית אונו",
+    "website": "https://www.mobilestyleono.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "MobilityPower",
+    "description": "קלנועיות איכות מאנגליה. ראשון לציון",
+    "website": "https://www.mobilitypower.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "money",
+    "description": "סמארטפונים ואביזרים. ראשון לציון",
+    "website": "https://money.zapshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Morse-PC",
+    "description": "חנות וירטואלית למחשבים וציוד היקפי. ירושלים",
+    "website": "http://www.morse-pc.com/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "MotorixBike",
+    "description": "אופניים חשמליים וממונעים לילדים. קדימה צורן",
+    "website": "http://motorixbike.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "MozesPhone",
+    "description": "סלולאר, מחשבים וגיימינג. פתח תקווה",
+    "website": "https://www.mozesphone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "MRGan",
+    "description": "ציוד אוורור וחימום מקצועי. כפר קאסם",
+    "website": "http://www.mrgan.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "MSapir",
+    "description": "מזגנים. רמת גן",
+    "website": "https://www.msapir.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Multi-Garden",
+    "description": "יבוא ושיווק ריהוט ומוצרים לגן. בית שאן",
+    "website": "https://multi-garden.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "MultiStore",
+    "description": "מוצרי חשמל, מולטימדיה וגיימינג. אשקלון",
+    "website": "https://multistore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "gaming"
+    ],
+    "city": "אשקלון"
+  },
+  {
+    "name": "MusicZol",
+    "description": "כלי נגינה. תל אביב",
+    "website": "https://www.musiczol.co.il/",
+    "is_tech": false,
+    "categories": [
+      "musical_instruments"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MyBambino",
+    "description": "צעצועים , מכשירי כתיבה ומתנות. ירושלים",
+    "website": "https://www.mybambino.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "MyFriend",
+    "description": "מזון וציוד לבעלי חיים. רמלה",
+    "website": "https://myfriend.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רמלה"
+  },
+  {
+    "name": "MyGan",
+    "description": "מוצרי גן ונוי. שדה יצחק",
+    "website": "https://mygan.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "MyPerfume",
+    "description": "רשת חנויות בישום. פריסה ארצית",
+    "website": "https://www.myperfume.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "NatiVeran",
+    "description": "קרמיקה וכליים סניטריים. ראשון לציון",
+    "website": "https://www.nativeran.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Negev-New",
+    "description": "פתרונות עיצוביים כוללים לבנייה ולשיפוץ. פריסה ארצית",
+    "website": "https://www.negev-new.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "NesherMobile",
+    "description": "אביזרי סלולר. ירושלים",
+    "website": "https://www.myperfume.co.il/https://www.nativeran.co.il/https://www.negev-new.co.il/https://www.nesiha.co.il/https://www.netoneto.co.il/http://www.newhorizon.co.il/http://www.newking.co.il/https://newsale.co.il/https://nextech.co.il/https://www.next-pro.co.il/https://nglltd.com/https://www.ninja-polo.com/https://shop.nitaim.com/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Nesiha",
+    "description": "מוצרי טקסטיל. פתח תקווה",
+    "website": "https://www.nesiha.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "NetoNeto",
+    "description": "מוצרי חשמל ואלקטרוניקה. פריסה ארצית",
+    "website": "https://www.netoneto.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "NewHorizon",
+    "description": "מוצרים לאורח חיים בריא. נתניה",
+    "website": "http://www.newhorizon.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "NewKing",
+    "description": "מוצרי חשמל ואלקטרוניקה. חולון",
+    "website": "http://www.newking.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "NewSale",
+    "description": "סלולר ומוצרי חשמל. מודיעין",
+    "website": "https://newsale.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "appliances"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "Nextech",
+    "description": "מוצרי מולטימדיה וסלולר. פתח תקווה",
+    "website": "https://nextech.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Next-Pro",
+    "description": "ציוד סאונד ונגינה. כפר סבא",
+    "website": "https://www.next-pro.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "NGLltd",
+    "description": "הופכים את הטבע לבית. ניצני עוז",
+    "website": "https://nglltd.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Ninja-Polo",
+    "description": "שעונים ותכשיטים. תל אביב",
+    "website": "https://www.ninja-polo.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Nitaim",
+    "description": "מוצרי עזרה ראשונה. תל אביב",
+    "website": "https://shop.nitaim.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "NMM",
+    "description": "חנות יודאיקה ומפעל לרקמה. ירושלים",
+    "website": "http://judaica4you.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "noknok",
+    "description": "חשמל, אלקטרוניקה ומוצרים לבית. יהוד",
+    "website": "https://www.noknok.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "NokOut",
+    "description": "מגוון מוצרי חשמל ואלקטרוניקה. מעלה אדומים",
+    "website": "http://www.nokout.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "No-Risk",
+    "description": "אופניים וקורקינטים חשמליים. תל אביב",
+    "website": "http://www.no-risk.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Oded-Electronics",
+    "description": "מוצרי מתח נמוך. תל אביב",
+    "website": "http://www.oded-electronics.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "OfekPC",
+    "description": "מחשבים וציוד היקפי ,קונסולות משחק. לוד",
+    "website": "https://ofekpc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals",
+      "gaming"
+    ],
+    "city": "לוד"
+  },
+  {
+    "name": "OfficePro",
+    "description": "תקשורת ומחשוב. פריסה ארצית",
+    "website": "https://www.officepro.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Officer",
+    "description": "חנות מוצרים למשרד. מודיעין",
+    "website": "http://www.officer.co.il",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "מודיעין"
+  },
+  {
+    "name": "OfnoCenter",
+    "description": "אופנועים וציוד היקפי. פריסה ארצית",
+    "website": "https://ofnocenter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "OlamHamaim",
+    "description": "בר מים    לבית ולמשרד. טבריה",
+    "website": "http://www.olamhamaim.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "טבריה"
+  },
+  {
+    "name": "OMC1",
+    "description": "סלולאר ומחשבים. קרית שמונה",
+    "website": "https://www.omc1.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": null
+  },
+  {
+    "name": "Online-Shop",
+    "description": "מחשבים וציוד היקפי. חולון",
+    "website": "http://www.online-shop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "OnyxBoox",
+    "description": "קוראי ספרים אלקטרוניים. חיפה",
+    "website": "https://onyxboox.co.il/",
+    "is_tech": false,
+    "categories": [
+      "books"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "O-Pharm",
+    "description": "מוצרי בריאות ותרופות. תל אביב",
+    "website": "http://www.o-pharm.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Optistore",
+    "description": "אופטיקה. פריסה ארצית",
+    "website": "http://optistore.net/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "OrelPhone",
+    "description": "סלולאר ואביזרים. ראשון לציון",
+    "website": "https://orelphone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "ORPC",
+    "description": "מחשבים וציוד היקפי ואלקטרוניקה. רמת גן",
+    "website": "https://www.orpc.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals",
+      "appliances"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Orsale",
+    "description": "מוצרי חשמל. קרית חיים",
+    "website": "https://orsale.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "OskarLtd",
+    "description": "ציוד ומוצרי צילום. רמת גן",
+    "website": "https://oskar.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "OutletIL",
+    "description": ". אשקלון",
+    "website": "https://outletil.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשקלון"
+  },
+  {
+    "name": "OutOfTheBox",
+    "description": "מתנות וגאדג'טים. בני ברק",
+    "website": "https://www.out-of-the-box.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Ovali",
+    "description": "מכשירים חכמים לנקיון הבית. פריסה ארצית",
+    "website": "https://ovali.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "PalmatMotors",
+    "description": "אביזרים לחלונות ודלתות אלומיניום. יד בנימין",
+    "website": "https://palmatmotors.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "PalmNet",
+    "description": "סלולר • קונסולות משחק • מחשבים. אור עקיבא",
+    "website": "https://www.palmnet.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "PanelIl",
+    "description": "פתרונות בניה ואחסון. גבעת כ\"ח",
+    "website": "http://panelil.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "PascalShop",
+    "description": "מחשבים וציוד היקפי. גבעתיים",
+    "website": "https://pascalshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "גבעתיים"
+  },
+  {
+    "name": "Passim",
+    "description": "פינות זולה ציליות ים וערסלים. גאולים",
+    "website": "https://www.passim.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "pc365",
+    "description": "מחשבים וציוד היקפי. רחובות",
+    "website": "http://www.pc365.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Pc4You",
+    "description": "מחשבים וציוד אודיו וידאו. הרצליה",
+    "website": "http://www.pc4you.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "audio"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "PCcenter",
+    "description": "חנות למחשבים וציוד היקפי. ראשון לציון",
+    "website": "https://www.pccenter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "PCIL",
+    "description": "מחשבים ותקשורת. פתח תקווה",
+    "website": "https://pcil.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "PCIT",
+    "description": "מחשוב ואלקטרוניקה. באר שבע",
+    "website": "http://www.pcit.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": "באר שבע"
+  },
+  {
+    "name": "PCMarket",
+    "description": "מחשבים וציוד היקפי. ראש העין",
+    "website": "https://www.pcmarket.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Pc-Online",
+    "description": "מחשבים שרתים וציוד היקפי. פתח תקווה",
+    "website": "https://www.pc-online.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "PcStock",
+    "description": "מחשבים וציוד מחשבים. פתח תקווה",
+    "website": "https://www.pcstock.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "PenPall",
+    "description": "מיכון משרדי ומכשירי חשמל. ראשון לציון",
+    "website": "https://penpall.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "office"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Perfumex",
+    "description": "בשמים וקוסמטיקה. רמת גן",
+    "website": "https://perfumex.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "PeryLtd",
+    "description": "אספקה טכנית. בני ברק",
+    "website": "https://www.peryltd.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "PetCall",
+    "description": "מזון וציוד לחיות מחמד. הרצליה",
+    "website": "http://www.petcall.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "PetPlanet",
+    "description": "מזון וציוד לחיות המחמד. עפולה",
+    "website": "https://petplanet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "עפולה"
+  },
+  {
+    "name": "Petrons",
+    "description": "מזון ואבירים לחיות מחמד. אום אל פחם",
+    "website": "https://www.petrons.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "PHA",
+    "description": "פתרונות מיקרו אקלים רב עונתיים. נתניה",
+    "website": "https://www.pha.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "PharmaShops",
+    "description": "מוצרי הגיל השלישי. הוד השרון",
+    "website": "https://www.pharmashops.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "PhoneTape",
+    "description": "תקשורת קווית ואלקטרוניקה חכמה. תל אביב",
+    "website": "https://www.phonetape.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Phonex",
+    "description": "מעבדת סלולר מכירה ואביזרים. תל אביב",
+    "website": "https://phonex.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "PhotoNegba",
+    "description": "חנות צילום ופיתוח תמונות משנת 1975. רמת גן",
+    "website": "http://www.photonegba.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "PianoHouse",
+    "description": "חנות כלי נגינה. בני ברק",
+    "website": "https://pianohouse.co.il/",
+    "is_tech": false,
+    "categories": [
+      "musical_instruments"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Pichefkes",
+    "description": "גאדג'טים לבית. תל אביב",
+    "website": "http://www.pichefkes.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "PisgaShop",
+    "description": "מוצרי חשמל ואלקטרוניקה לבית. ראש העין",
+    "website": "https://www.pisga-shop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Playa",
+    "description": "פתרונות הצללה, פתרונות קירוי, ומוצרים שונים לגינה. אחיטוב",
+    "website": "https://www.playa.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Play-Smart",
+    "description": "מוצרים חינוכיים. רחובות",
+    "website": "https://play-smart.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "Polimil",
+    "description": "מוצרים ופתרונות לזיהוי בקרה ואבטחה. פתח תקווה",
+    "website": "https://polimil.co.il/",
+    "is_tech": null,
+    "categories": [
+      "security"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Printec",
+    "description": "ציוד משרדי. ראשון לציון",
+    "website": "https://www.printec.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "PrinterDeal",
+    "description": "ציוד משרדי,מולטימדיה,מוצרי חשמל. כפר חב\"ד",
+    "website": "https://www.printerdeal.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "office"
+    ],
+    "city": null
+  },
+  {
+    "name": "PrintNgo",
+    "description": "פתרונות הדפסה, מחשוב וציוד משרדי. תל אביב",
+    "website": "https://printngo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Print-Up",
+    "description": "מדפסות, פקסים וציוד היקפי. ראשון לציון",
+    "website": "https://www.print-up.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "office"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "ProfitSport",
+    "description": "פתרונות רפואיים לעוסקים בספורט. אור יהודה",
+    "website": "https://www.profitsport.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "אור יהודה"
+  },
+  {
+    "name": "Projector-Audio",
+    "description": "ציוד הגברה, מקרנים, כלי נגינה. פריסה ארצית",
+    "website": "http://www.projector-audio.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "ProRunner",
+    "description": "ציוד ספורט וריצה. בני ברק",
+    "website": "https://www.prorunner.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Protechstore",
+    "description": "ציוד בטיחות, השרדות וציוד הטכנולוגי לתעשייה ולפרטיים. ישרש",
+    "website": "http://protechstore.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Pumba",
+    "description": "אופניים חשמליים וקורקינטים. תל אביב",
+    "website": "https://www.pumba.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Radio-Electric",
+    "description": "מוצרי חשמל אלקטרוניקה ותקשורת. פריסה ארצית",
+    "website": "http://www.rde.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "RakHashmal",
+    "description": "מוצרי חשמל. ראש העין",
+    "website": "https://www.rakhashmal.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Ramos",
+    "description": "ריהוט. אחיטוב",
+    "website": "https://www.ramos.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Rav-Hevel",
+    "description": "מתלה כביסה. רמלה",
+    "website": "http://www.rav-hevel.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמלה"
+  },
+  {
+    "name": "RedMobile",
+    "description": "תיקוני סלולר. חולון",
+    "website": "https://redmobile.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Refaeli",
+    "description": "רשת חנויות מוצרי חשמל ואלקטרוניקה. פריסה ארצית",
+    "website": "http://refaeli.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "RegaimShop",
+    "description": "שעונים תכשיטים מתנות חריטה במקום. נס ציונה",
+    "website": "https://regaimshop.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Rikotek",
+    "description": "פתרונות הדפסה, מחשוב ותקשורת. אשקלון",
+    "website": "https://rikotek.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "אשקלון"
+  },
+  {
+    "name": "RingMobile",
+    "description": "תיקון סלולאר. תל אביב",
+    "website": "https://ringmobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "R-K",
+    "description": "מכונות תפירה. תל אביב",
+    "website": "http://www.r-k.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "RockPhonic",
+    "description": "כלי נגינה, ציוד הגברה ותאורה. ראשון לציון",
+    "website": "https://www.rockphonic.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "lighting",
+      "musical_instruments"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Rocky-Sport",
+    "description": "חנות מוצרי ספורט. ראשון לציון",
+    "website": "https://www.rocky-sport.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Rokach",
+    "description": "תנורי חימום. נוב",
+    "website": "https://www.rokach.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "RollingStoned",
+    "description": "מכשירי אידוי ואביזרי עישון. תל אביב",
+    "website": "https://www.rollingstoned.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "RomsRoom",
+    "description": "צעצועים ומשחקי ילדים. רמת השרון",
+    "website": "http://www.romsroom.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "Ronbi",
+    "description": "מוצרי אודיו וציוד היקפי למחשב. רחובות",
+    "website": "http://www.ronbi.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals",
+      "audio"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Ronix",
+    "description": "מוצרי אלקטרוניקה ושכפול מפתחות. פתח תקווה",
+    "website": "https://www.ronix.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Rosh-Group",
+    "description": "ציוד ריגול. ראשון לציון",
+    "website": "https://rosh-group.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Rozenfeld",
+    "description": "מוצרים לבית. פתח תקווה",
+    "website": "https://www.rozenfeld.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "RTouch",
+    "description": "מעבדת סלולר. גני תקווה",
+    "website": "https://www.rtouch.org.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": null
+  },
+  {
+    "name": "Rudi",
+    "description": "ארנקים תיקים מזוודות. תל אביב",
+    "website": "https://www.rudi.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Runners",
+    "description": "אביזרי ספורט וכושר. חיפה",
+    "website": "http://www.runners.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Runner-Sys",
+    "description": "מחשבים סלולר ואבטחה. רמת גן",
+    "website": "https://www.runner-sys.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "security"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "SafeCenter",
+    "description": "כספות. תל אביב",
+    "website": "http://www.safecenter.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Safe-eBuy",
+    "description": "מגוון מוצרים מתקדמים. רמת גן",
+    "website": "http://www.safe-ebuy.co.il/",
+    "is_tech": null,
+    "categories": [
+      "general_merch"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Safes",
+    "description": "כספות. אודים",
+    "website": "http://www.safes.org.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Sahek-Ota",
+    "description": "צעצועים ומשחקים ממותגים, ומוצרים עונתיים. צומת בילו",
+    "website": "https://www.sahek-ota.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "SaleCenter",
+    "description": "חשמל. רמת גן",
+    "website": "https://www.salecenter.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "SalePc",
+    "description": "מחשבים, ציוד היקפי, וסלולר. תל אביב",
+    "website": "https://salepc.org.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "peripherals"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SanCenter",
+    "description": "חשמל וסטריאו משנת 1986. תל אביב",
+    "website": "http://sancenter.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Santur",
+    "description": "כלי נגינה אתניים: עוד, קאנון ועוד. ירושלים",
+    "website": "https://santur.co.il/",
+    "is_tech": false,
+    "categories": [
+      "musical_instruments"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "SatSigma",
+    "description": "מצלמות אבטחה צלחות לווין ואנטנות. תל אביב",
+    "website": "https://www.satsigma.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography",
+      "security"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SBaby",
+    "description": "מוצרי תינוקות וילדים. כל הארץ",
+    "website": "https://www.sbaby.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Sbe-Energy",
+    "description": "ייצור ומכירת סוללות לתחבורה הקלה בישראל. חולון",
+    "website": "https://www.sbe-energy.co.il/",
+    "is_tech": true,
+    "categories": [
+      "power_battery"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Scoot",
+    "description": "קורקינטים ואביזרים. תל אביב",
+    "website": "https://scoot.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Seapro",
+    "description": "סירות וקיאקים וציוד רכב וקמפינג. חולון",
+    "website": "https://seapro.co.il/",
+    "is_tech": null,
+    "categories": [
+      "automotive"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "SecureGroup",
+    "description": "מערכות אבטחה ומיגון. תל אביב",
+    "website": "https://www.securegroup.co.il/",
+    "is_tech": null,
+    "categories": [
+      "security"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "segafredosystem",
+    "description": "קפה ומוצרים . קדימה צורן",
+    "website": "https://segafredosystem.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Seifer",
+    "description": "מוצרים לבית ולבניה. נתניה",
+    "website": "http://www.seifer.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "Service-Window",
+    "description": "פרזול לחלונות ודלתות אלומיניום. כפר יונה",
+    "website": "http://www.service-window.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "SexPlanet",
+    "description": "אביזרי מין ממיטב המותגים המובילים. תל אביב",
+    "website": "http://sex-planet.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SexyShop",
+    "description": "למבוגרים בלבד. תל אביב",
+    "website": "https://sexyshop.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SFO",
+    "description": "ציוד צילום מקצועי. חולון",
+    "website": "https://www.sfo.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "SGnovelty",
+    "description": "תאורה סולארית, מצלמות אבטחה וגדג'טים. נורדיה",
+    "website": "https://www.sgnovelty.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography",
+      "lighting",
+      "security"
+    ],
+    "city": null
+  },
+  {
+    "name": "Shalter",
+    "description": "עודפי מוצרי חשמל ביתיים. כפר סבא",
+    "website": "http://www.shalter.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "SharonR",
+    "description": "ציוד הגברה וכלי נגינה. ירושלים",
+    "website": "https://www.sharonr.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Shazar",
+    "description": "אספקה טכנית וכלי עבודה. חיפה",
+    "website": "http://shazartech.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Shilat-Watches",
+    "description": "שעונים ותכשיטים. פריסה ארצית",
+    "website": "http://www.shilat-watches.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "ShipShop",
+    "description": "פנאי ואלקטרוניקה. שדה ורבורג",
+    "website": "https://shipshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "ShisharTech",
+    "description": "מדפסות, דיו , תמיכה במחשבים.. כפר סבא",
+    "website": "https://shishar.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "office"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "ShivookYashir",
+    "description": "ריהוט גינה גרילי גז  מוצרי כתר. גבעת כ\"ח",
+    "website": "https://www.shivookyashir.org/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Shmm",
+    "description": "מדפסות ,מגרסות, למינציה,ציוד למחשב. ראשון לציון",
+    "website": "http://www.shmm.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "office"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "ShopCall",
+    "description": "קניון מוצרים - טכנולוגיות מתקדמות. רעננה",
+    "website": "http://www.shopcall.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רעננה"
+  },
+  {
+    "name": "ShopEilat",
+    "description": "מחשבים וסלולאר. אילת",
+    "website": "https://shopeilat.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "ShopiPet",
+    "description": "מזון וציוד לחיות מחמד. בצרה",
+    "website": "https://www.shopipet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Shopips",
+    "description": "מוצרי חשמל,מדפסות,מחשבים, סלולר. מישור אדומים",
+    "website": "https://www.shopips.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "appliances",
+      "office"
+    ],
+    "city": null
+  },
+  {
+    "name": "ShopKli",
+    "description": "כלי עבודה. יבנה",
+    "website": "https://www.shopkli.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "ShtiBay",
+    "description": "מוצרים לבית ולגן. אחיטוב",
+    "website": "https://www.shtibay.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "ShukHashmal",
+    "description": "מוצרי חשמל. כפר יונה",
+    "website": "https://shukhashmal.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "Signal-Audio",
+    "description": "ציוד הגברה, די ג'יי, כלי נגינה.. תל אביב",
+    "website": "https://www.signal-audio.co.il/",
+    "is_tech": false,
+    "categories": [
+      "audio",
+      "musical_instruments"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Simplybibo",
+    "description": "צעצועים ומוצרי תינוקות. ירכא",
+    "website": "https://simplybibo.com/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "SinaiStore",
+    "description": "כלי עבודה וחומרי בניין. תל אביב",
+    "website": "https://www.sinaistore.com/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Singer4U",
+    "description": "מכונות תפירה לבית ולתעשייה. תל אביב",
+    "website": "http://www.singer4u.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Sitonai",
+    "description": "חשמל ואלקטרוניקה. חיפה",
+    "website": "https://www.sitonai.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Sleeperz",
+    "description": "ריהוט. תל אביב",
+    "website": "http://www.sleeperz.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Sleep-In",
+    "description": "מזרונים ספות מיטות כורסאות ארונות. ראשון לציון",
+    "website": "https://sleep-in-r.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "SleepNet",
+    "description": "חנות רהיטים- מיטות, כורסאות, חדרי שינה ועוד. קרית שמונה",
+    "website": "http://www.sleepnet.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "SlimPrice",
+    "description": "קניון מוצרים. נתניה",
+    "website": "http://www.slimprice.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "smartcase",
+    "description": "אביזרים לשעונים חכמים וסלולר. חיפה",
+    "website": "https://www.smartcase.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "SmartcomStore",
+    "description": "סלולר ואביזרים. קרית ים",
+    "website": "https://smartcomstore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Smart-Deal",
+    "description": "חשמל ואלקטרוניקה. שפרעם",
+    "website": "https://smart-deal.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "Smartech",
+    "description": "מעבדת סלולאר. ראשון לציון",
+    "website": "https://smartech.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "SmartLab",
+    "description": "מעבדת סלולר. ראשון לציון",
+    "website": "https://smartlab.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "SmartMoveTLV",
+    "description": "אופניים חשמליים, קורקינטים ואביזרים. תל אביב",
+    "website": "https://smartmovetlv.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Smart-Toys",
+    "description": "צעצועים חכמים ורחפנים. כרמיאל",
+    "website": "http://www.smart-toys.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "S-Medic",
+    "description": "ציוד רפואי ועזרה ראשונה. פתח תקווה",
+    "website": "https://s-medic.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "SmilePhone",
+    "description": "טלפונים סלולרים ומעבדת תיקונים. תל אביב",
+    "website": "https://www.smilephone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SoBaby",
+    "description": "צעצועים וחדרי תינוקות. שפרעם",
+    "website": "https://www.sobaby.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "SoferAvi",
+    "description": "חשמל ואלקטרוניקה. פריסה ארצית",
+    "website": "https://www.soferavi.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Sollan",
+    "description": "חנות מחשבים ואלקטרוניקה מקוונת. ראשון לציון",
+    "website": "http://www.sollan.co.il",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Sonic-Air",
+    "description": ". מזור",
+    "website": "https://sonic-air.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Spa-Store",
+    "description": "אביזרים לג'קוזי וספא. בני עטרות",
+    "website": "http://www.spa-store.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Speed4U",
+    "description": "מחשבים, ניידים וציוד היקפי וסלולר. תל אביב",
+    "website": "http://www.speed4u.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "peripherals"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SpeedOfSound",
+    "description": "אוזניות ומוצרי אלקטרוניקה. תל אביב",
+    "website": "http://www.speedofsound.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "audio"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "SportCenter",
+    "description": "בריכות ושולחנות משחק. תל אביב",
+    "website": "https://www.sportcenter.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Sportcom",
+    "description": "ציוד ספורט ומכשירי כושר. חולון",
+    "website": "http://sportcom.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "Sporty",
+    "description": "ספורט, פנאי וגאדג'טים. חולון",
+    "website": "https://www.sporty.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "Sroolik",
+    "description": "מוצרים לבית ולגן. בית חנן",
+    "website": "http://www.sroolik.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "StarShop",
+    "description": "אביזרי פנאי, לבית ולגן. מושב פורת",
+    "website": "http://www.sollan.co.ilhttps://sonic-air.co.il/http://www.spa-store.co.il/http://www.speed4u.co.il/http://www.speedofsound.co.il/https://www.sportcenter.co.il/http://sportcom.co.il/https://www.sporty.co.il/http://www.sroolik.co.il/https://start-home.co.il/http://stender.center/https://www.stereoshop.co.il/https://storemobile.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "start-home",
+    "description": "מוצרים לבית ולגינה. עץ אפרים",
+    "website": "https://start-home.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Steimatzky",
+    "description": "ספרים, משחקים, צעצועים, פטיפונים ותקליטים. רשת ספרים ארצית עם חנות אונליין. books, games, toys and some audio — nationwide chain.",
+    "website": "https://www.steimatzky.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "books",
+      "toys_games"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Stender.Center",
+    "description": "ריהוט לבתי כנסת ולבתים פרטיים. ירושלים",
+    "website": "http://stender.center/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "StereoShop",
+    "description": "מערכות קולנוע ביתיות. חיפה",
+    "website": "https://www.stereoshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "StoreMobile",
+    "description": "אלקטרוניקה וגאדג'טים. נהריה",
+    "website": "https://storemobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "StudioLand",
+    "description": "צילום ואביזרים. רמת השרון",
+    "website": "https://www.studioland.co.il/",
+    "is_tech": null,
+    "categories": [
+      "photography",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "StudioPhone",
+    "description": "מעבדת סלולאר. רמת השרון",
+    "website": "https://studiophone.zapshop.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": null
+  },
+  {
+    "name": "SukkotHadar",
+    "description": "סוכות ואביזרים. פריסה ארצית",
+    "website": "https://www.sukkothadar.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Super-Pharm",
+    "description": "רשת פארם ארצית עם חנות אונליין רחבה — מגוון מוצרים כולל מכשירי חשמל, אלקטרוניקה, סלולר, רמקולים, אוזניות, מצלמות, מוצרי תינוקות ויופי. pharmacy chain with broad consumer-electronics range.",
+    "website": "https://shop.super-pharm.co.il/",
+    "is_tech": null,
+    "categories": [
+      "mobile",
+      "appliances",
+      "photography",
+      "audio",
+      "climate",
+      "general_merch"
+    ],
+    "city": null
+  },
+  {
+    "name": "SuperElectric",
+    "description": "מוצרי חשמל. פריסה ארצית",
+    "website": "http://www.superelectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "SuperLang",
+    "description": "כלי עבודה, גינון ואביזרים. בית נקופה",
+    "website": "http://superlang.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "SuperLine",
+    "description": "גנרטורים ומכונות שטיפה בלחץ. ירושלים",
+    "website": "https://superline.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "SuperPrice",
+    "description": "מחשבים ניידים, נייחים וציוד היקפי. פתח תקווה",
+    "website": "https://superprice.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "SwissBag",
+    "description": "מזוודות ותיקים. ירושלים",
+    "website": "https://www.swissbag.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Sy-Trade",
+    "description": "מערכות סינון מים. חיפה",
+    "website": "https://sy-trade.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "SZM",
+    "description": "מטבח מוסדי. ראש העין",
+    "website": "http://www.szm.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Tactit",
+    "description": "ציוד טקטי, פנסי ראש ותאורה. ישראל",
+    "website": "https://www.tactit.co.il/",
+    "is_tech": true,
+    "categories": [
+      "lighting",
+      "tactical"
+    ],
+    "city": null
+  },
+  {
+    "name": "TaxFreeBeauty",
+    "description": "בשמים לגברים ונשים. יהוד",
+    "website": "https://taxfreebeautyvip.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "TcheletMordechai",
+    "description": "תשמישי קדושה ומוצרי סת\"ם. גוש עציון",
+    "website": "https://www.tcheletmordechai.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Tdsd",
+    "description": "מחשבים וחומרה, מצלמות אבטחה וסוללות. חולון",
+    "website": "http://www.tdsd.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "photography",
+      "power_battery",
+      "security"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "TechMarket",
+    "description": "שיווק מחשבים וציוד היקפי. נווה אילן",
+    "website": "https://www.techmarket.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": null
+  },
+  {
+    "name": "TechnoHome",
+    "description": "מוצרי חשמל ולבית. רמת גן",
+    "website": "https://technohome.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "TechnoShlomo",
+    "description": "ציוד טכני לבית ולגן , גרילים. כרמיאל",
+    "website": "https://www.technoshlomo.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "TechToys",
+    "description": "סלולר • קונסולות משחק • מחשבים. אור עקיבא",
+    "website": "https://www.techtoys.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "gaming"
+    ],
+    "city": null
+  },
+  {
+    "name": "Telyacom",
+    "description": "תקשורת קווית, אלחוטית ומכשירי קשר. בני ברק",
+    "website": "http://www.telyacom.co.il/",
+    "is_tech": true,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Teva-Bair",
+    "description": "טבע ובריאות. חולון",
+    "website": "http://teva-bair.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "Teva-Call",
+    "description": "מוצרי טבע. רמת גן",
+    "website": "https://www.teva-call.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Tfira",
+    "description": "מבחר מכונות תפירה. חדרה",
+    "website": "http://www.tfira.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "ThermoStar",
+    "description": "מיזוג אויר. כרמיאל",
+    "website": "https://www.thermostar.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": null
+  },
+  {
+    "name": "TheTurtle",
+    "description": "מנשאי אופניים , גגונים לרכב. אזור",
+    "website": "http://www.theturtle.co.il/",
+    "is_tech": false,
+    "categories": [
+      "automotive"
+    ],
+    "city": null
+  },
+  {
+    "name": "ThreeSixty",
+    "description": "אלקטרוניקה וחשמל. תל אביב",
+    "website": "http://www.threesixty.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Time2Buy",
+    "description": "חנות מרעננה למכירת מוצרי חשמל בתים. רעננה",
+    "website": "http://www.time2buy.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רעננה"
+  },
+  {
+    "name": "TimeCenter",
+    "description": "שעוני יד מבית קסיו. פתח תקווה",
+    "website": "http://www.timecenter.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "TimeSpot",
+    "description": "יבוא שיווק והפצה. גדרה",
+    "website": "https://timespot.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Tipot-Teva",
+    "description": "אביזרים לגינה. בת חפר",
+    "website": "https://tipot-teva.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Tirador",
+    "description": "פרזול לריהוט ולבניין. מודיעין",
+    "website": "https://www.tiradorhd.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "מודיעין"
+  },
+  {
+    "name": "TishlerStore",
+    "description": "מוצרים למטבח. תל אביב",
+    "website": "https://tishlerstore.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Tlvmc",
+    "description": "מסחר דיגטלי -מוצרים לבית ומדיה. רמת גן",
+    "website": "http://www.tlvmc.co/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "TMAudio",
+    "description": "סטריאו, קולנוע ביתי. הרצליה",
+    "website": "http://www.tmaudio.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "TMS",
+    "description": "מחשבים, חומרה, תוכנה וציוד היקפי. אילת",
+    "website": "https://www.tms.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "אילת"
+  },
+  {
+    "name": "Tomitot",
+    "description": "מזרונים ומיטות. כפר סבא",
+    "website": "http://www.tomitot.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "TonerPlus",
+    "description": "טונרים, מדפסות וציוד משרדי. תל אביב",
+    "website": "https://www.tonerplus.co.il/",
+    "is_tech": true,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Toner-Supply",
+    "description": "טונרים, מדפסות  ,סורקים ומגרסות. תל אביב",
+    "website": "http://www.toner-supply.co.il",
+    "is_tech": true,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ToolsOnline",
+    "description": "כלי עבודה וציוד לתעשיה. פתח תקווה",
+    "website": "http://www.toolsonline.co.il/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "TopCommerce",
+    "description": "ציוד ארגונומי למשרד ולבית. ראש העין",
+    "website": "https://topcommerce.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "TopDeal",
+    "description": "אלקטרוניקה וחשמל. קרית ביאליק",
+    "website": "https://www.topdeal.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "TopMobile",
+    "description": "סלולאר ואביזרים. נשר",
+    "website": "http://topmobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Totah",
+    "description": "ציוד קמפינג למטייל ולחייל. חולון",
+    "website": "http://www.totah.net/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "TotalSport",
+    "description": "מבחר ציוד ספורט. פתח תקווה",
+    "website": "http://www.totalsport.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "TouchStore",
+    "description": "סלולר,מעבדה, אביזרים, גיימינג ומשחקים. פריסה ארצית",
+    "website": "https://touchstore.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "gaming",
+      "accessories",
+      "toys_games"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "ToyHouse",
+    "description": "מגוון צעצועים לילדים. ירושלים",
+    "website": "http://www.toyhouse.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "Toyland",
+    "description": "מוצרי ילדים ותינוקות. כפר סבא",
+    "website": "http://www.toyland.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "ToyMarket",
+    "description": "צעצועים. יבנה",
+    "website": "https://toymarket.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "Toys4Fun",
+    "description": "למבוגרים בלבד. אשדוד",
+    "website": "https://www.toys4fun.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשדוד"
+  },
+  {
+    "name": "ToysAndMore",
+    "description": "צעצועים ומוצרים לילדים ועוד. ראש העין",
+    "website": "http://www.toysandmore.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "toys-empire",
+    "description": "צעצועים. הוד השרון",
+    "website": "https://www.toys-empire.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "ToysToGo",
+    "description": "צעצועים ומשחקים לילדים. רמת השרון",
+    "website": "https://www.toystogo.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": null
+  },
+  {
+    "name": "Traklin",
+    "description": "מוצרי חשמל ואלקטרוניקה — רמקולים ניידים, אוזניות, מסכים, מכשירי חשמל, סלולר. רשת חיפה. consumer electronics — speakers, audio, appliances, mobile, screens.",
+    "website": "https://www.traklin.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile",
+      "appliances",
+      "audio",
+      "tv_av"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "TravelTik",
+    "description": "תיקים ומזוודות. פתח תקווה",
+    "website": "http://traveltik.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Triple-S",
+    "description": "מוצרי הדפסה ומחשוב לבית ולמשרד. ראש העין",
+    "website": "http://www.triple-s.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "office"
+    ],
+    "city": "ראש העין"
+  },
+  {
+    "name": "Tronics",
+    "description": "חנות מחשבים- תוכנה, חומרה ופתרונות מעשיים. תל אביב",
+    "website": "https://www.tronics.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "TrumpetCall",
+    "description": "חצוצרות, טרומבונים ואביזרים נלווים. פתח תקווה",
+    "website": "https://www.trumpetcall.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Tuki",
+    "description": "חנות למוצרי אלקטרוניקה לבית ולרכב. בני ברק",
+    "website": "https://tukielectric.konimbo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "automotive"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "Turtle",
+    "description": "מוצרי הגברה. רמת גן",
+    "website": "http://www.turtle.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "TW4U",
+    "description": "חנות צעצועים לילדים. יבנה",
+    "website": "http://www.tw4u.co.il/",
+    "is_tech": false,
+    "categories": [
+      "toys_games"
+    ],
+    "city": "יבנה"
+  },
+  {
+    "name": "Ultra-Shop",
+    "description": "מחשוב ואלקטרוניקה. כוכב יאיר",
+    "website": "https://www.ultra-shop.store/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "UP-AC",
+    "description": "מזגנים. אשדוד",
+    "website": "http://www.up-ac.co.il/",
+    "is_tech": null,
+    "categories": [
+      "climate"
+    ],
+    "city": "אשדוד"
+  },
+  {
+    "name": "Urbanico",
+    "description": "מכירת אופניים וקורקנטים חשמליים. תל אביב",
+    "website": "http://www.urbanico.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Usexport",
+    "description": "ריהוט משרדי. תל אביב",
+    "website": "http://www.usexport.co.il/",
+    "is_tech": false,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Venta",
+    "description": "ייצור, שיווק והפצת מוצרי אוורור. רמלה",
+    "website": "https://www.venta.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמלה"
+  },
+  {
+    "name": "Vero-Cafe",
+    "description": "מכונות קפה ומוצרים. מעיליא",
+    "website": "https://www.vero-cafe.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Video",
+    "description": "מוצרי צילום ואלקטרוניקה . פתח תקווה",
+    "website": "https://video.org.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances",
+      "photography"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Vigor-Principalities",
+    "description": "תיקים, מזוודות, ארנקים ומתנות. ירושלים",
+    "website": "https://vigor-principalities.com/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "VineaGreen",
+    "description": "הידרופוניקה, קירות ירוקים ואדניות. כפר סבא",
+    "website": "https://www.vineagreen.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "Vinopo",
+    "description": "מקררי יין. פתח תקווה",
+    "website": "http://www.vinopo.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "VIPMobile",
+    "description": "אביזרים ומכשירי סלולאר. תל אביב",
+    "website": "http://vipmobile.co.il",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "VipSales",
+    "description": "מחשבים וציוד היקפי. ראשון לציון",
+    "website": "http://www.vipsales.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "VirtualChashmal",
+    "description": "מכשירי חשמל. בני ברק",
+    "website": "https://virtualshops.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "VMobile",
+    "description": "סלולאר וציוד היקפי. תל אביב",
+    "website": "https://www.vmobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "peripherals"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "WallaShops",
+    "description": "קניון מוצרים. כפר סבא",
+    "website": "https://www.wallashops.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "Watch4U",
+    "description": "מכירת שעונים ותכשיטים. תל אביב",
+    "website": "https://watch4u.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "WatchCenter",
+    "description": "שעוני יד. רחובות",
+    "website": "https://www.watchcenter.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "WatchStore",
+    "description": "חנות שעוני יוקרה ומעבדת תיקונים. ראשון לציון",
+    "website": "http://watchstore.co.il/",
+    "is_tech": true,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "WaterFun",
+    "description": "יבוא ושיווק מוצרים לגינה. כנות",
+    "website": "http://www.waterfun.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "WaterRower",
+    "description": "מכשירי אימון וכושר גופני. קיבוץ נען",
+    "website": "https://www.waterrower-il.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "WaterStore",
+    "description": "מסננים ומוצרי לייף סטייל. ראשון לציון",
+    "website": "http://www.waterstore.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "WebPrice",
+    "description": "מחשוב ציוד היקפי והדפסה. נתניה",
+    "website": "https://www.webprice.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "נתניה"
+  },
+  {
+    "name": "Weekend",
+    "description": "פורטל תיירות וצימרים. הרצליה",
+    "website": "http://www.weekend.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "WeloveCoffee",
+    "description": "מכונות קפה ואביזרים. הרצליה",
+    "website": "http://welovecoffee.co.il/",
+    "is_tech": false,
+    "categories": [
+      "accessories"
+    ],
+    "city": "הרצליה"
+  },
+  {
+    "name": "WheelChairs",
+    "description": "מוצרים וציוד לגיל השלישי. כפר סבא",
+    "website": "https://www.wheelchairs.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "Wheel-e",
+    "description": "קורקינטים ואופניים חשמליים. תל אביב",
+    "website": "https://wheel-e.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "WineBar",
+    "description": "מקררי יין. חולון",
+    "website": "http://www.winebar.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "WinPrice",
+    "description": "מחשבים,חשמל ואלקטרוניקה. כפר יונה",
+    "website": "http://www.winprice.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "WorKimhi",
+    "description": "אספקה טכנית. באר שבע",
+    "website": "https://www.workimhi.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "באר שבע"
+  },
+  {
+    "name": "WorldShop",
+    "description": "מיגון ואבטחה - ציוד ריגול. פריסה ארצית",
+    "website": "http://www.worldshop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "security"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "WTL",
+    "description": "מוצרי בריאות ובית. כרמיאל",
+    "website": "https://www.wtl.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "xBody",
+    "description": "תוספי תזונה לספורטאים. באר שבע",
+    "website": "http://www.xbody.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "באר שבע"
+  },
+  {
+    "name": "XGaming",
+    "description": "קונסולות משחקים ומחשבים. חיפה",
+    "website": "https://www.xgaming.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "gaming",
+      "toys_games"
+    ],
+    "city": "חיפה"
+  },
+  {
+    "name": "Xiaoai",
+    "description": "מוצרי רפואה משלימה. חדרה",
+    "website": "https://www.xiaoai.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "Xi-Mobility",
+    "description": "אופניים חשמליים. תל אביב",
+    "website": "https://xi-mobility.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "XiStore",
+    "description": "מוצרי שיאומי. פריסה ארצית",
+    "website": "https://www.xistore.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "XStation",
+    "description": "משחקים , קונסולות ומעבדה. פתח תקווה",
+    "website": "https://www.xstation.co.il/",
+    "is_tech": true,
+    "categories": [
+      "gaming",
+      "toys_games"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "XWear",
+    "description": "ייבוא ושיווק מוצרי ספורט ולחימה. פריסה ארצית",
+    "website": "http://xwear.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "nationwide"
+  },
+  {
+    "name": "Yacobson",
+    "description": "מוצרי ספיגה. נחלים",
+    "website": "https://www.yacobson.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Yahalom11",
+    "description": "ריהוט לבית, ארונות, ריהוט גן. פתח תקווה",
+    "website": "https://4545.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "YanaShop",
+    "description": "מוצרי חשמל. נצרת",
+    "website": "https://www.yanashop.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "נצרת"
+  },
+  {
+    "name": "Yarid-B",
+    "description": "מוצרי חשמל. ביתר עילית",
+    "website": "http://www.yarid-b.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "Yes-We-Sell",
+    "description": "מוצרי חשמל ואלקטרוניקה. עין צורים",
+    "website": "http://www.yes-we-sell.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": null
+  },
+  {
+    "name": "YHome",
+    "description": "ציוד קמפינג,הדברה,כלי מטבח,טמבוריה. פתח תקווה",
+    "website": "http://www.yhome.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Zanzibar4Pets",
+    "description": "ציוד ומזון בעלי חיים. כרמיאל",
+    "website": "https://www.zanzibar4pets.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "ZBM",
+    "description": "מצלמות אבטחה וציוד היקפי. פריסה ארצית",
+    "website": "https://www.zbm.co.il/",
+    "is_tech": true,
+    "categories": [
+      "peripherals",
+      "photography",
+      "security"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Zeero",
+    "description": "מוצרי אנרגיה ירוקה. פתח תקווה",
+    "website": "https://zeero.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "ZigZag2000",
+    "description": "מחשבים ואבטחה. יהוד",
+    "website": "https://www.zigzag2000.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "security"
+    ],
+    "city": null
+  },
+  {
+    "name": "ZolYoter",
+    "description": "חשמל , אלקטרוניקה ומחשבים. תל אביב",
+    "website": "https://www.zolyoter.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "ZurMarket",
+    "description": "מוצרי הדברה ביתיים, מוצרי הדברה וטיפוח לבע\"ח, פתרונות ולחקלאות ודישון. תל אביב",
+    "website": "https://zurmarket.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Zuzik",
+    "description": "מוצרי תינוקות וילדים. חיפה",
+    "website": "https://www.zuzik.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Z-Zol",
+    "description": "מכשירי כושר ובריכות INTEX. חולון",
+    "website": "https://www.z-zol.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "אלמגור",
+    "description": "סלולאר וציוד היקפי. רמת גן",
+    "website": "https://www.almagorcom.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "peripherals"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "בוקצר",
+    "description": "ריהוט לבית ולמשרד. גבעת זאב",
+    "website": "https://bukchair.co.il/",
+    "is_tech": false,
+    "categories": [
+      "office"
+    ],
+    "city": null
+  },
+  {
+    "name": "גלגלי המגן",
+    "description": ". שילת",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "דנלר",
+    "description": ". תל אביב",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "היפר צמיג",
+    "description": ". פתח תקווה",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "טיירנט – אשדוד",
+    "description": ". אשדוד",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשדוד"
+  },
+  {
+    "name": "טיירנט – ירושלים",
+    "description": ". ירושלים",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "טיירנט -אשקלון",
+    "description": ". אשקלון",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "אשקלון"
+  },
+  {
+    "name": "טיירנט -בית שמש",
+    "description": ". בית שמש",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "בית שמש"
+  },
+  {
+    "name": "טיירנט -חדרה",
+    "description": ". חדרה",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "חדרה"
+  },
+  {
+    "name": "טיירנט -חיפה",
+    "description": ". חיפה",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "טיירנט -טבריה",
+    "description": ". טבריה",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "טבריה"
+  },
+  {
+    "name": "טיירנט -נתניה",
+    "description": ". נתניה",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "טיירנט -ראש העין\n",
+    "description": ". ראש העין",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראש העין"
+  },
+  {
+    "name": "טיירנט -ראשון לציון מזרח",
+    "description": ". ראשון לציון",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "טיירנט -ראשון לציון מערב",
+    "description": ". ראשון לציון",
+    "website": "",
+    "is_tech": null,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "טיירנט -רחובות",
+    "description": ". רחובות",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רחובות"
+  },
+  {
+    "name": "טיירנט -רעננה",
+    "description": ". רעננה",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רעננה"
+  },
+  {
+    "name": "טיירנט-רמלה",
+    "description": ". רמלה",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמלה"
+  },
+  {
+    "name": "טיפ טופ  חולון",
+    "description": ". חולון",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חולון"
+  },
+  {
+    "name": "י.ג המכוון",
+    "description": ". ירושלים",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "ירושלים"
+  },
+  {
+    "name": "מחסני צמיגים",
+    "description": ". מודיעין",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "מודיעין"
+  },
+  {
+    "name": "מלך הרכב",
+    "description": ". כפר ורדים",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "סופר",
+    "description": "מוצרי חשמל. רחובות",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "צמיגי אביעד",
+    "description": ". קרית גת",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "צמיגי בועז",
+    "description": ". בת ים",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "צמיגי גנו",
+    "description": ". באר שבע",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "באר שבע"
+  },
+  {
+    "name": "צמיגי הצטלבות תבור",
+    "description": ". חיפה",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "צמיגי מלי",
+    "description": ". נתניה",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": "נתניה"
+  },
+  {
+    "name": "צמיגי נעים זיתוני בת ים",
+    "description": ". בת ים",
+    "website": "http://www.סופר.com/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "צמיגי נעים זיתוני גבעתיים",
+    "description": ". גבעתיים",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "גבעתיים"
+  },
+  {
+    "name": "צמיגי ספייס קאר",
+    "description": ". בת ים",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "צמיגי קזנטיני",
+    "description": ". תל אביב",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "צמיגי שבתאי",
+    "description": ". הוד השרון",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "הוד השרון"
+  },
+  {
+    "name": "צמיגי שואף",
+    "description": ". רמת גן",
+    "website": "https://tires4u.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "רמת גן"
+  },
+  {
+    "name": "צמיגי שחר",
+    "description": ". בני ברק",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "בני ברק"
+  },
+  {
+    "name": "שירות לצמיגים",
+    "description": ". תל אביב",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "All-In-Home",
+    "description": "אביזרים לבית ולגן. כפר קאסם",
+    "website": "https://www.all-in-home.co.il/",
+    "is_tech": null,
+    "categories": [
+      "accessories"
+    ],
+    "city": null
+  },
+  {
+    "name": "Brira",
+    "description": "ריהוט ביתי רב תכליתי. פרדס חנה",
+    "website": "https://www.brira.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "BrownField",
+    "description": "מזון וציוד לבעלי חיים. תל אביב",
+    "website": "http://brownfield.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "תל אביב"
+  },
+  {
+    "name": "CrazyEdi",
+    "description": "חנות לסטריאו וקולנוע ביתי. כפר סבא",
+    "website": "https://crazyedi.co.il/",
+    "is_tech": null,
+    "categories": [
+      "audio",
+      "tv_av"
+    ],
+    "city": "כפר סבא"
+  },
+  {
+    "name": "Davron",
+    "description": "מוצרים לתינוקות. ג'וליס",
+    "website": "https://www.davron.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "DNG Solution",
+    "description": "סלולר וחשמל. פתח תקווה",
+    "website": "https://tires4u.co.il/https://www.all-in-home.co.il/https://www.brira.co.il/http://brownfield.co.il/https://crazyedi.co.il/https://www.davron.co.il/https://www.dynamica.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Dynamica",
+    "description": "אביזרים וטלפונים סלולריים. פריסה ארצית",
+    "website": "https://www.dynamica.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "Gamby",
+    "description": "אלקטרוניקה , טונרים , מחשב , משרדי. פתח תקווה",
+    "website": "https://www.gamby.co.il/he/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "appliances",
+      "office"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "Glam42",
+    "description": "קוסמטיקה וטיפוח. פתח תקווה",
+    "website": "https://glam42.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "GreenElectric",
+    "description": "מוצרי חשמל. בני ברק",
+    "website": "https://www.greenelectric.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "HyperCell",
+    "description": "מוצרי ספורט פנאי קמפינג והום סטייל. שילת",
+    "website": "https://hypercell.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Isratoys",
+    "description": "משחקי קופסא לילדים. ברקן",
+    "website": "https://www.isratoys.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Mall4All",
+    "description": "מוצרי חשמל | ריהוט ועוד. חולון",
+    "website": "https://mall4all.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "חולון"
+  },
+  {
+    "name": "Marbo-Sport",
+    "description": "ציוד ספורט. חיפה",
+    "website": "https://marbo-sport.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Mashiach-tech",
+    "description": "כלי עבודה, לבית וקמפינג. אזור",
+    "website": "https://mashiach-tech-build.com/",
+    "is_tech": false,
+    "categories": [
+      "tools"
+    ],
+    "city": null
+  },
+  {
+    "name": "Net-Com",
+    "description": "חנות ומעבדת מחשבים ,אלקרוניקה. ירושלים",
+    "website": "http://net-com.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "NofTech",
+    "description": "מחשבים וציוד היקפי. ירושלים",
+    "website": "https://noftech.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "peripherals"
+    ],
+    "city": "ירושלים"
+  },
+  {
+    "name": "PaynGo",
+    "description": "מוצרי חשמל ואלקטרוניקה. פריסה ארצית",
+    "website": "https://www.payngo.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "nationwide"
+  },
+  {
+    "name": "ShopElectrons",
+    "description": "מכונות גילוח ותספורת ומכשירי הסרת שיער. פתח תקווה",
+    "website": "https://www.shopelectrons.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "StsMegaGroup",
+    "description": "סלולאר וגאדג'טים. אשקלון",
+    "website": "https://www.gamby.co.il/he/https://glam42.co.il/https://www.greenelectric.co.il/https://hypercell.co.il/https://www.isratoys.co.il/https://mall4all.co.il/https://marbo-sport.co.il/https://mashiach-tech-build.com/http://net-com.co.il/https://noftech.co.il/https://www.payngo.co.il/https://www.shopelectrons.co.il/http://www.tzabar-express.co.il",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "אשקלון"
+  },
+  {
+    "name": "Tzabar-Express",
+    "description": "קניון מוצרים. קרית ביאליק",
+    "website": "http://www.tzabar-express.co.il",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Uliwood",
+    "description": "ריהוט. קרית ביאליק",
+    "website": "https://uliwood.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Uzi-Toys",
+    "description": "צעצועי תינוקות וילדים. הרצליה",
+    "website": "https://uzi-toys.com/",
+    "is_tech": false,
+    "categories": [],
+    "city": "הרצליה"
+  },
+  {
+    "name": "VoltStreet",
+    "description": "מוצרי חשמל וכלי בית. פתח תקווה",
+    "website": "http://voltstreet.konimbo.co.il/",
+    "is_tech": false,
+    "categories": [
+      "appliances"
+    ],
+    "city": "פתח תקווה"
+  },
+  {
+    "name": "WhiteLabel",
+    "description": "ריהוט לבית. ראשון לציון",
+    "website": "https://www.white-label.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "XBay",
+    "description": "חשמל ואלקטרוניקה. ראשון לציון",
+    "website": "https://www.xbay.co.il/",
+    "is_tech": true,
+    "categories": [
+      "appliances"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Zerox",
+    "description": "אמבט וסניטריה. חיפה",
+    "website": "https://zerox.co.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": "חיפה"
+  },
+  {
+    "name": "Zol4U-il",
+    "description": "סלולר מחשבים טבלטים ועוד ... רמת גן",
+    "website": "https://www.zol4u.co.il/",
+    "is_tech": true,
+    "categories": [
+      "computers",
+      "mobile"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Zoref",
+    "description": "מוצרי חשמל. בני ברק",
+    "website": "https://www.zoref.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances"
+    ],
+    "city": "בני ברק"
+  },
+  {
+    "name": "קאנטרי שיק",
+    "description": ". יפו",
+    "website": "ריהוט",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Al-Galgalim",
+    "description": "אבזור רכבים. רחובות",
+    "website": "https://www.al-galgalim.co.il/",
+    "is_tech": null,
+    "categories": [
+      "automotive"
+    ],
+    "city": "רחובות"
+  },
+  {
+    "name": "Argaman4U",
+    "description": "גרילים וריהוט לבית ולחצר. נס ציונה",
+    "website": "http://argaman4u.co.il/",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Diez",
+    "description": "כלי נגינה וציוד היקפי. ראשון לציון",
+    "website": "http://www.diez.co.il/",
+    "is_tech": null,
+    "categories": [
+      "peripherals",
+      "musical_instruments"
+    ],
+    "city": "ראשון לציון"
+  },
+  {
+    "name": "Dupen",
+    "description": "ריהוט וחדרי שינה. אזור",
+    "website": "http://www.dupen.co.il",
+    "is_tech": false,
+    "categories": [],
+    "city": null
+  },
+  {
+    "name": "Lev-Hamisrad",
+    "description": "ציוד למשרד חותמות מוצרי פרסום ועוד. תל אביב",
+    "website": "https://www.lev-hamisrad.co.il/",
+    "is_tech": null,
+    "categories": [
+      "office"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "MusicWorld",
+    "description": "כלי נגינה ואלקטרוניקה. תל אביב",
+    "website": "https://www.musicworld.co.il/",
+    "is_tech": null,
+    "categories": [
+      "appliances",
+      "musical_instruments"
+    ],
+    "city": "תל אביב"
+  },
+  {
+    "name": "Screen-Mobile",
+    "description": "אביזרים לסלולאר וטאבלטים. צפת",
+    "website": "https://screen-mobile.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile",
+      "accessories"
+    ],
+    "city": "צפת"
+  },
+  {
+    "name": "SimFreePhone",
+    "description": "טלפונים סלולרים מעבדת תיקונים. רמת גן",
+    "website": "https://www.simfreephone.co.il/",
+    "is_tech": true,
+    "categories": [
+      "mobile"
+    ],
+    "city": "רמת גן"
+  },
+  {
+    "name": "Sink",
+    "description": "סניטריה לבית. אזור",
+    "website": "https://sink.org.il/",
+    "is_tech": null,
+    "categories": [],
+    "city": null
+  }
+]
