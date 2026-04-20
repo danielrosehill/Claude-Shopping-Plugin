@@ -16,16 +16,7 @@ Claude Code plugin for region-specific consumer shopping — find local products
 - `catalog-to-json` — extract structured product/price data from catalog screenshots
 - `compare` — targeted comparison of specific products across all stores in scope
 
-**Israel-region commands** (`/shopping:israel-*`):
-- `israel-search-zap` — query zap.co.il, the canonical Israeli price-comparison aggregator
-- `israel-search-google-il` — `site:.il` / Hebrew-keyword Google discovery
-- `israel-search-main-tech-stores` — KSP, Ivory, Bug, TMS
-- `israel-search-major-retailers` — Ace, Home Center, Office Depot, Audioline
-- `israel-search-by-category` — dispatch to stores matching a category slug from the store DB
-- `israel-discover-hebrew-term` — reverse-lookup the canonical Hebrew noun for a product class
-- `israel-compare-to-international` — compare an Israeli price against international RRP
-- `israel-convert-currency` — ILS ↔ USD/EUR/GBP conversion
-- `israel-add-store` — append a vendor to the Israeli store database with auto-dedup
+**Israel-region commands** have moved to the [`israel-skills`](https://github.com/danielrosehill/Israel-Skills-Plugin) plugin. Install it alongside `shopping` for IL-specific retail discovery (Zap, KSP/Ivory/Bug/TMS, Hebrew term resolution, ILS currency, etc.).
 
 ### Provisioning skill
 
