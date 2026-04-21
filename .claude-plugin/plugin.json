@@ -1,6 +1,6 @@
 {
   "name": "shopping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Region-specific consumer shopping primitives — find products, compare local vendors, check availability, and generate ranked purchase recommendations. Ships variant scaffolds per supported region (Israel to start) and a provisioning skill for fresh shopping workspaces.",
   "author": {
     "name": "Daniel Rosehill",

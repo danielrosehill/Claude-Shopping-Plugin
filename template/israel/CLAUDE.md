@@ -50,4 +50,4 @@ outputs/                        # final PDFs and exportable artefacts
 
 - This workspace is **data**. Plugin updates never touch it.
 - The plugin's commands are globally available — you can invoke them from this workspace OR from anywhere else.
-- Personal standing preferences (AliExpress tolerance, trusted brands, etc.) live in Mem0 / `~/.claude/`, not in this repo.
+- Personal standing preferences (AliExpress tolerance, trusted brands, etc.) live in Mem0 or under the plugin's `$CLAUDE_USER_DATA/shopping/` data directory, not in this repo.

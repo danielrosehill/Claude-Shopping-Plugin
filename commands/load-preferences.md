@@ -6,6 +6,17 @@ description: Pull standing shopping preferences (region, channel tolerances, tru
 
 Load the user's standing shopping preferences into the current session so they can be applied during `/intake`, `/shortlist`, `/source`, and `/recommend`.
 
+## Migration from legacy path (one-time)
+
+Before resolving the data directory, check for legacy data at these paths:
+- `~/.claude/shopping-preferences-<region>.md` (for every region the user has set up)
+
+If a legacy file exists AND the corresponding file at the new path does NOT exist, move it to the new location and delete the legacy file. Tell the user: "Migrated shopping-preferences-<region>.md from ~/.claude/ to <new>."
+
+## Path resolution
+
+Resolve the plugin's data directory as `$CLAUDE_USER_DATA/shopping/` if `CLAUDE_USER_DATA` is set; otherwise `$XDG_DATA_HOME/claude-plugins/shopping/` if `XDG_DATA_HOME` is set; otherwise `~/.local/share/claude-plugins/shopping/`. Create the directory if it doesn't exist. See the canonical convention in the `meta-tools:plugin-data-storage` skill. The local preferences file lives at `<plugin-data-dir>/shopping-preferences-<region>.md`.
+
 ## What "standing preferences" means
 
 Things that apply to **every** purchase — not to this specific one:
@@ -43,7 +54,7 @@ Use whichever read tool the installed Mem0 server exposes.
 
 ## Fallback 1: local file
 
-If Mem0 MCP isn't available, check `~/.claude/shopping-preferences-<region>.md`. If present, populate the snapshot section of `spec.md` from it.
+If Mem0 MCP isn't available, check `<plugin-data-dir>/shopping-preferences-<region>.md`. If present, populate the snapshot section of `spec.md` from it.
 
 ## Fallback 2: region defaults only
 

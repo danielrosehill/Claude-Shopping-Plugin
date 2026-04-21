@@ -62,7 +62,7 @@ If Mem0 MCP is configured:
 
 If Mem0 MCP isn't available:
 
-1. Write to `~/.claude/shopping-preferences-<region>.md` as structured markdown
+1. Write to `<plugin-data-dir>/shopping-preferences-<region>.md` — where `<plugin-data-dir>` is `$CLAUDE_USER_DATA/shopping/` if set, else `$XDG_DATA_HOME/claude-plugins/shopping/`, else `~/.local/share/claude-plugins/shopping/` (see the `meta-tools:plugin-data-storage` canonical skill) — as structured markdown
 2. Tell the user: "Saved locally. Install Mem0 MCP for cross-device persistence."
 
 ## Confirmation
