@@ -1,0 +1,61 @@
+{
+  "id": "newegg-us",
+  "name": "Newegg (US)",
+  "host": "www.newegg.com",
+  "currency": "USD",
+  "requires_egress": "US",
+
+  "status": "PLACEHOLDER — NOT YET DERIVED",
+  "verified": null,
+  "verified_how": null,
+  "warning": "Every field below marked `unverified` is a hypothesis. Do not compose a search URL from this file and trust the result set. Derive it properly first — the five-step recipe is in profiles/README.md — then replace this block with `verified` and `verified_how`.",
+
+  "why_it_exists": "Newegg is the second tech marketplace in regular use alongside Amazon. Stubbed now so the slot and its shape are recorded; the bias of this profile set is deliberately tech-heavy and is expected to stay that way.",
+
+  "identifier": {
+    "primary": "Item Number",
+    "format": "unverified — Newegg item numbers are commonly seen as N82E16800000000",
+    "canonical_url": "https://www.newegg.com/p/{item}",
+    "rule": "Quote the item number and the direct product URL in recommendations, same principle as ASIN on Amazon."
+  },
+
+  "search": {
+    "base": "https://www.newegg.com/p/pl",
+    "query_param": "d",
+    "filter_param": "unverified — Newegg uses N= category/facet node codes rather than Amazon's rh= grammar",
+    "sort_param": "unverified — believed to be Order=",
+    "note": "Newegg's facet encoding is structurally different from Amazon's. Do not assume the Amazon grammar transfers."
+  },
+
+  "filters": {
+    "_todo": "Derive the manufacturer/brand facet first — it is the field that carries the value, per the Amazon profile's trust_rubric. Then delivery speed, seller (Newegg vs Marketplace), price band, rating."
+  },
+
+  "seller_model": {
+    "note": "Newegg has the same first-party vs marketplace-seller split as Amazon, so the Amazon trust_rubric axis transfers in principle. The equivalent of p_6:ATVPDKIKX0DER — a 'sold by Newegg' filter — is the highest-value token to find. UNVERIFIED."
+  },
+
+  "trust_rubric": {
+    "inherits": "amazon-us.json trust_rubric",
+    "note": "The structural signals carry over — first-party vs marketplace seller, brand existence off-platform, listing age over review text. Newegg-specific additions (open-box grading, refurb tiers, its own return-policy tiers) still to be captured."
+  },
+
+  "access": {
+    "api": "none known",
+    "fetch_route": {
+      "primary": "claude-in-chrome (real session)",
+      "secondary": "geo-egress fetch_markdown with egress=us — UNTESTED against this host",
+      "never": "any cloud fetcher without a US exit"
+    },
+    "prior_art": {
+      "price_regex": "\"finalPrice\"\\s*:\\s*([\\d.]+)",
+      "source": "Claude-Purchasing-Plugin scripts/price_scan.py SITE_PRICE_RES['newegg'] — this one IS verified working and is the single piece of real knowledge carried into this stub.",
+      "bot_protection": "Newegg sits behind bot protection; blocked responses are expected and normal per the purchasing plugin's price-scan skill."
+    }
+  },
+
+  "traps": [
+    "Newegg quotes shipping at the cart rather than on the product page, so a product-page scrape cannot produce a landed cost.",
+    "Bot protection is active — expect blocked fetches rather than treating them as an outage."
+  ]
+}

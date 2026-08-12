@@ -50,11 +50,32 @@ The method that produced `amazon-us.json`, reusable as-is:
 5. Record what you confirmed and what you did not, per key. `amazon-us.json` marks one
    sort value confirmed and four unconfirmed rather than presenting five in one voice.
 
+## Session dependence — the trap that produces a wrong profile
+
+Derive against the **real signed-in session**, not just an anonymous fetch. On Amazon
+the two disagree: an anonymous page hides the Prime filter and the curated brand facets
+entirely, and shows a degraded free-shipping stand-in in their place. Both passes are
+recorded in `amazon-us.json` under `session_dependence`, because the anonymous result
+looked complete and was not.
+
 ## Current profiles
 
-- `amazon-us.json` — verified 2026-08-12.
+| Profile | State |
+| --- | --- |
+| `amazon-us.json` | Verified 2026-08-12, both anonymous and signed-in passes |
+| `newegg-us.json` | **Placeholder — not derived.** Slot and shape recorded; every field is a hypothesis except the price regex carried over from the `purchasing` plugin |
 
-Next candidate is B&H (`bhphotovideo.com`): first-party single seller, so the seller
-axis collapses and the profile's weight shifts to ships-to-Israel handling, tax
-treatment and the affiliate product feed, which sits behind a login at
-`affportal.bhphoto.com`.
+The set is deliberately tech-heavy and expected to stay that way.
+
+B&H (`bhphotovideo.com`) is the remaining candidate: a first-party single seller, so the
+seller axis collapses and the weight shifts to ships-to-Israel handling, tax treatment
+and the affiliate product feed behind the `affportal.bhphoto.com` login.
+
+## Brands are a profile output
+
+`p_123` brand IDs are stable and global, so the brand facet is harvestable into a durable
+allowlist and blocklist that transfers across every future search. That is what the
+`brand-scrub` skill does; `examples/brands.example.json` is a seeded starting point.
+Scrub brands from the **facet rail**, never from result cards — there is no dependable
+per-card brand element, and the obvious attempt captures the "Amazon's Choice" badge
+instead.
