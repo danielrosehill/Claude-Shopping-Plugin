@@ -1,0 +1,155 @@
+{
+  "id": "amazon-us",
+  "name": "Amazon (US)",
+  "host": "www.amazon.com",
+  "currency": "USD",
+  "requires_egress": "US",
+  "verified": "2026-08-12",
+  "verified_how": "Filter tokens extracted from a live amazon.com search page fetched through a US egress (M247 New York, confirmed via verify_egress), then re-composed into a single URL and re-fetched to confirm the grammar composes and sorts.",
+
+  "identifier": {
+    "primary": "ASIN",
+    "format": "^(B[0-9A-Z]{9}|[0-9]{9}[0-9X])$",
+    "notes": "10 chars. Modern ASINs start with B. Legacy book ASINs are the ISBN-10, which is 9 digits plus a check char that may be X.",
+    "canonical_url": "https://www.amazon.com/dp/{ASIN}",
+    "rule": "Quote the ASIN in every recommendation. It is the shortest unambiguous handle, survives title churn, and pastes straight into search."
+  },
+
+  "search": {
+    "base": "https://www.amazon.com/s",
+    "query_param": "k",
+    "filter_param": "rh",
+    "filter_syntax": "rh=key:value,key:value  (comma-separated; URL-encode , as %2C and : as %3A)",
+    "sort_param": "s",
+    "sort_values": {
+      "price-asc-rank": "Price: Low to High (CONFIRMED 2026-08-12)",
+      "price-desc-rank": "Price: High to Low (unconfirmed)",
+      "review-rank": "Avg. Customer Review (unconfirmed)",
+      "date-desc-rank": "Newest Arrivals (unconfirmed)",
+      "relevanceblender": "Featured / default (unconfirmed)"
+    }
+  },
+
+  "filters": {
+    "p_90": {
+      "label": "Delivery Day",
+      "values": {
+        "8308921011": "Get It by Tomorrow",
+        "8308920011": "Get It Today"
+      },
+      "caveat": "Delivery-day filters are computed against the session's delivery ZIP. Set the destination first or the result set is meaningless."
+    },
+    "p_6": {
+      "label": "Seller",
+      "values": {
+        "ATVPDKIKX0DER": "Amazon.com (first-party). The single highest-signal filter against third-party junk.",
+        "A2L77EE7U53NWQ": "Amazon Resale",
+        "A2DKF1L73WUF4Q": "Amazon Germany"
+      },
+      "caveat": "Merchant IDs other than these are per-seller and query-specific; do not hardcode them."
+    },
+    "p_72": {
+      "label": "Customer Review",
+      "values": { "1248879011": "4 Stars & Up" }
+    },
+    "p_76": {
+      "label": "Eligible for Free Shipping",
+      "values": { "1249137011": "Free Shipping by Amazon" },
+      "caveat": "This is what an anonymous US session exposes. A signed-in Prime session surfaces a Prime toggle instead. The legacy p_85:2470955011 Prime token did NOT appear in the 2026-08-12 capture. Treat 'is this Prime' as a per-listing check, not a search filter, unless driving a logged-in browser."
+    },
+    "p_36": {
+      "label": "Price",
+      "syntax": "cents, dash-delimited; open-ended on either side",
+      "examples": { "-1500": "Up to $15", "1500-3500": "$15 to $35", "6000-": "$60 & above" }
+    },
+    "p_123": {
+      "label": "Brand",
+      "syntax": "numeric global brand ID, one per brand",
+      "note": "IDs are stable and global, so a reputable-brand allowlist is reusable across searches. The values offered on any given page are only the brands present in that result set.",
+      "observed": {
+        "3271": "Anker", "48431": "UGREEN", "157711": "Belkin", "2357": "Satechi",
+        "314147": "Kensington", "235284": "StarTech.com", "314074": "OWC",
+        "2003": "Plugable", "6973": "Cable Matters", "251729": "TRIPP LITE",
+        "232887": "Targus", "3104": "Monoprice", "30902": "SABRENT",
+        "5606": "ORICO", "723044": "j5create", "266211": "Baseus",
+        "308445": "HP", "391242": "Lenovo", "42439": "Microsoft", "247341": "Acer"
+      }
+    },
+    "p_n_deal_type": {
+      "label": "Deals & Discounts",
+      "values": {
+        "23566065011": "All Discounts",
+        "23566064011": "Today's Deals",
+        "210906366011": "Coupons",
+        "210906365011": "Buy More, Save More"
+      }
+    },
+    "p_n_cpf_labels": {
+      "label": "Sustainability Features",
+      "values": {
+        "121136630011": "Any Feature",
+        "116845683011": "Safer Chemicals",
+        "116845689011": "Recycled Materials",
+        "116845688011": "Carbon Impact",
+        "116845686011": "Worker Wellbeing",
+        "116845690011": "Manufacturing Practices"
+      }
+    },
+    "p_n_g-*": {
+      "label": "Category-specific facets",
+      "note": "Dynamic per category (ports, connector type, colour…). Never hardcode; read them off the page for the category in play."
+    }
+  },
+
+  "recipes": {
+    "reputable_fast": {
+      "why": "Daniel's default: real brands, no third-party junk, actually arrives.",
+      "url": "https://www.amazon.com/s?k={query}&rh=p_90%3A8308921011%2Cp_6%3AATVPDKIKX0DER%2Cp_72%3A1248879011&s=price-asc-rank",
+      "expands_to": "Get It by Tomorrow + sold by Amazon.com + 4 stars & up, cheapest first",
+      "observed": "Collapsed 'usb c hub' to 3 results on 2026-08-12. Expect this stack to be brutally selective; drop p_6 first when it over-prunes."
+    },
+    "brand_allowlist": {
+      "url": "https://www.amazon.com/s?k={query}&rh=p_123%3A{id}%2Cp_123%3A{id2}&s=price-asc-rank",
+      "note": "Repeat p_123 per brand; Amazon ORs values within one facet."
+    }
+  },
+
+  "trust_rubric": {
+    "why": "Fakespot (dead 2025-07-01) and ReviewMeta (faded, no successor) are gone, and no API replaced them. Screening is heuristic and must be encoded here.",
+    "strong_positive": [
+      "Ships from and sold by Amazon.com (p_6:ATVPDKIKX0DER)",
+      "Brand has a real manufacturer site, warranty and support channel off Amazon",
+      "Brand appears in the p_123 facet with a stable global ID and a broad catalogue"
+    ],
+    "strong_negative": [
+      "Alphabet-soup brand name — random capitalised coinage with no presence off Amazon (observed in-category: MOKiN, QGeeM, LISEN, ABLEWE, intpw, dockteck, Hagibis, WENTER, RSHTECH, LIONWEI)",
+      "Review count wildly out of proportion to listing age",
+      "Reviews aggregated across unrelated variants — the variant-hijack tell: read the variant selector, not the headline count",
+      "Sole seller is an unknown 3P merchant with no other catalogue"
+    ],
+    "weak_signals_do_not_over_weight": [
+      "Amazon's Choice badge — placement, not quality",
+      "Best Seller badge — category-scoped and gameable",
+      "Star average alone, absent review-count and listing age"
+    ],
+    "note": "AI-generated reviews are grammatically clean and varied, so linguistic tells that worked pre-2025 no longer discriminate. Prefer structural signals — seller identity, brand existence off-platform, listing age — over review text."
+  },
+
+  "access": {
+    "api": "none available",
+    "paapi5": "DEAD. Returns HTTP 403 AccessDeniedException. Docs 302 to affiliate-program.amazon.com/creatorsapi/docs/en-us/paapiv5-deprecation. Replacement Creators API is gated behind an Associates account with ongoing qualified sales.",
+    "keepa": "Only working programmatic route to buy-box/seller/offer data. Paid. /product = 1 token/ASIN, +6 tokens per offer page of 10 — a seller-quality check is ~7 tokens/ASIN, not 1. Tokens expire after 60 minutes.",
+    "fetch_route": {
+      "primary": "claude-in-chrome (real session; required for Prime state and logged-in delivery dates)",
+      "secondary": "geo-egress fetch_markdown with egress=us (worked unauthenticated on 2026-08-12; returns ~700KB, mine it from the saved file, never into context)",
+      "never": "any cloud fetcher without a US exit — returns ILS pricing and a dead buy box with HTTP 200 and no error"
+    }
+  },
+
+  "traps": [
+    "Search pages are ~700KB of markdown. Always parse from the saved tool-result file; never read one into context.",
+    "The sort dropdown is JS-rendered, so &s= values are not discoverable from a plain fetch. Only price-asc-rank is confirmed.",
+    "Filter availability is session-dependent: the same URL shows different facets signed-in vs anonymous.",
+    "Prices and delivery promises are geo-dependent and fail silently — verify_egress before quoting any number."
+  ]
+}
