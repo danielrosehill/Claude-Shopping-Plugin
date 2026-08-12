@@ -4,8 +4,8 @@
   "host": "www.amazon.com",
   "currency": "USD",
   "requires_egress": "US",
-  "verified": "2026-08-12",
-  "verified_how": "Two passes. (1) Anonymous: filter tokens read off a live search page fetched through a US egress (M247 New York, confirmed via verify_egress), recomposed into one URL and re-fetched to confirm the grammar composes and sorts. (2) Signed-in: same extraction run in Daniel's own Chrome, Prime active, delivering to Storrs 06268. The two passes disagree, and that disagreement is the most important thing in this file — see session_dependence.",
+  "verified": "2026-08-13",
+  "verified_how": "Three passes. (1) Anonymous: filter tokens read off a live search page fetched through a US egress (M247 New York, confirmed via verify_egress), recomposed into one URL and re-fetched to confirm the grammar composes and sorts. (2) Signed-in 2026-08-12: same extraction run in Daniel's own Chrome, Prime active, delivering to Storrs 06268. (3) Signed-in 2026-08-13: extraction contract pass — per-card delivery, price and ASIN selectors derived across four queries, plus the product-page contract. Passes 1 and 2 disagree, and that disagreement is the most important thing in this file — see session_dependence.",
 
   "session_dependence": {
     "why_it_matters": "The same URL renders a different facet rail depending on session. A profile derived only from an anonymous fetch is wrong in a way that looks complete.",
@@ -35,11 +35,18 @@
     "filter_syntax": "rh=key:value,key:value  (comma-separated; URL-encode , as %2C and : as %3A)",
     "sort_param": "s",
     "sort_values": {
-      "price-asc-rank": "Price: Low to High (CONFIRMED 2026-08-12)",
-      "price-desc-rank": "Price: High to Low (unconfirmed)",
-      "review-rank": "Avg. Customer Review (unconfirmed)",
-      "date-desc-rank": "Newest Arrivals (unconfirmed)",
-      "relevanceblender": "Featured / default (unconfirmed)"
+      "relevanceblender": "Featured / default",
+      "price-asc-rank": "Price: Low to High",
+      "price-desc-rank": "Price: High to Low",
+      "review-rank": "Avg. Customer Review",
+      "date-desc-rank": "Newest Arrivals",
+      "exact-aware-popularity-rank": "Best Sellers"
+    },
+    "sort_values_source": "All six read straight off the live #s-result-sort-select option list, 2026-08-13. This supersedes the earlier note that the sort control is JS-rendered and undiscoverable — it is a real <select> in the DOM, it is simply absent from a plain server-side fetch. In the real browser, re-read it rather than trusting this list.",
+    "result_count": {
+      "selector": "[data-component-type=\"s-result-info-bar\"]",
+      "shape": "\"1-16 of 31 results for \\\"usb c hub\\\"\" — the total after filters",
+      "why": "This is the machine-readable answer to \"what did the filter cost\". Read it before and after applying a stack instead of counting cards; cards are one page, this is the whole result set."
     }
   },
 
@@ -56,12 +63,14 @@
         "8308920011": "Get It Today",
         "210940785011": "Add to Delivery"
       },
-      "caveat": "Computed against the session's delivery ZIP. Set the destination first or the result set is meaningless. Observed session: Storrs 06268."
+      "caveat": "Computed against the session's delivery ZIP. Set the destination first or the result set is meaningless. Observed session: Storrs 06268 (read it from #glow-ingress-line2 before trusting any promise).",
+      "absent_is_not_unsupported": "The rail only offers the values that have hits for this query and ZIP — 'Get It Today' was missing from the usb-c-hub rail on 2026-08-13. The token still composes: the same ID applied to 'paper towels' returned 9 same-day results. So construct delivery URLs from these IDs; do not gate on the facet being visible."
     },
     "p_101": {
       "label": "Delivery (fastest tier)",
-      "values": { "19346686011": "Overnight by 11AM" },
-      "availability": "signed-in Prime session only"
+      "values": { "19346686011": "fastest available tier — label is dynamic" },
+      "availability": "signed-in Prime session only",
+      "label_is_not_stable": "Same ID rendered 'Overnight by 11AM' on 2026-08-12 and 'Tomorrow by 3PM' on 2026-08-13. The label describes the cutoff currently reachable from the session's ZIP at this hour, so it moves with time of day. Cache the ID, read the label live, and never quote a cutoff from this file."
     },
     "p_6": {
       "label": "Seller",
@@ -86,7 +95,8 @@
     "p_36": {
       "label": "Price",
       "syntax": "cents, dash-delimited; open-ended on either side",
-      "examples": { "-1500": "Up to $15", "1500-3500": "$15 to $35", "6000-": "$60 & above" }
+      "examples": { "-1500": "Up to $15", "1500-3500": "$15 to $35", "6000-": "$60 & above" },
+      "arbitrary_ranges_work": "CONFIRMED 2026-08-13. The buckets the rail offers are query-derived and change between searches ($15-$30 on one query, $15-$35 on another), but the parameter is not limited to them: p_36:2000-2500 — a range never offered — returned 488 results correctly bounded at $20.00 ascending. Compose the user's actual budget; never round it to a bucket."
     },
     "p_123": {
       "label": "Brands",
@@ -145,31 +155,126 @@
   },
 
   "results_page": {
-    "note": "Derived in the signed-in browser on the 'hard case with foam' query, 2026-08-12.",
+    "note": "Derived in the signed-in browser 2026-08-12 ('hard case with foam') and extended 2026-08-13 across 'usb c hub', 'paper towels' and 'waveshare raspberry pi hat' — three queries chosen to force fast-Prime, same-day and slow-overseas delivery shapes respectively.",
     "card_selector": "[data-component-type=\"s-search-result\"][data-asin]",
+    "card_filter": "Drop cards whose data-asin is empty — Amazon emits placeholder cards with the attribute present and blank.",
     "asin_source": "the card's data-asin attribute — reliable",
     "sponsored_selector": ".puis-sponsored-label-text",
     "sponsored_ratio_observed": "4 of 12 cards. Sponsored slots skew heavily to unknown brands buying placement, so exclude them before any brand analysis.",
-    "brand_per_card": "UNRELIABLE. There is no dependable per-card brand element. Attempts to read one returned null on nearly every card, and where non-null it captured the 'Amazon's Choice: Overall Pick' badge rather than a brand.",
+    "brand_per_card": {
+      "verdict": "UNRELIABLE for building a brand list, and now understood rather than merely observed.",
+      "mechanism": "Inside [data-cy=\"title-recipe\"] the <h2> holds the BRAND when a brand row is present and the TITLE when it is not. That is why a naive 'read the h2' extractor returns titles on some cards, brands on others, and — where a badge row sits in the same slot — 'Amazon's Choice: Overall Pick'.",
+      "when_it_renders": "On brand-navigational queries only. Measured 2026-08-13: 17 of 21 cards carried a brand row on 'waveshare raspberry pi hat'; 0 of 20 on 'usb c hub'. Amazon surfaces the brand when it thinks the searcher already named one.",
+      "selectors_if_you_want_it_anyway": {
+        "brand": "[data-cy=\"title-recipe\"] :scope > div h2 — null on most cards, correct when non-null",
+        "title": "[data-cy=\"title-recipe\"] a[class*=\"s-line-clamp\"] — the only anchor that always holds the title"
+      },
+      "title_trap": "Sponsored cards carry a second a.a-link-normal, the 'Leave ad feedback' link, and it can come first in document order. A bare a.a-link-normal silently titles the row 'Leave ad feedback'."
+    },
     "brand_source_of_truth": "the p_123 facet rail — scrub brands from there, never from the cards",
-    "other_selectors": {
-      "price": ".a-price .a-offscreen",
-      "stars": "[aria-label*=\"out of 5 stars\"]",
-      "prime_badge": ".a-icon-prime",
+    "duplicate_asins": "The same ASIN routinely appears twice on one page, once sponsored and once organic. Dedupe before counting or ranking.",
+
+    "structural_hooks": {
+      "why": "Amazon's card CSS classes are generated and churn. The data-cy attributes and the udm-* delivery classes are semantic and have held across every query tested. Anchor on these, and treat a-* classes as the fallback inside them.",
+      "data_cy": {
+        "title-recipe": "product title",
+        "price-recipe": "the whole price cluster — current, list, and any 'Exclusive Prime price' note",
+        "reviews-block": "star rating, review count, and the 'N bought in past month' line",
+        "delivery-recipe": "the whole delivery cluster including stock-scarcity text",
+        "delivery-block": "the delivery promise proper, inside delivery-recipe"
+      }
+    },
+
+    "extraction_contract": {
+      "asin": "card.dataset.asin",
+      "title": "[data-cy=\"title-recipe\"] — innerText",
+      "price": ".a-price .a-offscreen — the visible price string, e.g. \"$21.99\"",
+      "list_price": "[data-a-strike=\"true\"] .a-offscreen — the struck-through was-price; absent when not discounted",
+      "no_price_means_no_offer": "A card with an empty [data-cy=\"price-recipe\"] has no buyable offer at all (observed on 3 of 17 cards in one filtered search). Surface these as 'no current offer' — do not silently drop them, and never treat a missing price as $0 or as cheapest.",
+      "stars": "[aria-label*=\"out of 5 stars\"] — or the .a-icon-alt text inside [data-cy=\"reviews-block\"]",
+      "prime": ".udm-delivery-block .a-icon-prime — CONFIRMED discriminating: present on every fast-delivery card, absent on both slow-shipping cards in the same result set. Prefer this over a bare .a-icon-prime anywhere in the card.",
+      "delivery_promise": ".udm-primary-delivery-message — always present when any promise exists (20/20 cards)",
+      "delivery_date_phrase": ".udm-primary-delivery-message .a-text-bold — the date or window alone, cleanly separated from the cost clause. This is the field to parse; never regex the whole sentence.",
+      "delivery_supplemental": ".udm-supplemental-primary-delivery-message — e.g. 'Arrives with upcoming delivery' (Amazon Day consolidation). Informational, not a speed signal.",
+      "stock_scarcity": "text inside [data-cy=\"delivery-recipe\"] but outside the delivery messages, e.g. 'Only 17 left in stock - order soon.'",
+      "sponsored": ".puis-sponsored-label-text",
       "refinement_rail": "#s-refinements"
+    },
+
+    "delivery_grammar": {
+      "why": "The primary delivery message is one string carrying three separate facts — when, at what cost, and under what condition. All observed shapes, 2026-08-13, signed-in Prime, ZIP 06268:",
+      "observed": [
+        "Tomorrow 10 AM - 3 PM FREE delivery — Prime slotted window, the fastest tier",
+        "Tomorrow, Aug 13 FREE delivery — next-day, no window promised",
+        "Fri, Aug 14 FREE delivery — dated, a few days out",
+        "Today 6 PM - 8 PM FREE delivery on orders over $25 — same-day, and free ONLY above a basket minimum",
+        "Aug 24 - Sep 1 FREE delivery — a RANGE, not a date",
+        "Aug 24 - Sep 2 $3.16 delivery — a range plus a delivery fee"
+      ],
+      "parse_as": {
+        "speed": "Read the bold phrase. 'Today' / 'Tomorrow' / a weekday+date are promises. A bare 'Mon D - Mon D' range is an estimate, typically two to three weeks out.",
+        "cost": "The remainder of the string. 'FREE delivery' is free; '$X.XX delivery' is a real shipping fee that must be added to the item price before any comparison.",
+        "conditional": "'on orders over $N' makes the free claim conditional on basket total. Same-day free delivery carried a $25 minimum on 2026-08-13. Quoting it as free without the condition is wrong for a single-item order."
+      },
+      "range_is_a_tell": "A date range with no Prime badge is the strongest per-card signal of a direct-from-overseas third-party seller. Both such cards in the reference query were unbranded 3P listings. This is a trust signal, not just a speed one.",
+      "secondary_line": "No .udm-secondary-delivery-message appeared in any observed result set — the 'Or fastest delivery ...' second line did not render for this Prime session. Read every .udm-*delivery-message node rather than assuming exactly one."
+    },
+
+    "prime_price": {
+      "marker": "the string 'Exclusive Prime price' inside [data-cy=\"price-recipe\"]",
+      "means": "The displayed price is available only to Prime members. Relevant when comparing against a non-Prime retailer — it is not the price a non-member pays."
+    }
+  },
+
+  "product_page": {
+    "note": "Contract derived on /dp/B0DXJQT19B, signed-in, 2026-08-13. Use this when the search card is not enough — seller identity, offer count and the order-by cutoff only exist here.",
+    "asin": "#ASIN input value (also input[name=\"ASIN\"]). Authoritative; do not parse the URL, which carries slugs and tracking segments.",
+    "title": "#productTitle",
+    "price": "#corePrice_feature_div .a-offscreen",
+    "list_price": ".basisPrice .a-offscreen",
+    "price_gotcha": ".priceToPay .a-offscreen exists but returned an empty string on this layout. Fall back through corePrice before trusting a blank.",
+    "delivery_primary": "#mir-layout-DELIVERY_BLOCK-slot-PRIMARY_DELIVERY_MESSAGE_LARGE — 'FREE delivery Tomorrow 10 AM - 3 PM on qualifying orders over $25. Order within 12 hrs 26 mins'",
+    "delivery_secondary": "#mir-layout-DELIVERY_BLOCK-slot-SECONDARY_DELIVERY_MESSAGE_LARGE — 'Or FREE delivery Friday, August 14'. Present when the fast option is the conditional one.",
+    "delivery_block_trap": "#deliveryBlockMessage concatenates both slots with no separator, so 'Order within 12 hrs 26 mins' runs straight into 'Or FREE delivery Friday...'. A regex terminated on '.' overruns. Use the two slot IDs; keep #deliveryBlockMessage as fallback only.",
+    "order_within": "The countdown is the actionable half — a next-day promise that expires in 12 minutes is not a next-day promise by the time the user reads your answer. Quote it with a timestamp or not at all.",
+    "conditional_free_delivery": "Observed on a $19.98 item: 'on qualifying orders over $25'. The dp page carries the same basket-minimum condition as the search card. Never render 'FREE delivery' without its condition.",
+    "availability": "#availability .a-color-success — e.g. 'In Stock'",
+    "availability_gotcha": "Reading #availability's raw textContent returns the label glued to a blob of embedded JSON config. Always select the inner status span. Same trap on #merchantInfoFeature_feature_div.",
+    "ships_from": "#fulfillerInfoFeature_feature_div .offer-display-feature-text-message — 'Amazon' when Amazon fulfils",
+    "sold_by": "#merchantInfoFeature_feature_div .offer-display-feature-text-message — e.g. 'AnkerDirect'",
+    "seller_gotcha": "#sellerProfileTriggerId is NOT the seller name — it reads 'Learn more about the seller'.",
+    "ships_from_vs_sold_by": "These differ constantly and the difference is the whole point: 'Ships from Amazon / Sold by AnkerDirect' is FBA — Amazon logistics, brand-owned listing, and a strong positive. 'Ships from and sold by Amazon.com' is first-party. Anything shipping from an unknown merchant is the risk case. A p_6:ATVPDKIKX0DER search filter answers only the first-party question; this pair answers the real one.",
+    "other_offers": "#aod-ingress-link — 'New & Used (29) from $18.99'. Gives both the competing-offer count and the lowest available price, which is often well under the buy box (observed: 4 offers from $16.98 against a $19.98 buy box). The price appears twice in the raw text, offscreen copy plus visible copy; dedupe before quoting.",
+    "rating": "#acrPopover .a-icon-alt",
+    "rating_count": "#acrCustomerReviewText",
+    "recent_sales": "#social-proofing-faceout-title-tk_bought — '10K+ bought in past month'",
+    "product_details_table": {
+      "selector": ".prodDetTable tr",
+      "lazy": "This table is NOT in the DOM on load. It renders only after scrolling roughly 60-85% down the page. Query it cold and you get nothing, which reads exactly like 'this product has no details'.",
+      "yields": "ASIN, Manufacturer, Best Sellers Rank (e.g. '#2 in USB Hubs')",
+      "date_first_available": "ABSENT on the reference listing. The trust rubric wants listing age; on many electronics listings there is no source for it on the page. Say so rather than substituting review count for age."
     }
   },
 
   "recipes": {
     "reputable_fast": {
       "why": "Daniel's default: real brands, no third-party junk, actually arrives.",
-      "url": "https://www.amazon.com/s?k={query}&rh=p_90%3A8308921011%2Cp_6%3AATVPDKIKX0DER%2Cp_72%3A1248879011&s=price-asc-rank",
-      "expands_to": "Get It by Tomorrow + sold by Amazon.com + 4 stars & up, cheapest first",
-      "observed": "Collapsed 'usb c hub' to 3 results on 2026-08-12. Expect this stack to be brutally selective; drop p_6 first when it over-prunes."
+      "url": "https://www.amazon.com/s?k={query}&rh=p_85%3A2470955011%2Cp_90%3A8308921011%2Cp_6%3AATVPDKIKX0DER%2Cp_72%3A1248879011&s=price-asc-rank",
+      "expands_to": "All Prime + Get It by Tomorrow + sold by Amazon.com + 4 stars & up, cheapest first",
+      "observed": "31 results for 'usb c hub' on 2026-08-13, all promising tomorrow, from $6.88. An earlier run of the same stack WITHOUT p_85 was recorded as collapsing to 3 — treat that number as unreproduced rather than as the expected yield. When it does over-prune, drop p_6 first: it excludes FBA listings sold by the brand's own store, which are usually the good ones."
     },
     "prime_signed_in": {
       "url": "https://www.amazon.com/s?k={query}&rh=p_85%3A2470955011%2Cp_90%3A8308921011%2Cp_72%3A1248879011",
       "requires": "signed-in Prime session"
+    },
+    "same_day": {
+      "url": "https://www.amazon.com/s?k={query}&rh=p_90%3A8308920011",
+      "observed": "9 results for 'paper towels' on 2026-08-13, all 'Today 6 PM - 8 PM'. Works for consumables at this ZIP; expect empty for most electronics.",
+      "warn": "Same-day free delivery carried an 'on orders over $25' condition. Check the basket minimum before calling it free."
+    },
+    "budget": {
+      "url": "https://www.amazon.com/s?k={query}&rh=p_36%3A{min_cents}-{max_cents}&s=price-asc-rank",
+      "note": "Arbitrary cent ranges work — use the user's real budget, not the buckets the rail offers."
     },
     "brand_allowlist": {
       "url": "https://www.amazon.com/s?k={query}&rh=p_123%3A{id}%2Cp_123%3A{id2}&s=price-asc-rank",
@@ -214,9 +319,15 @@
   },
 
   "traps": [
-    "Search pages are ~700KB of markdown. Always parse from the saved tool-result file; never read one into context.",
-    "The sort dropdown is JS-rendered, so &s= values are not discoverable from a plain fetch. Only price-asc-rank is confirmed.",
+    "Search pages are ~700KB of markdown. Always parse from the saved tool-result file; never read one into context. In the real browser, run a JS extractor that returns only the fields in extraction_contract — never dump page text.",
+    "The sort <select> is absent from a plain server-side fetch but present in the real browser at #s-result-sort-select. All six values are now confirmed; the earlier 'undiscoverable' note was a property of the fetch route, not of the page.",
     "Filter availability is session-dependent — see session_dependence. This is the single easiest way to derive a wrong profile.",
-    "Prices and delivery promises are geo-dependent and fail silently — verify_egress before quoting any number."
+    "A facet missing from the rail does not mean the token is dead — it means this query and ZIP have no hits for it. p_90 'Get It Today' was absent from one rail and worked fine when composed by hand.",
+    "Facet LABELS drift even when IDs do not. p_101's label changed between two consecutive days because it names the current cutoff. Never quote a delivery cutoff from this file.",
+    "Delivery promises and prices are computed against the session's delivery ZIP (observed: Storrs 06268, read from #glow-ingress-line2). A promise fetched for the wrong destination is wrong with no error.",
+    "'FREE delivery' can be conditional on a basket minimum, and a delivery fee can be embedded in the same sentence. Parse the cost clause; do not assume free.",
+    "A date RANGE is an estimate, not a promise, and usually means overseas shipping.",
+    "Product-page detail tables lazy-load on scroll. Querying cold returns nothing, which is indistinguishable from the product having no details.",
+    "Prices and delivery promises are geo-dependent and fail silently — verify_egress before quoting any number from a headless route."
   ]
 }

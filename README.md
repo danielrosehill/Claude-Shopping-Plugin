@@ -18,6 +18,22 @@ Claude Code plugin for region-specific consumer shopping — find local products
 
 **Israel-region commands** have moved to the [`israel-skills`](https://github.com/danielrosehill/Israel-Skills-Plugin) plugin. Install it alongside `shopping` for IL-specific retail discovery (Zap, KSP/Ivory/Bug/TMS, Hebrew term resolution, ILS currency, etc.).
 
+### Marketplace skills
+
+Where a marketplace has been mapped in `profiles/`, these work against the real search
+surface rather than generic scraping:
+
+- `amazon-search` — searches Amazon US in your signed-in Chrome and returns a decision
+  table: ASIN, real total cost (fees, basket minima and Prime-exclusive pricing
+  included), and whether it actually arrives today or tomorrow. Ships tested extractors
+  for both the results page and the product page.
+- `brand-scrub` — harvests the brand facet from a results page and builds a durable
+  allowlist/blocklist, so the next search starts from a filtered field.
+
+Both read `profiles/amazon-us.json`, which holds everything volatile — facet IDs, sort
+keys, selectors, and the trust rubric. See [`profiles/README.md`](profiles/README.md) for
+what a profile answers and how to derive one for another marketplace.
+
 ### Provisioning skill
 
 - `/shopping:new-workspace <name> [--variant=israel|generic] [--local-only] [--private]`

@@ -17,10 +17,20 @@ Deliberately **not** one plugin per marketplace. Profiles are data files here; t
 | `identifier` | What is the canonical handle for a product here, and what does it look like? |
 | `search` | How is a search URL constructed — query, filter and sort parameter names? |
 | `filters` | Which facet tokens map to which human labels, with their caveats? |
+| `results_page` | How do you read one search card — which selectors, and what does the text mean? |
+| `product_page` | What is only knowable on the detail page — seller identity, competing offers, promise expiry? |
 | `recipes` | The composed URLs worth keeping, and what they collapse to in practice. |
 | `trust_rubric` | How do you tell a real product from junk *on this specific marketplace*? |
 | `access` | What API exists, what it really costs, and which fetch route works. |
 | `traps` | What fails silently. |
+
+`results_page` and `product_page` are the **extraction contract**. Anchor them on
+semantic attributes rather than generated CSS classes — on Amazon that means the
+`data-cy` recipe attributes and the `udm-*` delivery classes, both of which held across
+every query tested while the `a-*` classes around them churn. Record the parse rules too,
+not just the selectors: on Amazon the delivery string is one sentence carrying three
+separate facts (when, at what cost, conditional on what), and a profile that gives you
+the selector without that grammar still produces "free next-day" for a $3.16 shipping fee.
 
 The `trust_rubric` is the part that carries the value, and it is marketplace-shaped
 rather than generic. On Amazon the axis is first-party vs third-party sellers and
@@ -47,8 +57,15 @@ The method that produced `amazon-us.json`, reusable as-is:
    pairs whose URL carries the filter parameter; the label is the sidebar text.
 4. Recompose the tokens you care about into one URL and re-fetch it. This is the step
    that catches a token that parses but does not compose.
-5. Record what you confirmed and what you did not, per key. `amazon-us.json` marks one
-   sort value confirmed and four unconfirmed rather than presenting five in one voice.
+5. Record what you confirmed and what you did not, per key, and re-derive the doubtful
+   ones rather than leaving them. `amazon-us.json` carried one confirmed sort value and
+   four guesses for a day; the real browser exposes the whole list as a plain `<select>`,
+   so the uncertainty was a property of the fetch route, not of the page. When a key is
+   marked unconfirmed, that is a task, not a permanent state.
+6. Derive the extraction contract on at least three queries chosen to force *different*
+   shapes. For Amazon that was a fast-Prime query, a same-day query and a
+   slow-overseas-shipping query — a single query would have shown one delivery shape and
+   yielded a parser that silently mislabels the other five.
 
 ## Session dependence — the trap that produces a wrong profile
 
@@ -62,7 +79,7 @@ looked complete and was not.
 
 | Profile | State |
 | --- | --- |
-| `amazon-us.json` | Verified 2026-08-12, both anonymous and signed-in passes |
+| `amazon-us.json` | Verified 2026-08-13. Anonymous + signed-in facet passes, plus a full extraction contract for the results page and the product page. Consumed by the `amazon-search` and `brand-scrub` skills |
 | `newegg-us.json` | **Placeholder — not derived.** Slot and shape recorded; every field is a hypothesis except the price regex carried over from the `purchasing` plugin |
 
 The set is deliberately tech-heavy and expected to stay that way.

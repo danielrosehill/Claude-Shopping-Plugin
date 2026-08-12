@@ -57,8 +57,13 @@ Take the user's URL if they gave one; otherwise compose one from their query.
 ### 3. Scrub the facet rail, not the cards
 
 **Read brands from the `p_123` facet rail.** The profile's `results_page.brand_per_card`
-records why: there is no dependable per-card brand element, and naive attempts capture
-the "Amazon's Choice" badge instead of a brand.
+records why, and the mechanism matters because the cards *look* like they have a brand
+field: inside `[data-cy="title-recipe"]` the `<h2>` holds the brand when a brand row is
+present and the product title when it is not, so a naive extractor returns a plausible
+mixture of brands, titles and "Amazon's Choice" badges with nothing marking which is
+which. The brand row also renders on brand-navigational queries only — 17 of 21 cards on
+`waveshare raspberry pi hat`, 0 of 20 on `usb c hub`. A card-based scrub would therefore
+harvest nothing on exactly the generic category searches this skill exists to clean up.
 
 Extract `{label, id}` pairs from the rail. Two extraction rules that will otherwise cost
 a debugging cycle each:
@@ -102,9 +107,11 @@ the marketplace ORs values within a single facet — and give the user:
    what was excluded, and a silent exclusion is how a good product gets lost.
 3. What the filter cost, in one line: how many of the original results survived.
 
-Always report that last number. On the reference category the combined
-tomorrow + sold-by-Amazon + 4-star stack cut a full page to 3 results. A filter that
-prunes to nothing is a finding about the category, not a success.
+Always report that last number, and take it from the result-info bar
+(`[data-component-type="s-result-info-bar"]`) rather than counting cards — that bar gives
+the whole filtered result set, cards give one page of it. The Prime + tomorrow +
+sold-by-Amazon + 4-star stack left 31 of "usb c hub" on 2026-08-13. A filter that prunes
+to nothing is a finding about the category, not a success.
 
 ## Scope
 
@@ -119,4 +126,6 @@ badge-engineered licensee in another. Record that in `why` rather than forking t
 
 - `profiles/amazon-us.json` — the facet grammar and trust rubric this reads
 - `profiles/README.md` — how to derive a profile for a new marketplace
+- `skills/amazon-search` — consumes the allowlist; its `extract-results.js` already
+  returns the sponsored flag and result count this skill needs
 - `/shopping:find-product` — consumes the allowlist once it exists
