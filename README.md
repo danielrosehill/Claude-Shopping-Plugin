@@ -18,21 +18,29 @@ Claude Code plugin for region-specific consumer shopping — find local products
 
 **Israel-region commands** have moved to the [`israel-skills`](https://github.com/danielrosehill/Israel-Skills-Plugin) plugin. Install it alongside `shopping` for IL-specific retail discovery (Zap, KSP/Ivory/Bug/TMS, Hebrew term resolution, ILS currency, etc.).
 
-### Marketplace skills
+### Marketplace plugins — moved out
 
-Where a marketplace has been mapped in `profiles/`, these work against the real search
-surface rather than generic scraping:
+Marketplace-specific research now lives in **dedicated per-marketplace plugins**,
+one repo each, versioned independently. The `marketplace-plugins` skill carries
+the roster and hands off to whichever applies:
 
-- `amazon-search` — searches Amazon US in your signed-in Chrome and returns a decision
-  table: ASIN, real total cost (fees, basket minima and Prime-exclusive pricing
-  included), and whether it actually arrives today or tomorrow. Ships tested extractors
-  for both the results page and the product page.
-- `brand-scrub` — harvests the brand facet from a results page and builds a durable
-  allowlist/blocklist, so the next search starts from a filtered field.
+| Marketplace | Plugin |
+| --- | --- |
+| Amazon.com (US) | [`amazon-us`](https://github.com/danielrosehill/Claude-Amazon-US-Plugin) |
+| AliExpress (Israel) | [`aliexpress-israel-skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) |
 
-Both read `profiles/amazon-us.json`, which holds everything volatile — facet IDs, sort
-keys, selectors, and the trust rubric. See [`profiles/README.md`](profiles/README.md) for
-what a profile answers and how to derive one for another marketplace.
+**Breaking change in 2.0.0:** `amazon-search`, `brand-scrub` and
+`profiles/amazon-us.json` were removed from this plugin and now live in
+`amazon-us`. Install it to get them back:
+
+```
+/plugin install amazon-us
+```
+
+Why: Amazon changes its facet IDs on its own schedule, marketplace skills and
+general shopping skills were competing to match the same requests, and someone
+who wants Israeli retail discovery has no use for Amazon extraction contracts.
+Rationale in full at [`profiles/README.md`](profiles/README.md).
 
 ### Provisioning skill
 
