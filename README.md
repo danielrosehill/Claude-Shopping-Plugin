@@ -1,6 +1,29 @@
 # shopping-plugin
 
-Claude Code plugin for region-specific consumer shopping — find local products, compare vendors, check availability, and generate ranked purchase recommendations against a personal spec. Distinct from the generic `purchasing` plugin: this one is tuned to local retail quirks (language, VAT, regional pricing aggregators, parallel-import conventions).
+Claude Code plugin for region-specific consumer shopping — find local products, compare vendors, check availability, and generate ranked purchase recommendations against a personal spec. Distinct from the general `procurement-tools` plugin: this one is tuned to local retail quirks (language, VAT, regional pricing aggregators, parallel-import conventions).
+
+## Which plugin do I want?
+
+This plugin is the **place-specific** half of the buying stack. It is about *where
+you buy*: how a given retailer's catalogue, language, currency, tax treatment,
+stock data and delivery conventions actually work.
+
+The **`procurement-tools`** plugin is the other half. It is the marketplace-agnostic
+*process*: working out what the thing is and what it is called, writing a spec,
+generating the search vocabulary, judging candidates against it, and choosing.
+
+| You are doing this | Use |
+| --- | --- |
+| Finding who stocks it, at what price, in stock when | **`shopping`** |
+| Comparing vendors for a SKU you have already settled on | **`shopping`** |
+| Israeli retailers, Hebrew terms, Zap, ILS, parallel imports | **`israel-shopping`** |
+| One named marketplace's search syntax and quirks | that marketplace's own plugin (`amazon-us`, `aliexpress-israel-skills`, `grainger`, …) |
+| I don't know what this thing is called, or what to search for | **`procurement-tools`** → `define-spec` |
+| Turning a want into a spec, then judging candidates against it | **`procurement-tools`** |
+| Surveying a whole product category before choosing | **`procurement-tools`** → `mkt-*` |
+
+The two halves are designed to be installed together. Start in `procurement-tools`
+when the question is "what should I buy"; come here once it is "where do I get it".
 
 ## What you get
 

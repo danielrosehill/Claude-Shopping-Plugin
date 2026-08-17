@@ -50,7 +50,7 @@
     "prior_art": {
       "price_regex": "\"finalPrice\"\\s*:\\s*([\\d.]+)",
       "source": "Claude-Purchasing-Plugin scripts/price_scan.py SITE_PRICE_RES['newegg'] — this one IS verified working and is the single piece of real knowledge carried into this stub.",
-      "bot_protection": "Newegg sits behind bot protection; blocked responses are expected and normal per the purchasing plugin's price-scan skill."
+      "bot_protection": "Newegg sits behind bot protection; blocked responses are expected and normal per the `procurement-tools` plugin's price-scan skill."
     }
   },
 
