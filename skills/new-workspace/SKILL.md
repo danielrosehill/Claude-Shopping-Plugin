@@ -14,7 +14,7 @@ Creates a new workspace for researching a consumer purchase. This plugin's comma
 `$ARGUMENTS` is parsed as:
 
 - **First positional**: workspace name (kebab-case, used as directory and GitHub repo name). Required.
-- **Second positional** (optional): target parent path. Defaults to `~/repos/github/my-repos`.
+- **Second positional** (optional): target parent path. Defaults to the topic group under `~/repos/github/` that most specifically fits the subject — see `~/repos/github/README.md` for the group list. (`~/repos/github/my-repos/` is no longer the default; it holds only blog repos now.)
 - **`--variant=<israel|generic>`** (optional): which region scaffold to copy. Default: `israel`.
 - **`--local-only`** (optional): skip GitHub repo creation and push. Default: create a public GitHub repo and push.
 - **`--private`** (optional): create the GitHub repo as private. Default: public.
