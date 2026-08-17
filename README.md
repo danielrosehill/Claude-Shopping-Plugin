@@ -49,7 +49,7 @@ the roster and hands off to whichever applies:
 
 | Marketplace | Plugin |
 | --- | --- |
-| Amazon.com (US) | [`amazon-us`](https://github.com/danielrosehill/Claude-Amazon-US-Plugin) |
+| Amazon (all storefronts) | [`amazon`](https://github.com/danielrosehill/Claude-Amazon-Plugin) |
 | AliExpress (Israel) | [`aliexpress-israel-skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) |
 
 **Breaking change in 2.0.0:** `amazon-search`, `brand-scrub` and
@@ -57,7 +57,7 @@ the roster and hands off to whichever applies:
 `amazon-us`. Install it to get them back:
 
 ```
-/plugin install amazon-us
+/plugin install amazon
 ```
 
 Why: Amazon changes its facet IDs on its own schedule, marketplace skills and

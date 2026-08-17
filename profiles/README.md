@@ -7,7 +7,7 @@
 >
 > `amazon-us.json`, along with the `amazon-search` and `brand-scrub` skills that
 > read it, moved to
-> [`danielrosehill/Claude-Amazon-US-Plugin`](https://github.com/danielrosehill/Claude-Amazon-US-Plugin).
+> [`danielrosehill/Claude-Amazon-Plugin`](https://github.com/danielrosehill/Claude-Amazon-Plugin).
 > Its derivation methodology went with it, at `profiles/README.md` there.
 
 ## Why the pattern changed

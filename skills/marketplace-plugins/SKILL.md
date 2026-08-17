@@ -39,7 +39,7 @@ marketplace plugin ships; do not let it go stale silently.
 
 | Marketplace | Plugin | Repo | Covers |
 | --- | --- | --- | --- |
-| Amazon.com (US) | `amazon-us` | [`danielrosehill/Claude-Amazon-US-Plugin`](https://github.com/danielrosehill/Claude-Amazon-US-Plugin) | Fetch routing, verified listing data, Prime-aware delivery dates checked against the ZIP they were rendered for, filtered signed-in search, brand allow/blocklist |
+| Amazon (all storefronts) | `amazon` | [`danielrosehill/Claude-Amazon-Plugin`](https://github.com/danielrosehill/Claude-Amazon-Plugin) | Fetch routing, verified listing data, Prime-aware delivery dates checked against the ZIP they were rendered for, filtered signed-in search, brand allow/blocklist |
 | AliExpress (Israel) | `aliexpress-israel-skills` | [`danielrosehill/Aliexpress-Israel-Skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) | ILS pricing, Choice, VAT and customs thresholds, image search, cart and export |
 
 Candidates with no plugin yet: **Newegg (US)** — a stub profile survives at
@@ -72,7 +72,7 @@ skill list if so.
 
 ```
 /plugin marketplace add danielrosehill/Claude-Code-Plugins
-/plugin install amazon-us
+/plugin install amazon
 ```
 
 Tell the user what installing gets them in a sentence and let them run it —
