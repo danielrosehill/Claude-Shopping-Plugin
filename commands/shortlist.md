@@ -20,7 +20,7 @@ This is the third phase of the workflow: `/intake` → `/shortlist` → `/source
 Two sources of constraint:
 
 - **Per-purchase** (from `spec.md`): what's being bought, must-haves, hard nos, nice-to-haves, this-purchase priorities, per-purchase overrides
-- **Standing** (from snapshot in `spec.md`, originally from Mem0 or fallback): trusted brands, avoided brands, review score floor, risk tolerance
+- **Standing** (from snapshot in `spec.md`, originally from memory or fallback): trusted brands, avoided brands, review score floor, risk tolerance
 
 Per-purchase overrides beat standing defaults.
 

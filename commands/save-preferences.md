@@ -1,10 +1,10 @@
 ---
-description: Persist standing shopping preferences to Mem0 (or a local fallback file) so every future shopping workspace can load them.
+description: Persist standing shopping preferences to the gateway memory server (or a local fallback file) so every future shopping workspace can load them.
 ---
 
 # Save Preferences — Persist Standing Shopping Preferences to Memory
 
-Run a one-time setup (or update) for the user's standing shopping preferences and save them to memory (Mem0 MCP) so every future purchase workspace can `/load-preferences` them.
+Run a one-time setup (or update) for the user's standing shopping preferences and save them to memory (the gateway `memory` server) so every future purchase workspace can `/load-preferences` them.
 
 ## When to run
 
@@ -50,20 +50,20 @@ Confirm rather than re-ask unless different:
 
 - Email for PDF report delivery
 
-## Preferred storage: Mem0 MCP
+## Preferred storage: gateway `memory` server
 
-If Mem0 MCP is configured:
+If the gateway `memory` tools resolve (deferred — load `mcp__gateway__memory__remember` with `ToolSearch` first):
 
 1. Structure the answers as a small set of related memories, each tagged `shopping_preferences_<region>`
-2. Use the installed Mem0 server's write tool — commonly `mcp__mem0__add_memory` — to persist
-3. Report: "Saved N memories to Mem0 under tag `shopping_preferences_<region>`."
+2. Persist each with `mcp__gateway__memory__remember` — `text` (one self-contained statement), `namespace: "personal"`, `tags: ["shopping_preferences_<region>"]`. If `remember` returns an existing near-duplicate, call `mcp__gateway__memory__update_memory` on its id instead
+3. Report: "Saved N memories to the `personal` namespace under tag `shopping_preferences_<region>`."
 
 ## Fallback: local file
 
-If Mem0 MCP isn't available:
+If the gateway `memory` tools don't resolve:
 
 1. Write to `<plugin-data-dir>/shopping-preferences-<region>.md` — where `<plugin-data-dir>` is `$CLAUDE_USER_DATA/shopping/` if set, else `$XDG_DATA_HOME/claude-plugins/shopping/`, else `~/.local/share/claude-plugins/shopping/` (see the `meta-tools:plugin-data-storage` canonical skill) — as structured markdown
-2. Tell the user: "Saved locally. Install Mem0 MCP for cross-device persistence."
+2. Tell the user: "Saved locally (this machine only)."
 
 ## Confirmation
 

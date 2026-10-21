@@ -1,5 +1,5 @@
 ---
-description: Pull standing shopping preferences (region, channel tolerances, trusted brands, markup threshold) from Mem0 into the current workspace's spec.md.
+description: Pull standing shopping preferences (region, channel tolerances, trusted brands, markup threshold) from the gateway memory server into the current workspace's spec.md.
 ---
 
 # Load Preferences — Pull Standing Shopping Preferences from Memory
@@ -31,30 +31,25 @@ Things that apply to **every** purchase — not to this specific one:
 - **Thresholds**: default markup ceiling (% over international RRP — default 40%), review score floor (default 3.5/5), risk tolerance
 - **Delivery**: email for PDF report
 
-These are stored in **memory** (via Mem0 MCP, recommended), not in any per-purchase repo.
+These are stored in **memory** (the `memory` server on the MCP gateway, recommended), not in any per-purchase repo.
 
-## Preferred storage: Mem0 MCP
+## Preferred storage: gateway `memory` server
 
-The recommended persistence layer is [Mem0](https://mem0.ai), exposed as an MCP server.
+The recommended persistence layer is the `memory` upstream on the MCP gateway (tools `mcp__gateway__memory__*`). The tools are deferred — load them with `ToolSearch` (`select:mcp__gateway__memory__recall,mcp__gateway__memory__list_memories`) before the first call.
 
 1. Query memories tagged `shopping_preferences_<region>` (e.g. `shopping_preferences_israel`)
 2. Parse into the fields listed above
 3. Write the snapshot into the **Standing preferences snapshot** section of `spec.md`
-4. Report to the user: "Loaded preferences from Mem0 — AliExpress: Yes (seller >=95%), markup threshold: 40%, etc."
+4. Report to the user: "Loaded preferences from memory — AliExpress: Yes (seller >=95%), markup threshold: 40%, etc."
 
-### Typical Mem0 MCP tool calls
+### Tool calls
 
-Tool names vary by Mem0 implementation. Commonly:
-
-- `mcp__mem0__search_memory` — query with `"shopping preferences <region>"`
-- `mcp__mem0__list_memories` — filter by tag
-- `mcp__mem0__get_memory` — by ID
-
-Use whichever read tool the installed Mem0 server exposes.
+- `mcp__gateway__memory__recall` — `query: "shopping preferences <region>"`, `namespaces: ["personal"]` (or whichever namespace `/save-preferences` used)
+- `mcp__gateway__memory__list_memories` — `namespace: "personal"`, then keep the records tagged `shopping_preferences_<region>`
 
 ## Fallback 1: local file
 
-If Mem0 MCP isn't available, check `<plugin-data-dir>/shopping-preferences-<region>.md`. If present, populate the snapshot section of `spec.md` from it.
+If the gateway `memory` tools don't resolve, check `<plugin-data-dir>/shopping-preferences-<region>.md`. If present, populate the snapshot section of `spec.md` from it.
 
 ## Fallback 2: region defaults only
 
@@ -69,4 +64,4 @@ If no memory and no local file, populate the snapshot with the region's defaults
 ## What NOT to do
 
 - **Do not write per-purchase information here.** Must-haves, hard nos for this purchase, budget, timeline — those belong in `spec.md` via `/intake`.
-- **Do not update Mem0 from this command.** `/load-preferences` is read-only. Writes go through `/save-preferences`.
+- **Do not write to memory from this command.** `/load-preferences` is read-only. Writes go through `/save-preferences`.

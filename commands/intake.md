@@ -8,7 +8,7 @@ You are running the intake for this Israeli purchase. The goal is to populate `s
 
 **Two-tier model:**
 
-- **Standing preferences** (country, currency, AliExpress tolerance, trusted/avoided brands, markup threshold, preferred Israeli stores, etc.) live in **memory** via Mem0 MCP. Load them first with `/load-preferences` — don't re-ask.
+- **Standing preferences** (country, currency, AliExpress tolerance, trusted/avoided brands, markup threshold, preferred Israeli stores, etc.) live in **memory** (the gateway `memory` server). Load them first with `/load-preferences` — don't re-ask.
 - **Per-purchase spec** (`spec.md`) holds only what's specific to *this* decision: what you're buying, must-haves, hard nos, budget, timeline, priorities, context.
 
 **One repo = one purchase.** **Israel defaults are applied** — country, ILS, 18% VAT — unless memory or the user overrides.
@@ -17,7 +17,7 @@ You are running the intake for this Israeli purchase. The goal is to populate `s
 
 Before asking anything, run `/load-preferences`:
 
-- If preferences load from Mem0 or the local fallback — the snapshot is now in `spec.md`. Don't re-ask those fields.
+- If preferences load from memory or the local fallback — the snapshot is now in `spec.md`. Don't re-ask those fields.
 - If nothing's stored — say: "No standing preferences yet. I recommend `/save-preferences` first (one-time setup — applies to all future Israeli purchases). Alternatively I can ask the standing questions inline now, but you'll be asked again next time in a different workspace. Which do you prefer?"
 
 ## Step 1: Read existing state
@@ -124,7 +124,7 @@ If the user seems to be doing serious shopping work, mention once:
 ```
 Welcome. Let me set up the spec for this purchase.
 
-[Runs /load-preferences — reports: "Loaded standing prefs from Mem0 — Israel, ILS, 18% VAT, AliExpress tolerance: [value], Amazon-IL tolerance: [value], markup threshold [N]%, preferred stores: [list]."]
+[Runs /load-preferences — reports: "Loaded standing prefs from memory — Israel, ILS, 18% VAT, AliExpress tolerance: [value], Amazon-IL tolerance: [value], markup threshold [N]%, preferred stores: [list]."]
 
 Good — I'll apply those. A few questions specific to this purchase:
 

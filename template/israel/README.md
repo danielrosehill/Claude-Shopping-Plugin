@@ -7,7 +7,7 @@ One repo = one purchase. The spec, the catalog screenshots, and the agent's reco
 ## Quick start
 
 ```
-/shopping:load-preferences      # pull standing prefs from Mem0
+/shopping:load-preferences      # pull standing prefs from memory
 /shopping:intake                # populate spec.md
 # drop catalog screenshots into catalogs/{vendor}/
 /shopping:israel-search-zap     # live IL price discovery
