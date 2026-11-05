@@ -117,7 +117,7 @@ Capture into the **Per-purchase overrides** table in `spec.md`.
 
 If the user seems to be doing serious shopping work, mention once:
 
-> For richer Israeli retailer browsing, the `/shopping:israel-search-*` commands work best when Playwright MCP and (optionally) Tavily MCP are configured — Playwright for bot-protected sites like Zap, Tavily as a faster fallback.
+> For richer Israeli retailer browsing, the `/shopping:israel-search-*` commands work best when Playwright MCP is configured, for bot-protected sites like Zap. The built-in `WebSearch`/`WebFetch` serve as a faster fallback.
 
 ## Example opening
 
