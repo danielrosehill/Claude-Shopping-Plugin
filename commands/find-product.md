@@ -13,7 +13,7 @@ Region-agnostic product search. Reads the workspace's region configuration (from
 ## Behaviour
 
 1. Read the workspace's region setting.
-2. If region = `israel`: run `/shopping:israel-search-zap` as first-pass, then fall through to `/shopping:israel-search-main-tech-stores`, `/shopping:israel-search-by-category`, `/shopping:israel-search-google-il` per the IL discovery order.
+2. If region = `israel`: hand the search to the `israel-shopping` plugin's `find-product` skill (it runs Zap, trusted vendors, .co.il search, imports and branch stock in one pass) and record its table in this workspace.
 3. If region is generic / unset: use the vendor list declared in `data/vendors.md` (workspace-local) and run per-vendor search via Playwright MCP or the built-in `WebSearch`/`WebFetch`.
 4. Return a ranked price table (cheapest first, VAT-inclusive where applicable), plus any noteworthy specialist hits.
 

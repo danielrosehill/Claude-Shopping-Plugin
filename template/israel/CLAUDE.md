@@ -7,11 +7,7 @@ This workspace was provisioned by `/shopping:new-workspace` with `--variant=isra
 - **Country**: Israel
 - **Currency**: ILS (₪)
 - **VAT**: 18% (standard consumer)
-- **Sourcing waterfall**: see `data/retailers.md`
-- **Discovery playbook**: see `data/discovery-techniques.md`
-- **Pricing rules** (VAT detection, Eilat pricing, markup tiers): see `data/shopping-rules.md`
-- **Hebrew term map**: `data/hebrew-category-map.json`
-- **Curated store DB** (~830 vendors): `data/israeli-stores.json`
+- **Searching**: use the `israel-shopping` plugin's `find-product` skill (Zap, trusted vendors per category, .co.il search, imports, branch stock). Its `data/trusted-vendors.json`, `data/hebrew-category-map.json` and `docs/search-strategies.md` hold the vendor list, Hebrew terms, VAT/Eilat rules and discovery playbook (see `data/README.md`).
 
 ## How to use this workspace
 
@@ -24,7 +20,7 @@ This workspace was provisioned by `/shopping:new-workspace` with `--variant=isra
 
 3. **Discover candidates**:
    - Drop catalog screenshots into `catalogs/{vendor}/` (e.g. `catalogs/ksp/`, `catalogs/ivory/`, `catalogs/bug/`, `catalogs/ali/`).
-   - Or use the live search commands: `/shopping:israel-search-zap` (default first-pass), `/shopping:israel-search-main-tech-stores`, `/shopping:israel-search-by-category`, `/shopping:israel-search-google-il`.
+   - Or run the `israel-shopping` plugin's `find-product` skill for live search (Zap, trusted vendors, .co.il, imports, branch stock).
 
 4. **Shortlist + source + recommend**:
    - `/shopping:shortlist` — produce a CONSIDER list against the spec.

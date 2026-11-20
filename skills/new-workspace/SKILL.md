@@ -7,7 +7,7 @@ allowed-tools: Bash(mkdir *), Bash(cp *), Bash(cat *), Bash(git init *), Bash(gi
 
 # Provision Shopping Workspace
 
-Creates a new workspace for researching a consumer purchase. This plugin's commands (`/shopping:find-product`, `/shopping:israel-search-zap`, `/shopping:recommend`, etc.) are globally available once installed — this skill only provisions the **data scaffold** (spec, catalogs/, outputs/, region data) that those commands read from and write to.
+Creates a new workspace for researching a consumer purchase. This plugin's commands (`/shopping:find-product`, `/shopping:recommend`, etc.) are globally available once installed — this skill only provisions the **data scaffold** (spec, catalogs/, outputs/, region data) that those commands read from and write to.
 
 ## Arguments
 
@@ -91,7 +91,7 @@ Tell the user:
 - Variant chosen.
 - Suggested first commands:
   - `/shopping:intake` — flesh out `spec.md`
-  - For Israel variant: `/shopping:israel-search-zap` as the default first-pass, then `/shopping:recommend` to generate a ranked PDF.
+  - For Israel variant: the `israel-shopping` plugin's `find-product` skill as the search pass, then `/shopping:recommend` to generate a ranked PDF.
   - For Generic variant: `/shopping:find-product`, then `/shopping:recommend`.
 - Reminder that the workspace is **data** — they can delete/move it freely without losing the plugin's commands.
 

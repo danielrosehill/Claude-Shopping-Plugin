@@ -39,7 +39,7 @@ when the question is "what should I buy"; come here once it is "where do I get i
 - `catalog-to-json` — extract structured product/price data from catalog screenshots
 - `compare` — targeted comparison of specific products across all stores in scope
 
-**Israel-region commands** have moved to the [`israel-skills`](https://github.com/danielrosehill/Israel-Skills-Plugin) plugin. Install it alongside `shopping` for IL-specific retail discovery (Zap, KSP/Ivory/Bug/TMS, Hebrew term resolution, ILS currency, etc.).
+**Israel:** searching is done by the [`israel-shopping`](https://github.com/danielrosehill/Claude-Israel-Shopping-Plugin) plugin (`find-product`); the `israel` workspace variant points at its data rather than carrying copies (moved 2026-11-20).
 
 ### Marketplace plugins — moved out
 

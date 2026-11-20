@@ -1,13 +1,13 @@
-# Data
+# Israel data
 
-Reference data the agent reads during shortlisting and sourcing. **Do not delete** — these files anchor the IL workflow.
+The Israeli reference data lives in the `israel-shopping` plugin
+(danielrosehill/Claude-Israel-Shopping-Plugin) and the public store roster, not in this workspace:
 
-| File | Purpose |
-|------|---------|
-| `shopping-rules.md` | VAT rules, Eilat pricing, markup tiers, translation notes, city map |
-| `discovery-techniques.md` | Manual IL discovery playbook (Google `site:.il`, Zap, reverse-lookup) |
-| `retailers.md` | Curated tier-1/2/3/4 IL retailers and their search-URL patterns |
-| `hebrew-category-map.json` | Cached Hebrew nouns per product class |
-| `israeli-stores.json` | ~830 IL vendors with categories + tech flag |
+| What | Where |
+|---|---|
+| Trusted vendors per category, verified search URLs and routes | `israel-shopping` → `data/trusted-vendors.json` |
+| Hebrew retail terms per product class | `israel-shopping` → `data/hebrew-category-map.json` |
+| Discovery playbook, VAT/Eilat rules, Zap, per-retailer routes | `israel-shopping` → `docs/search-strategies.md` |
+| ~800+ Israeli stores with Zap categories | danielrosehill/Israel-Online-Stores (`stores-index.json`) |
 
-Maintain `israeli-stores.json` via `/shopping:israel-add-store <url> "<what they sell>"`.
+Moved 2026-11-20. Put purchase-specific notes (quotes, vendor replies) here.
