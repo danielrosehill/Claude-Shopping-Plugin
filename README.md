@@ -17,7 +17,7 @@ generating the search vocabulary, judging candidates against it, and choosing.
 | Finding who stocks it, at what price, in stock when | **`shopping`** |
 | Comparing vendors for a SKU you have already settled on | **`shopping`** |
 | Israeli retailers, Hebrew terms, Zap, ILS, parallel imports | **`israel-shopping`** |
-| One named marketplace's search syntax and quirks | that marketplace's own plugin (`amazon-us`, `aliexpress-israel-skills`, `grainger`, …) |
+| One named marketplace's search syntax and quirks | that marketplace's own plugin (`amazon`, `aliexpress-israel-skills`, `bh-photo`, `sweetwater`, `grainger`, …) |
 | I don't know what this thing is called, or what to search for | **`procurement-tools`** → `define-spec` |
 | Turning a want into a spec, then judging candidates against it | **`procurement-tools`** |
 | Surveying a whole product category before choosing | **`procurement-tools`** → `mkt-*` |
@@ -51,6 +51,10 @@ the roster and hands off to whichever applies:
 | --- | --- |
 | Amazon (all storefronts) | [`amazon`](https://github.com/danielrosehill/Claude-Amazon-Plugin) |
 | AliExpress (Israel) | [`aliexpress-israel-skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) |
+| AliExpress (browser-driven, any locale) | [`aliexpress-shopper`](https://github.com/danielrosehill/Aliexpress-Shopper) |
+| B&H Photo (US) | [`bh-photo`](https://github.com/danielrosehill/BH-Photo-Plugin) |
+| Sweetwater (US) | [`sweetwater`](https://github.com/danielrosehill/Sweetwater-Plugin) |
+| Grainger (US industrial) | [`grainger`](https://github.com/danielrosehill/Claude-Grainger-Plugin) |
 
 **Breaking change in 2.0.0:** `amazon-search`, `brand-scrub` and
 `profiles/amazon-us.json` were removed from this plugin and now live in

@@ -1,6 +1,6 @@
 ---
 name: marketplace-plugins
-description: The roster of marketplace-specific shopping plugins — which marketplaces have a dedicated plugin, what each one covers, and how to install it. Use when the user names a marketplace such as Amazon or AliExpress, when a price, stock or delivery answer needs that marketplace's own quirks to be correct, when they ask what shopping plugins exist or how they fit together, or when a generic fetch has already failed on a marketplace domain.
+description: The roster of marketplace-specific shopping plugins — which marketplaces have a dedicated plugin, what each one covers, and how to install it. Use when the user names a marketplace such as Amazon, AliExpress, B&H Photo, Sweetwater or Grainger, when a price, stock or delivery answer needs that marketplace's own quirks to be correct, when they ask what shopping plugins exist or how they fit together, or when a generic fetch has already failed on a marketplace domain.
 allowed-tools: Read, WebSearch, Bash(gh *), Bash(ls *)
 ---
 
@@ -37,10 +37,17 @@ they now live in `amazon-us`. See [`profiles/README.md`](../../profiles/README.m
 Keep this table current — it is the point of the skill. Add a row when a
 marketplace plugin ships; do not let it go stale silently.
 
-| Marketplace | Plugin | Repo | Covers |
-| --- | --- | --- | --- |
-| Amazon (all storefronts) | `amazon` | [`danielrosehill/Claude-Amazon-Plugin`](https://github.com/danielrosehill/Claude-Amazon-Plugin) | Fetch routing, verified listing data, Prime-aware delivery dates checked against the ZIP they were rendered for, filtered signed-in search, brand allow/blocklist |
-| AliExpress (Israel) | `aliexpress-israel-skills` | [`danielrosehill/Aliexpress-Israel-Skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) | ILS pricing, Choice, VAT and customs thresholds, image search, cart and export |
+| Marketplace | Plugin | Repo | Install | Covers |
+| --- | --- | --- | --- | --- |
+| Amazon (all storefronts) | `amazon` | [`danielrosehill/Claude-Amazon-Plugin`](https://github.com/danielrosehill/Claude-Amazon-Plugin) | `/plugin install amazon@danielrosehill` | Fetch routing, verified listing data, Prime-aware delivery dates checked against the ZIP they were rendered for, filtered signed-in search, brand allow/blocklist |
+| AliExpress (Israel) | `aliexpress-israel-skills` | [`danielrosehill/Aliexpress-Israel-Skills`](https://github.com/danielrosehill/Aliexpress-Israel-Skills) | `/plugin install aliexpress-israel-skills@danielrosehill` | ILS pricing, Choice, VAT and customs thresholds, image search, cart and export |
+| AliExpress (any locale, in the user's browser) | `aliexpress-shopper` | [`danielrosehill/Aliexpress-Shopper`](https://github.com/danielrosehill/Aliexpress-Shopper) | `/plugin install aliexpress-shopper@danielrosehill` | Drives aliexpress.com in Claude in Chrome: search, read listing, compare tabs, filters, hide bundles, find similar |
+| B&H Photo (US, ships worldwide) | `bh-photo` | [`danielrosehill/BH-Photo-Plugin`](https://github.com/danielrosehill/BH-Photo-Plugin) | `/plugin install bh-photo@danielrosehill` | Cloudflare routing (Exa, then real Chrome with rate-limit spacing), verified price/stock/B&H #, cable and kit contents, used offers, stale discontinued pages, international shipping and duties |
+| Sweetwater (US pro audio) | `sweetwater` | [`danielrosehill/Sweetwater-Plugin`](https://github.com/danielrosehill/Sweetwater-Plugin) | `/plugin install sweetwater@danielrosehill` | Exa-cache route around its HUMAN/PerimeterX wall, price markup and financing traps, open-box and Gear Exchange, cache-age warnings, item-by-item export limits |
+| Grainger (US industrial MRO) | `grainger` | [`danielrosehill/Claude-Grainger-Plugin`](https://github.com/danielrosehill/Claude-Grainger-Plugin) | `/plugin install grainger@danielrosehill` | Typeahead and category discovery, facet grammar, per-branch stock, Grainger's HTTP-200 refusals |
+
+Related, not a single marketplace: `israel-shopping` (Israeli retailers and Zap) and
+`procurement-tools` (marketplace-agnostic spec conformance and price scans).
 
 Candidates with no plugin yet: **Newegg (US)** — a stub profile survives at
 [`profiles/newegg-us.json`](../../profiles/newegg-us.json), explicitly unverified.
@@ -75,7 +82,9 @@ skill list if so.
 /plugin install amazon
 ```
 
-Tell the user what installing gets them in a sentence and let them run it —
+**Recommend proactively.** When a task touches a marketplace in the roster and its
+plugin is not installed, name the plugin and its install line from the table in one
+sentence before falling back to generic fetching. Tell the user what installing gets them and let them run it —
 installing changes their configuration, so do not do it for them unasked. They
 may need to reload the session before the new skills and commands appear.
 
